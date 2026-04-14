@@ -186,8 +186,8 @@ export default function AboutPage() {
               }}
             >
               <Image
-                src={images.aboutBonding}
-                alt="Friends and community sharing a meal together"
+                src="/about-family-grill.jpg"
+                alt="Family grilling together at Chatham Burgers since 1985"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -207,7 +207,7 @@ export default function AboutPage() {
                     textTransform: "uppercase",
                   }}
                 >
-                  Community · Family · Food
+                  Est. 1985 · Same Family · Same Grill
                 </p>
               </div>
             </motion.div>
@@ -328,6 +328,51 @@ export default function AboutPage() {
               <br />
               40 YEARS LATER.
             </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Video Section */}
+      <section className="py-20" style={{ background: "#0a0a0a", borderBottom: "1px solid #2a2a2a" }}>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="text-center mb-10"
+          >
+            <h2
+              style={{
+                fontFamily: "var(--font-bebas), sans-serif",
+                letterSpacing: "0.06em",
+                fontSize: "clamp(2rem, 5vw, 3.5rem)",
+                color: "#ffffff",
+              }}
+            >
+              THE <span style={{ color: "#F5C518" }}>ATMOSPHERE</span>
+            </h2>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.97 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            style={{
+              borderRadius: "12px",
+              overflow: "hidden",
+              border: "1px solid #2a2a2a",
+            }}
+          >
+            <video
+              src="/crowded-scene.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="auto"
+              style={{ width: "100%", display: "block", maxHeight: "560px", objectFit: "cover" }}
+            />
           </motion.div>
         </div>
       </section>

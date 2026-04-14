@@ -1,0 +1,141 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Chatham Burgers" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e5]
+        - generic [ref=e7]: Chatham Burgers
+      - generic [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "Menu" [ref=e10] [cursor=pointer]:
+          - /url: /menu
+        - link "About" [ref=e11] [cursor=pointer]:
+          - /url: /about
+        - link "Order" [ref=e12] [cursor=pointer]:
+          - /url: /order
+        - link "Order Now" [ref=e13] [cursor=pointer]:
+          - /url: /order
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e17]:
+        - paragraph [ref=e18]: Est. 1985 — Chatham, Ontario
+        - heading "OUR STORY" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Some restaurants come and go. We're still here — still grilling over real charcoal, still cutting our own fries, still serving the same recipes we started with in 1985. That's not stubbornness. That's pride.
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - heading "BUILT ON FIRE AND FAMILY" [level=2] [ref=e25]:
+            - text: BUILT ON FIRE
+            - text: AND FAMILY
+          - generic [ref=e26]:
+            - paragraph [ref=e27]: "In 1985, a family in Chatham, Ontario had a simple idea: make burgers the right way. No shortcuts. No gas. Real charcoal, real flavour, and real care in every order."
+            - paragraph [ref=e28]: Four decades later, that idea is still alive. The same family, the same grill, the same recipes that made Chatham Burgers a local legend. We've watched kids grow up and come back with their own families. We've become part of people's lives — and that means everything to us.
+            - paragraph [ref=e29]: Charcoal grilling isn't just a technique here. It's who we are. Every patty that hits that grill gets the same attention it got on day one. That's a promise we've kept for 40 years.
+        - generic [ref=e30]:
+          - img "Friends and community sharing a meal together" [ref=e31]
+          - paragraph [ref=e34]: Community · Family · Food
+      - generic [ref=e36]:
+        - heading "WHAT MAKES US DIFFERENT" [level=2] [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - img [ref=e42]
+            - heading "Real Charcoal, Always" [level=3] [ref=e44]
+            - paragraph [ref=e45]: We've never switched to gas. Real charcoal means real flavour — the kind you can taste in every bite. That's non-negotiable.
+          - generic [ref=e46]:
+            - img [ref=e48]
+            - heading "Recipes Since 1985" [level=3] [ref=e51]
+            - paragraph [ref=e52]: Our recipes haven't changed. Why would they? When something is perfect, you don't mess with it.
+          - generic [ref=e53]:
+            - img [ref=e55]
+            - heading "Family-Owned & Operated" [level=3] [ref=e60]
+            - paragraph [ref=e61]: Every burger is made by people who care — because this isn't just a business to us. It's our livelihood and our pride.
+          - generic [ref=e62]:
+            - img [ref=e64]
+            - heading "Community First" [level=3] [ref=e66]
+            - paragraph [ref=e67]: We're part of Chatham. We've watched kids grow up and come back with their own kids. That's what we're here for.
+      - generic [ref=e68]:
+        - img "Warm restaurant atmosphere with guests" [ref=e69]
+        - paragraph [ref=e73]:
+          - text: SAME GRILL. SAME FAMILY.
+          - text: 40 YEARS LATER.
+      - heading "THE ATMOSPHERE" [level=2] [ref=e77]
+      - generic [ref=e81]:
+        - heading "40 YEARS OF FLAME" [level=2] [ref=e83]
+        - generic [ref=e86]:
+          - generic [ref=e90]:
+            - text: "1985"
+            - heading "The Flame is Lit" [level=3] [ref=e91]
+            - paragraph [ref=e92]: Chatham Burgers opens its doors in Chatham, Ontario. A family dream, a real charcoal grill, and a commitment to doing it right.
+          - generic [ref=e96]:
+            - text: 1990s
+            - heading "A Local Institution" [level=3] [ref=e97]
+            - paragraph [ref=e98]: Word spreads fast. The charcoal-grilled taste can't be replicated anywhere else in town. Regulars become family.
+          - generic [ref=e102]:
+            - text: 2000s
+            - heading "Recipes Unchanged" [level=3] [ref=e103]
+            - paragraph [ref=e104]: While fast food giants come and go, Chatham Burgers stays true. Same recipes, same grill, same family.
+          - generic [ref=e108]:
+            - text: 2010s
+            - heading "The Menu Grows" [level=3] [ref=e109]
+            - paragraph [ref=e110]: From classic burgers to wraps, poutine, wings, and dinner plates — the menu evolves while the quality never wavers.
+          - generic [ref=e114]:
+            - text: Today
+            - heading "Crafted on the Flame" [level=3] [ref=e115]
+            - paragraph [ref=e116]: 40 years later, the same charcoal grill fires up every morning. Some things are worth keeping exactly as they are.
+      - generic [ref=e118]:
+        - heading "TASTE THE DIFFERENCE" [level=2] [ref=e119]
+        - paragraph [ref=e120]: 40 years of charcoal-grilled tradition. Come see what the fuss is about.
+        - generic [ref=e121]:
+          - link "Order Online" [ref=e122] [cursor=pointer]:
+            - /url: /order
+          - link "View Full Menu" [ref=e123] [cursor=pointer]:
+            - /url: /menu
+  - contentinfo [ref=e124]:
+    - generic:
+      - generic: CRAFTED ON THE FLAME
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - img [ref=e129]
+            - generic [ref=e131]: Chatham Burgers
+          - paragraph [ref=e132]: Crafted on the Flame
+          - paragraph [ref=e133]: Charcoal grilled. Family built. Serving Chatham, Ontario since 1985. Real charcoal, fresh-cut fries, and recipes that haven't changed in 40 years.
+          - link "Facebook" [ref=e135] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61575925564207
+            - img [ref=e136]
+        - generic [ref=e138]:
+          - heading "Quick Links" [level=4] [ref=e139]
+          - navigation [ref=e140]:
+            - link "Home" [ref=e141] [cursor=pointer]:
+              - /url: /
+            - link "Full Menu" [ref=e142] [cursor=pointer]:
+              - /url: /menu
+            - link "Our Story" [ref=e143] [cursor=pointer]:
+              - /url: /about
+            - link "Order Online" [ref=e144] [cursor=pointer]:
+              - /url: /order
+        - generic [ref=e145]:
+          - heading "Find Us" [level=4] [ref=e146]
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - img [ref=e149]
+              - generic [ref=e152]:
+                - text: 215 Grand Ave W
+                - text: Chatham, ON N7L 1C3
+            - generic [ref=e153]:
+              - img [ref=e154]
+              - link "(519) 354-1414" [ref=e156] [cursor=pointer]:
+                - /url: tel:+15193541414
+            - generic [ref=e157]:
+              - img [ref=e158]
+              - generic [ref=e161]:
+                - text: "Mon–Thu: 10am–8pm"
+                - text: "Fri–Sat: 10am–9pm"
+                - text: "Sun: 11am–8pm"
+      - generic [ref=e162]:
+        - paragraph [ref=e163]: © 2026 Chatham Burgers. All rights reserved.
+        - paragraph [ref=e164]: Crafted on the Flame — Since 1985
+  - button "Open Next.js Dev Tools" [ref=e170] [cursor=pointer]:
+    - img [ref=e171]
+  - alert [ref=e174]
