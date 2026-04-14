@@ -2,7 +2,6 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { motion } from 'framer-motion'
 import { featuredItems } from '@/lib/menuData'
 import { images } from '@/lib/images'
 import { ScrollReveal } from './ScrollReveal'

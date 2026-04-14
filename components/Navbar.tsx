@@ -25,7 +25,11 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
-    setIsOpen(false);
+    // Close mobile menu when route changes
+    const closeMenu = () => setIsOpen(false);
+    // Use setTimeout to avoid setting state synchronously in effect
+    setTimeout(closeMenu, 0);
+    return () => setIsOpen(false);
   }, [pathname]);
 
   return (
