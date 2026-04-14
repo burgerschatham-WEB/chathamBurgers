@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog — Chatham Burgers",
-  description: "Local food guides, burger tips, and stories from Chatham Burgers — real local farm meat, crafted on the flame since 1985.",
+  title: "Blog — Stories & Guides | Chatham Burgers",
+  description: "Local food guides, restaurant stories, and tips from Chatham Burgers. Family-owned and flame-grilled since 1985 in Chatham, Ontario.",
+  alternates: { canonical: "https://chathamburgers.ca/blog" },
+  openGraph: { url: "https://chathamburgers.ca/blog" },
 };
 
 const posts = [

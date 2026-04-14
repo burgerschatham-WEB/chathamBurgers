@@ -96,6 +96,7 @@ export default function HeroSection() {
           SINCE 1985 · CHATHAM, ONTARIO
         </motion.p>
 
+        <h1 style={{ display: 'contents' }}>
         {/* Line 1 */}
         <div
           className="flex justify-center gap-4 flex-wrap"
@@ -146,6 +147,7 @@ export default function HeroSection() {
             </motion.span>
           ))}
         </div>
+        </h1>
 
         {/* Subtext */}
         <motion.p

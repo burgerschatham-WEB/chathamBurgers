@@ -32,7 +32,7 @@ export default function MenuItemCard({ item, index }: MenuItemCardProps) {
     >
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2 flex-wrap">
-          <h4
+          <h3
             style={{
               fontFamily: "var(--font-oswald), sans-serif",
               letterSpacing: "0.03em",
@@ -42,7 +42,7 @@ export default function MenuItemCard({ item, index }: MenuItemCardProps) {
             }}
           >
             {item.name}
-          </h4>
+          </h3>
           {item.badge && (
             <span
               style={{

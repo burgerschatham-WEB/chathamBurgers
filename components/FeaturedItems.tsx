@@ -13,6 +13,13 @@ const itemImages: Record<string, string> = {
   'Fish & Chips':     images.fishChips,
 }
 
+const itemAlts: Record<string, string> = {
+  'Dbl Smash Burger': 'Double smash burger with two fresh beef patties, melted cheese, and onions at Chatham Burgers',
+  '1 LB Burger':      'One pound flame-grilled beef burger — The Beast — at Chatham Burgers in Chatham Ontario',
+  'Chatham Burger':   'The original Chatham Burger, a half-pound beef patty with classic toppings, since 1985',
+  'Fish & Chips':     'Golden crispy haddock fish and chips, a staff favourite at Chatham Burgers',
+}
+
 export default function FeaturedItems() {
   return (
     <section style={{ background: '#0a0a0a' }} className="py-32">
@@ -77,7 +84,7 @@ export default function FeaturedItems() {
                   {itemImages[item.name] ? (
                     <Image
                       src={itemImages[item.name]}
-                      alt={item.name}
+                      alt={itemAlts[item.name] ?? item.name}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"

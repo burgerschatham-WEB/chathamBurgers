@@ -6,10 +6,10 @@ import CountUp from 'react-countup'
 import { ScrollReveal } from './ScrollReveal'
 
 const stats = [
-  { number: 40,   suffix: '+', label: 'Years of Flame' },
-  { number: 1985, suffix: '',  label: 'Est. in Chatham' },
-  { number: 15,   suffix: '+', label: 'Burgers on the Menu' },
-  { number: 1,    suffix: '',  label: 'Family Behind It All' },
+  { number: 40,   suffix: '+', label: 'Years of Flame',        separator: ',' },
+  { number: 1985, suffix: '',  label: 'Est.',                   separator: '' },
+  { number: 50,   suffix: '+', label: 'Burgers on the Menu',   separator: ',' },
+  { number: 40,   suffix: '+', label: 'Years of Same Recipes', separator: ',' },
 ]
 
 export default function StatsStrip() {
@@ -44,7 +44,7 @@ export default function StatsStrip() {
                   <CountUp
                     end={stat.number}
                     duration={stat.number > 100 ? 2.5 : 1.8}
-                    separator=","
+                    separator={stat.separator}
                     useEasing
                   />
                 ) : (

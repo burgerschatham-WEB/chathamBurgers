@@ -98,11 +98,44 @@ function TestimonialCard({ t, delay }: { t: typeof testimonials[0]; delay: numbe
   )
 }
 
+const reviewSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Chatham Burgers",
+  review: [
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Hary" },
+      reviewBody:
+        "The burgers were juicy, perfectly seasoned, and clearly made with fresh ingredients. What really stood out was their commitment to supporting local suppliers — you can taste the difference. The fries were crispy, portions generous, and the staff were super friendly. Definitely a spot I'll be coming back to.",
+    },
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Shirley Konecny" },
+      reviewBody:
+        "Best burgers in town. Being fussy, I only like a burger made of real meat. Never disappointed — always happy with how friendly and willing they are to accommodate my dietary preferences. I recommend this restaurant to anyone asking where I'd eat.",
+    },
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Katie W." },
+      reviewBody:
+        "I don't live in town anymore but every time I come to visit family, I always stop at Chatham Burger to get a Greek salad. Without a doubt, it's one of the best Greek salads I've ever had and it's always so filling. The people here really care about their customers.",
+    },
+  ],
+};
+
 export default function TestimonialsSection() {
   const [emblaRef] = useEmblaCarousel({ loop: true, align: 'start' })
 
   return (
     <section style={{ background: '#0d0d0d' }} className="py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal className="text-center mb-12">
           <p
@@ -157,7 +190,14 @@ export default function TestimonialsSection() {
               letterSpacing: '0.05em',
             }}
           >
-            Based on Google Reviews ★★★★★
+            <a
+              href="https://g.page/r/chathamburgers"
+              target="_blank"
+              rel="noopener"
+              style={{ color: 'inherit', textDecoration: 'none' }}
+            >
+              Based on Google Reviews ★★★★★
+            </a>
           </p>
         </ScrollReveal>
       </div>
