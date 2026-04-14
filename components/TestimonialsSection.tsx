@@ -8,18 +8,18 @@ import { ScrollReveal } from './ScrollReveal'
 
 const testimonials = [
   {
-    quote: "Best burgers in Chatham, hands down. I've been coming here since I was a kid. The charcoal flavour is unlike anything else.",
-    author: 'Sarah M.',
+    quote: "The burgers were juicy, perfectly seasoned, and clearly made with fresh ingredients. What really stood out was their commitment to supporting local suppliers — you can taste the difference. The fries were crispy, portions generous, and the staff were super friendly. Definitely a spot I'll be coming back to.",
+    author: 'Hary',
     stars: 5,
   },
   {
-    quote: 'The Dbl Smash Burger is absolutely incredible. Juicy, perfectly seasoned, and those fresh-cut fries are something else.',
-    author: 'Mike T.',
+    quote: "Best burgers in town. Being fussy, I only like a burger made of real meat. Never disappointed — always happy with how friendly and willing they are to accommodate my dietary preferences. I recommend this restaurant to anyone asking where I'd eat.",
+    author: 'Shirley Konecny',
     stars: 5,
   },
   {
-    quote: 'Family-owned and it shows. They treat every customer like a regular. The food is consistently amazing, every single visit.',
-    author: 'Jennifer K.',
+    quote: "I don't live in town anymore but every time I come to visit family, I always stop at Chatham Burger to get a Greek salad. Without a doubt, it's one of the best Greek salads I've ever had and it's always so filling. The people here really care about their customers.",
+    author: 'Katie W.',
     stars: 5,
   },
 ]

@@ -6,20 +6,20 @@ import { Flame, UtensilsCrossed, MapPin, Star } from "lucide-react";
 const features = [
   {
     icon: Flame,
-    title: "Real Charcoal Grilled",
-    desc: "Every patty kissed by real charcoal flame — no gas shortcuts here.",
+    title: "Crafted on the Flame",
+    desc: "Every burger made to order on the flame. Real heat, real flavour — every single day since 1985.",
     color: "#E85D04",
   },
   {
     icon: UtensilsCrossed,
-    title: "Family-Owned Since 1985",
-    desc: "Four decades of the same family, the same recipes, the same love.",
+    title: "Real Meat, Real Farm",
+    desc: "Fresh local farm beef delivered every day. We know where our meat comes from — and it shows.",
     color: "#F5C518",
   },
   {
     icon: MapPin,
-    title: "Proudly Chatham, Ontario",
-    desc: "Born and raised local. Supporting our community since day one.",
+    title: "Fresh Bakery, Every Day",
+    desc: "Fresh-baked buns sourced from a local bakery, delivered every morning. The bun matters.",
     color: "#E85D04",
   },
   {

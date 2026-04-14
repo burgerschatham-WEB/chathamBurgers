@@ -1,0 +1,196 @@
+# Chatham Burgers — Content Queue
+# Auto-generated 2026-04-14
+# Ordered by priority. Write pillar pages first, then cluster pages.
+
+last_updated: "2026-04-14"
+
+queue:
+
+  - id: "q_001"
+    title: "Best Burgers in Chatham Ontario (2026 Guide)"
+    blog_type: "listicle+local-guide"
+    content_type: "pillar"
+    cluster_id: "tc_chatham_local"
+    target_keywords:
+      - "best burgers in Chatham Ontario"
+      - "best burger Chatham Ontario"
+    target_features:
+      - "feat_chatham_burger"
+      - "feat_charcoal_grill"
+      - "feat_smash_burger"
+      - "feat_family_owned"
+    unique_angle: "Written from insider perspective — we ARE one of the best, here's why AND what else to try in Chatham. Honest local guide, not a pure self-promo piece."
+    priority: "high"
+    priority_reason: "Primary local SEO pillar. Captures the highest-intent local searches."
+    status: "human-review"
+    estimated_word_count: 2500
+    eeat_plan: "Include Sarah M. testimonial, 40-year heritage metric, and Google Maps review link."
+    serp_analyzed: true
+    cannibalization_check: "passed"
+    notes: "SERP showed local Maps pack results (Dog Days BBQ, Wing Boyz, Craves, Suite 46, Kebab & Gyro). No dedicated burger blog ranking. Blog written as honest local guide mentioning all SERP results, positioning Chatham Burgers as the burger-specific destination."
+    depends_on: []
+    internal_link_targets: []
+
+  - id: "q_002"
+    title: "Best Smash Burger in Chatham Ontario"
+    blog_type: "local-guide+review"
+    content_type: "pillar"
+    cluster_id: "tc_smash_burger"
+    target_keywords:
+      - "best smash burger Chatham Ontario"
+      - "smash burger Chatham"
+      - "best smash burger"
+    target_features:
+      - "feat_smash_burger"
+      - "feat_charcoal_grill"
+    unique_angle: "The only charcoal-grilled smash burger in Chatham — the char adds what gas/flat-top can't. Product-first, then educational."
+    priority: "high"
+    priority_reason: "Smash burger is a top keyword and our Dbl Smash Burger is the fan favourite."
+    status: "planned"
+    estimated_word_count: 2000
+    eeat_plan: "Mike T. testimonial about Dbl Smash Burger. Charcoal differentiator as experience."
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "SERP data required before writing."
+    depends_on: []
+    internal_link_targets: ["best-burgers-chatham-ontario"]
+
+  - id: "q_003"
+    title: "Charcoal Grilled Burgers: Why Real Charcoal Matters"
+    blog_type: "how-to+thought-leadership"
+    content_type: "pillar"
+    cluster_id: "tc_charcoal_grilled"
+    target_keywords:
+      - "charcoal grilled burgers"
+      - "charcoal burger restaurant Ontario"
+      - "authentic meat burgers"
+    target_features:
+      - "feat_charcoal_grill"
+      - "feat_family_recipes"
+    unique_angle: "Written from 40 years of daily charcoal grilling experience — not a hobbyist guide. We do this every single day."
+    priority: "high"
+    priority_reason: "Charcoal grilling is our #1 differentiator. This pillar anchors the entire charcoal cluster."
+    status: "planned"
+    estimated_word_count: 2500
+    eeat_plan: "40-year heritage + charcoal since day one. Quote from restaurant history. Sarah M. testimonial."
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "SERP data required before writing."
+    depends_on: []
+    internal_link_targets: ["best-burgers-chatham-ontario", "best-smash-burger-chatham"]
+
+  - id: "q_004"
+    title: "Chatham Burgers: 40 Years of Charcoal-Grilled Tradition"
+    blog_type: "thought-leadership"
+    content_type: "cluster"
+    cluster_id: "tc_chatham_local"
+    target_keywords:
+      - "Chatham Burgers restaurant"
+      - "chathamburgers"
+    target_features:
+      - "feat_family_owned"
+      - "feat_family_recipes"
+      - "feat_charcoal_grill"
+    unique_angle: "The real origin story — 1985 founding, why charcoal, what hasn't changed, and the regulars who've become family."
+    priority: "high"
+    priority_reason: "Brand content + E-E-A-T anchor. Supports all other cluster pages."
+    status: "planned"
+    estimated_word_count: 1800
+    eeat_plan: "Jennifer K. testimonial. 40-year metric. Specific family story details."
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: ""
+    depends_on: ["q_001"]
+    internal_link_targets: ["best-burgers-chatham-ontario"]
+
+  - id: "q_005"
+    title: "Charcoal Grill vs Gas Grill: Which Makes Better Burgers?"
+    blog_type: "comparison"
+    content_type: "cluster"
+    cluster_id: "tc_charcoal_grilled"
+    target_keywords:
+      - "charcoal grill vs gas grill burgers"
+      - "charcoal vs gas smash burger"
+    target_features:
+      - "feat_charcoal_grill"
+    unique_angle: "Not a hobbyist perspective — written from 40 years of daily commercial charcoal grilling. Specific, technical, and backed by lived experience."
+    priority: "medium"
+    priority_reason: "Strong cluster page for tc_charcoal_grilled. High educational value."
+    status: "planned"
+    estimated_word_count: 2000
+    eeat_plan: "40-year charcoal experience as the E-E-A-T signal."
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: ""
+    depends_on: ["q_003"]
+    internal_link_targets: ["charcoal-grilled-burgers-guide", "best-smash-burger-chatham"]
+
+  - id: "q_006"
+    title: "Smash Burger vs Regular Burger: What's the Difference?"
+    blog_type: "comparison"
+    content_type: "cluster"
+    cluster_id: "tc_smash_burger"
+    target_keywords:
+      - "smash burger vs regular burger"
+      - "smash burgers"
+    target_features:
+      - "feat_smash_burger"
+      - "feat_charcoal_grill"
+    unique_angle: "Explained by someone who makes both every day — crispy lacey edges, fat caramelization, the charcoal difference on a smashed patty."
+    priority: "medium"
+    priority_reason: "High search volume for smash burger comparison content."
+    status: "planned"
+    estimated_word_count: 1800
+    eeat_plan: "Mike T. testimonial. Daily experience making smash burgers as authority."
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: ""
+    depends_on: ["q_002"]
+    internal_link_targets: ["best-smash-burger-chatham", "charcoal-grilled-burgers-guide"]
+
+  - id: "q_007"
+    title: "Local Burger Restaurant vs Chain: Why Independent Wins"
+    blog_type: "thought-leadership"
+    content_type: "pillar"
+    cluster_id: "tc_competitors"
+    target_keywords:
+      - "independent burger restaurant vs chain"
+      - "best local burger Chatham Ontario"
+    target_features:
+      - "feat_family_owned"
+      - "feat_charcoal_grill"
+      - "feat_fresh_cut_fries"
+      - "feat_family_recipes"
+    unique_angle: "Not anti-chain — acknowledges what chains do well (convenience, consistency) but makes the case for why local independents win on quality, community, and character."
+    priority: "medium"
+    priority_reason: "Anchors the competitor cluster. Captures consideration-stage searchers."
+    status: "planned"
+    estimated_word_count: 2000
+    eeat_plan: "Jennifer K. testimonial about community. 40-year metric. Fresh-cut vs frozen data point."
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "SERP data required before writing."
+    depends_on: []
+    internal_link_targets: ["best-burgers-chatham-ontario"]
+
+  - id: "q_008"
+    title: "Fresh-Cut Fries vs Frozen: Why It Makes a Difference"
+    blog_type: "how-to"
+    content_type: "cluster"
+    cluster_id: "tc_charcoal_grilled"
+    target_keywords:
+      - "fresh cut fries vs frozen"
+      - "fresh cut fries Chatham"
+    target_features:
+      - "feat_fresh_cut_fries"
+    unique_angle: "Practical breakdown: texture, moisture, oil absorption, taste. The case for cutting your own — we've done it every day since 1985."
+    priority: "medium"
+    priority_reason: "Good supporting content. Fresh-cut fries are a key differentiator from chains."
+    status: "planned"
+    estimated_word_count: 1500
+    eeat_plan: "40 years of fresh-cutting daily as authority signal."
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: ""
+    depends_on: ["q_003"]
+    internal_link_targets: ["charcoal-grilled-burgers-guide", "best-burgers-chatham-ontario"]

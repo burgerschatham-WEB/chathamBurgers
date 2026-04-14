@@ -1,0 +1,22 @@
+keyword,search_volume,keyword_difficulty,cpc,intent,funnel_stage,serp_features,content_format_needed,mapped_feature_ids,mapped_blog_slugs,cluster_id,content_type,priority,status,last_updated,source,notes
+best burgers in Chatham Ontario,0,0,0,informational+local,awareness,,listicle or local guide,feat_chatham_burger|feat_charcoal_grill,,tc_chatham_local,pillar,high,planned,2026-04-14,user_input,Primary local SEO target
+best smash burger,0,0,0,informational+commercial,consideration,,listicle or review,feat_smash_burger|feat_charcoal_grill,,tc_smash_burger,pillar,high,planned,2026-04-14,user_input,Key product SEO target
+authentic meat burgers,0,0,0,informational,awareness,,guide or blog,feat_charcoal_grill|feat_family_recipes,,tc_charcoal_grilled,cluster,medium,planned,2026-04-14,user_input,
+smash burgers,0,0,0,informational+commercial,consideration,,guide or listicle,feat_smash_burger,,tc_smash_burger,cluster,medium,planned,2026-04-14,user_input,Broad smash burger term
+best burger,0,0,0,informational+commercial,consideration,,listicle,feat_chatham_burger|feat_smash_burger,,tc_chatham_local,cluster,medium,planned,2026-04-14,user_input,Very competitive broad term
+charcoal grilled burgers Chatham,0,0,0,informational+local,awareness,,local guide,feat_charcoal_grill,,tc_charcoal_grilled,pillar,high,planned,2026-04-14,auto_detected,Strong local + differentiator combo
+Chatham Burgers restaurant,0,0,0,navigational,decision,,brand page,,,tc_chatham_local,supporting,high,planned,2026-04-14,auto_detected,Brand navigational term
+family restaurant Chatham Ontario,0,0,0,informational+local,awareness,,local guide,feat_family_owned,,tc_chatham_local,cluster,medium,planned,2026-04-14,auto_detected,
+best burger Chatham Ontario,0,0,0,informational+local,consideration,,listicle,feat_chatham_burger,,tc_chatham_local,cluster,high,planned,2026-04-14,auto_detected,Local variant of best burger
+Kelseys alternative Chatham,0,0,0,commercial,consideration,,comparison,feat_charcoal_grill|feat_family_owned,,tc_competitors,cluster,medium,planned,2026-04-14,auto_detected,Competitor alternative keyword
+A&W alternative Chatham,0,0,0,commercial,consideration,,comparison,feat_charcoal_grill|feat_fresh_cut_fries,,tc_competitors,cluster,medium,planned,2026-04-14,auto_detected,
+best poutine Chatham Ontario,0,0,0,informational+local,awareness,,local guide,feat_poutine,,tc_chatham_local,cluster,medium,planned,2026-04-14,auto_detected,
+fresh cut fries Chatham,0,0,0,informational+local,awareness,,local guide,feat_fresh_cut_fries,,tc_chatham_local,cluster,low,planned,2026-04-14,auto_detected,
+charcoal burger restaurant Ontario,0,0,0,informational+local,awareness,,local guide,feat_charcoal_grill,,tc_charcoal_grilled,cluster,medium,planned,2026-04-14,auto_detected,
+smash burger Chatham Ontario,0,0,0,informational+local,consideration,,local guide,feat_smash_burger,,tc_smash_burger,cluster,high,planned,2026-04-14,auto_detected,Local smash burger term
+how to make smash burgers,0,0,0,informational,awareness,,tutorial/how-to,feat_smash_burger|feat_charcoal_grill,,tc_smash_burger,cluster,low,planned,2026-04-14,auto_detected,Educational content angle
+best wings Chatham Ontario,0,0,0,informational+local,awareness,,local guide,feat_wings,,tc_chatham_local,cluster,low,planned,2026-04-14,auto_detected,
+fish and chips Chatham Ontario,0,0,0,informational+local,awareness,,local guide,feat_fish_chips,,tc_chatham_local,cluster,low,planned,2026-04-14,auto_detected,
+independent burger restaurant vs chain,0,0,0,informational+commercial,consideration,,comparison/thought-leadership,feat_family_owned|feat_charcoal_grill,,tc_competitors,cluster,medium,planned,2026-04-14,auto_detected,Good angle: local vs chain
+chathamburgers,0,0,0,navigational,decision,,brand,,,tc_chatham_local,supporting,high,planned,2026-04-14,brand_term,Brand term
+Chatham Burgers,0,0,0,navigational,decision,,brand,,,tc_chatham_local,supporting,high,planned,2026-04-14,brand_term,Brand term

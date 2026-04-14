@@ -29,7 +29,7 @@ export default function FeaturedItems() {
               marginBottom: '12px',
             }}
           >
-            Charcoal Grilled Perfection
+            Crafted on the Flame
           </p>
           <h2
             style={{

@@ -1,0 +1,66 @@
+# Chatham Burgers — Content Map
+# Auto-generated 2026-04-14
+# No existing blog posts found at time of initialization.
+# This file will be populated as blogs are written and approved.
+
+last_updated: "2026-04-14"
+
+blogs:
+  - slug: "best-burgers-chatham-ontario"
+    title: "Best Burgers in Chatham Ontario (2026 Guide)"
+    file_path: "app/blog/best-burgers-chatham-ontario/page.tsx"
+    status: "human-review"
+    published_date: ""
+    last_updated: "2026-04-14"
+    blog_type: "listicle+local-guide"
+    content_type: "pillar"
+    cluster_id: "tc_chatham_local"
+    target_keywords:
+      - keyword: "best burgers in Chatham Ontario"
+        search_volume: 0
+        is_primary: true
+      - keyword: "best burger Chatham Ontario"
+        search_volume: 0
+        is_primary: false
+    features_mentioned:
+      - feature_id: "feat_chatham_burger"
+        context: "Highlighted as must-order — the original since 1985"
+      - feature_id: "feat_charcoal_grill"
+        context: "Core differentiator — entire article built around charcoal vs other methods"
+      - feature_id: "feat_smash_burger"
+        context: "Fan favourite callout in what-to-order section"
+      - feature_id: "feat_family_owned"
+        context: "40-year heritage and regulars-as-family angle"
+      - feature_id: "feat_fresh_cut_fries"
+        context: "Mentioned as part of what-to-order — fresh cut, not frozen"
+      - feature_id: "feat_1lb_burger"
+        context: "The Beast mentioned in what-to-order section"
+    competitors_mentioned:
+      - competitor_id: "comp_kelseys"
+    internal_links_to: []
+    internal_links_from: []
+    word_count: 2100
+    has_eeat_signals: true
+    needs_update_reason: ""
+
+# Template for future entries:
+# - slug: "{from filename/frontmatter}"
+#   title: "{from frontmatter}"
+#   file_path: "app/blog/{slug}/page.mdx"
+#   status: "human-review"   # human-review | published | needs-update
+#   published_date: ""
+#   last_updated: ""
+#   blog_type: ""   # listicle | comparison | tutorial | how-to | review | thought-leadership
+#   content_type: ""  # pillar | cluster | supporting | standalone
+#   cluster_id: ""
+#   target_keywords:
+#     - keyword: ""
+#       search_volume: 0
+#       is_primary: true
+#   features_mentioned: []
+#   competitors_mentioned: []
+#   internal_links_to: []
+#   internal_links_from: []
+#   word_count: 0
+#   has_eeat_signals: false
+#   needs_update_reason: ""

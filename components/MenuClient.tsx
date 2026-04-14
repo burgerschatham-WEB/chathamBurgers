@@ -6,7 +6,7 @@ import { menuCategories } from "@/lib/menuData";
 import MenuCategory from "@/components/MenuCategory";
 import Link from "next/link";
 
-export default function MenuPage() {
+export default function MenuClient() {
   const [activeCategory, setActiveCategory] = useState(menuCategories[0].id);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navRef = useRef<HTMLDivElement>(null);
@@ -63,7 +63,7 @@ export default function MenuPage() {
               marginBottom: "12px",
             }}
           >
-            Crafted on the Flame. Family Built.
+            Charcoal Grilled. Family Built.
           </p>
           <h1
             style={{

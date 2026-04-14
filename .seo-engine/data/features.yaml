@@ -1,0 +1,316 @@
+# Chatham Burgers — Feature Registry
+# Auto-generated 2026-04-14 from app/menu page and site content
+# "Features" for a restaurant = menu categories, cooking methods, unique differentiators
+
+project: "Chatham Burgers"
+last_updated: "2026-04-14"
+generated_from: "lib/menuData.ts, app/about/page.tsx, app/page.tsx"
+
+categories:
+
+  - id: "cat_cooking"
+    name: "Cooking Method & Heritage"
+    description: "What makes Chatham Burgers unique — real charcoal grilling and 40-year family recipes"
+    subcategories:
+      - id: "sub_charcoal"
+        name: "Charcoal Grilling"
+        features:
+          - id: "feat_charcoal_grill"
+            name: "Real Charcoal Grilling"
+            description: "Every burger and protein is grilled over real charcoal — not gas. This produces a distinct smoky flavour that cannot be replicated by gas or flat-top grills."
+            status: "available"
+            doc_refs:
+              - path: "app/about/page.tsx"
+                section: "Built on Fire and Family"
+              - path: "app/menu/page.tsx"
+                section: "Page header"
+            blog_refs: []
+            tags: ["charcoal", "grilling", "cooking-method", "differentiator"]
+            notes: "Core brand differentiator. Use in every SEO piece."
+
+          - id: "feat_family_recipes"
+            name: "Original Family Recipes Since 1985"
+            description: "The same recipes used on opening day in 1985 are still in use today. No franchise modifications, no shortcuts."
+            status: "available"
+            doc_refs:
+              - path: "app/about/page.tsx"
+                section: "Story Section"
+            blog_refs: []
+            tags: ["heritage", "family", "recipes", "1985", "authenticity"]
+            notes: "40-year trust signal. Strong E-E-A-T anchor."
+
+          - id: "feat_family_owned"
+            name: "Family-Owned & Operated"
+            description: "Chatham Burgers has been owned and operated by the same family since 1985. Not a chain, not a franchise."
+            status: "available"
+            doc_refs:
+              - path: "app/about/page.tsx"
+                section: "Values"
+            blog_refs: []
+            tags: ["family-owned", "local", "community", "independent"]
+            notes: ""
+
+  - id: "cat_burgers"
+    name: "Burgers"
+    description: "The core menu — classic beef burgers, smash burgers, chicken, veggie, and specialty builds"
+    subcategories:
+      - id: "sub_classic_burgers"
+        name: "Classic Burgers"
+        features:
+          - id: "feat_chatham_burger"
+            name: "The Chatham Burger"
+            description: "½ lb charcoal-grilled beef patty with standard toppings. The original signature burger since 1985. Local legend."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Classic Burgers"
+            blog_refs: []
+            tags: ["signature", "half-pound", "original", "local-legend"]
+            notes: "Badge: Local Legend. $10.99."
+
+          - id: "feat_smash_burger"
+            name: "Dbl Smash Burger"
+            description: "Two beef patties smashed with onion & seasoning, charcoal grilled, topped with cheese and standard toppings."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Classic Burgers"
+            blog_refs: []
+            tags: ["smash-burger", "fan-favourite", "double-patty", "smashed"]
+            notes: "Badge: Fan Favourite. $12.99. Key SEO target for 'best smash burger'."
+
+          - id: "feat_1lb_burger"
+            name: "1 LB Burger (The Beast)"
+            description: "Full 1 pound charcoal-grilled beef patty with standard toppings. The biggest burger on the menu."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Classic Burgers"
+            blog_refs: []
+            tags: ["1lb", "beast", "challenge", "large-burger"]
+            notes: "$17.50."
+
+          - id: "feat_golden_burger"
+            name: "Golden Burger"
+            description: "½ lb patty topped with cheese and standard toppings."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Classic Burgers"
+            blog_refs: []
+            tags: ["half-pound", "cheese"]
+            notes: "$11.99."
+
+          - id: "feat_banquet_burger"
+            name: "Banquet Burger"
+            description: "¼ lb patty with bacon, cheese, and standard toppings."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Classic Burgers"
+            blog_refs: []
+            tags: ["bacon", "cheese", "quarter-pound"]
+            notes: "$10.99."
+
+          - id: "feat_veggie_burger"
+            name: "Veggie Burger"
+            description: "Soy patty with standard toppings. Vegetarian option available."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Classic Burgers"
+            blog_refs: []
+            tags: ["vegetarian", "veggie", "soy"]
+            notes: "$10.99."
+
+          - id: "feat_house_greek"
+            name: "House Greek Burger"
+            description: "Beef patty with feta, tomato, onion, and tzatziki."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Classic Burgers"
+            blog_refs: []
+            tags: ["greek", "feta", "tzatziki", "specialty"]
+            notes: "$11.50."
+
+          - id: "feat_chicken_burger"
+            name: "Chicken Burger"
+            description: "Crispy chicken with standard toppings and choice of sauce."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Classic Burgers"
+            blog_refs: []
+            tags: ["chicken", "crispy"]
+            notes: "$9.99."
+
+  - id: "cat_wraps_hotdogs"
+    name: "Wraps & Hot Dogs"
+    description: "Pita wraps, souvlaki, gyros, and classic hot dogs"
+    subcategories:
+      - id: "sub_wraps"
+        name: "Wraps"
+        features:
+          - id: "feat_gyro"
+            name: "Gyro"
+            description: "Pita bread, cut gyro meat, tomato, onion, tzatziki."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Wraps & Hot Dogs"
+            blog_refs: []
+            tags: ["greek", "gyro", "pita", "tzatziki"]
+            notes: "$11.50."
+
+          - id: "feat_chicken_souvlaki"
+            name: "Chicken Souvlaki"
+            description: "Pita bread, grilled chicken skewers, tomato, onion, lettuce, tzatziki."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Wraps & Hot Dogs"
+            blog_refs: []
+            tags: ["souvlaki", "greek", "grilled-chicken"]
+            notes: "$11.50."
+
+  - id: "cat_sides"
+    name: "Sides & Extras"
+    description: "Fresh-cut fries, onion rings, poutine, and other sides"
+    subcategories:
+      - id: "sub_fries"
+        name: "Fresh-Cut Fries"
+        features:
+          - id: "feat_fresh_cut_fries"
+            name: "Fresh-Cut Fries"
+            description: "Hand-cut fries available in small, large, and family sizes. Not frozen — fresh cut in-house."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Sides & Extras"
+            blog_refs: []
+            tags: ["fries", "fresh-cut", "sides", "hand-cut"]
+            notes: "Small $5.75, Large $6.50, Family $13.99. Key differentiator vs chains."
+
+          - id: "feat_poutine"
+            name: "Poutine"
+            description: "Classic Canadian poutine — fries, gravy, cheese curds. Small and large available."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Poutine"
+            blog_refs: []
+            tags: ["poutine", "canadian", "gravy", "cheese-curds"]
+            notes: "Small $8.99, Large $10.50."
+
+          - id: "feat_onion_rings"
+            name: "Onion Rings"
+            description: "Classic battered onion rings."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Sides & Extras"
+            blog_refs: []
+            tags: ["onion-rings", "sides"]
+            notes: "$7.75."
+
+  - id: "cat_wings"
+    name: "Pub Wings"
+    description: "Charcoal-grilled pub wings with 9 sauce options"
+    subcategories:
+      - id: "sub_wings"
+        name: "Wings"
+        features:
+          - id: "feat_wings"
+            name: "Pub Wings"
+            description: "5 or 10 piece wings with choice of 9 sauces: Honey Garlic, Hot Sauce, Tequila Lime, Wild Wings Sauce, Sweet & Sour, Blue Cheese, BBQ, Chipotle, Ranch."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Pub Wings"
+            blog_refs: []
+            tags: ["wings", "pub", "sauces", "chicken-wings"]
+            notes: "5pc $7.99, 10pc $13.99."
+
+  - id: "cat_dinner_plates"
+    name: "Dinner Plates"
+    description: "Full dinner plate options including fish & chips, chicken fingers, and hot hamburger"
+    subcategories:
+      - id: "sub_dinner"
+        name: "Dinner Plates"
+        features:
+          - id: "feat_fish_chips"
+            name: "Fish & Chips"
+            description: "Crispy haddock served with fresh-cut chips. Fan favourite. Senior special available."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Dinner Plates"
+            blog_refs: []
+            tags: ["fish-chips", "haddock", "fan-favourite", "dinner"]
+            notes: "Regular $15.99, Senior Special $9.99."
+
+          - id: "feat_hot_hamburger"
+            name: "Hot Hamburger"
+            description: "Open-faced burger patty on bread, smothered in gravy, served with hot corn and fries."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Dinner Plates"
+            blog_refs: []
+            tags: ["hot-hamburger", "gravy", "comfort-food", "dinner"]
+            notes: "$13.50."
+
+  - id: "cat_combos"
+    name: "Combos"
+    description: "Value combo meals — burger/hot dog/chicken + fries + drink"
+    subcategories:
+      - id: "sub_combos"
+        name: "Combo Meals"
+        features:
+          - id: "feat_combos"
+            name: "Combo Meals"
+            description: "Full combo meals including burger/hotdog/chicken + fresh-cut fries + drink. Best value option."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Combos"
+            blog_refs: []
+            tags: ["combos", "value", "meal-deal", "family"]
+            notes: "From $13.99. Kids Burger Combo $12.99."
+
+  - id: "cat_salads"
+    name: "Salads"
+    description: "Greek, Caesar, and Garden salads"
+    subcategories:
+      - id: "sub_salads"
+        name: "Salads"
+        features:
+          - id: "feat_greek_salad"
+            name: "Greek Salad"
+            description: "Feta, tomato, cucumber, olives, green pepper, onions, lettuce & dressing."
+            status: "available"
+            doc_refs:
+              - path: "lib/menuData.ts"
+                section: "Salads"
+            blog_refs: []
+            tags: ["salad", "greek", "feta", "healthy"]
+            notes: "$12.99."
+
+  - id: "cat_online_ordering"
+    name: "Online Ordering"
+    description: "Online ordering available through the website"
+    subcategories:
+      - id: "sub_order"
+        name: "Online Order"
+        features:
+          - id: "feat_online_order"
+            name: "Online Ordering"
+            description: "Customers can place orders online at chathamburgers.ca/order."
+            status: "available"
+            doc_refs:
+              - path: "app/order/page.tsx"
+                section: "Order page"
+            blog_refs: []
+            tags: ["online-ordering", "delivery", "pickup"]
+            notes: ""

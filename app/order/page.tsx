@@ -64,7 +64,7 @@ export default function OrderPage() {
           >
             Order online for pickup. Fresh, hot, and ready for you.
             <br />
-            Charcoal grilled to order — just the way it&apos;s been done since 1985.
+            Real local farm meat, crafted on the flame — just the way it&apos;s been done since 1985.
           </motion.p>
 
           {/* Main CTA */}
@@ -140,7 +140,7 @@ export default function OrderPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: "01", title: "Choose Your Order", desc: "Browse our full menu and build your order exactly how you like it." },
-              { step: "02", title: "We Fire Up the Grill", desc: "Every order gets charcoal-grilled fresh. No heat lamps, no shortcuts." },
+              { step: "02", title: "We Fire Up the Grill", desc: "Every order crafted fresh on the flame. Real local meat, no heat lamps, no shortcuts." },
               { step: "03", title: "Pick Up & Enjoy", desc: "Swing by, grab your order hot off the grill, and dig in." },
             ].map((item, i) => (
               <motion.div
@@ -346,7 +346,7 @@ export default function OrderPage() {
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
-                "Real charcoal grilled — every order",
+                "Real local farm meat — every order",
                 "Fresh-cut fries, never frozen",
                 "Same recipes since 1985",
                 "Made with care, every single time",

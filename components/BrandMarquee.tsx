@@ -1,12 +1,12 @@
 'use client'
 
 const items = [
-  '🔥 Real Charcoal Grilled',
+  '🥩 Fresh Local Farm Meat',
   '⭐ Family-Owned Since 1985',
   '📍 Chatham, Ontario',
   '🍟 Fresh-Cut Fries Daily',
   '🏆 40 Years Strong',
-  '🔥 Real Charcoal Grilled',
+  '🥩 Fresh Local Farm Meat',
   '⭐ Family-Owned Since 1985',
   '📍 Chatham, Ontario',
   '🍟 Fresh-Cut Fries Daily',

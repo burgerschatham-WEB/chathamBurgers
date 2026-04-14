@@ -76,7 +76,7 @@ export default function CTABanner() {
                 marginTop: '8px',
               }}
             >
-              Fresh, hot, and ready for pickup. Charcoal grilled since 1985.
+              Fresh local meat. Fresh-baked buns. Fresh-cut fries. Since 1985.
             </p>
           </div>
 

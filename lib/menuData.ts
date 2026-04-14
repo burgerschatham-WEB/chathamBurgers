@@ -141,13 +141,13 @@ export const menuCategories: MenuCategory[] = [
 export const featuredItems: MenuItem[] = [
   {
     name: "Dbl Smash Burger",
-    description: "2 beef patties smashed with onion & seasoning, charcoal grilled to perfection with cheese and all the right toppings.",
+    description: "2 beef patties of fresh local farm beef, smashed with onion & seasoning, crafted on the flame with cheese and all the right toppings.",
     price: "$12.99",
     badge: "Fan Favourite",
   },
   {
     name: "1 LB Burger",
-    description: "Our biggest, boldest beef burger. One full pound of charcoal-grilled perfection. Not for the faint of heart.",
+    description: "Our biggest, boldest burger. One full pound of fresh local farm beef, crafted on the flame. Not for the faint of heart.",
     price: "$17.50",
     badge: "The Beast",
   },

@@ -1,0 +1,119 @@
+# SEO Content Engine — Project Configuration
+# Auto-generated 2026-04-14. Edit anything here anytime — Claude Code reads this before every task.
+
+project:
+  name: "Chatham Burgers"
+  tagline: "Charcoal Grilled. Family Built. Since 1985."
+  description: "Chatham Burgers is a family-owned charcoal grill restaurant in Chatham, Ontario, serving original recipes since 1985. Known for real charcoal-grilled burgers, fresh-cut fries, poutine, wings, and dinner plates."
+  website: "https://chathamburgers.ca"
+  target_audience:
+    primary: "Chatham, Ontario locals and regional visitors looking for authentic charcoal-grilled burgers"
+    secondary: "Families, burger enthusiasts, and people searching for the best local restaurant alternative to chains"
+    technical_level: "general public"
+
+author:
+  name: "ankit.guhe"
+  title: ""
+  bio: ""
+  website: ""
+  social_links: {}
+
+trust_signals:
+  review_links:
+    google_maps_kelseys: "https://maps.app.goo.gl/8VncjUp27dsSc1sS8"
+    google_maps_aw: "https://maps.app.goo.gl/3adxbiCGPE7Xv1CN7"
+    google_maps_simons_1: "https://maps.app.goo.gl/WdgamPaUYYdHpWah7"
+    google_maps_simons_2: "https://maps.app.goo.gl/zkVMzhecGsfzokN38"
+    google_maps_royale: "https://maps.app.goo.gl/nSimQZkCsFY7oyMFA"
+    other: []
+  testimonials:
+    - quote: "Best burgers in Chatham, hands down. I've been coming here since I was a kid. The charcoal flavour is unlike anything else."
+      author: "Sarah M."
+      stars: 5
+    - quote: "The Dbl Smash Burger is absolutely incredible. Juicy, perfectly seasoned, and those fresh-cut fries are something else."
+      author: "Mike T."
+      stars: 5
+    - quote: "Family-owned and it shows. They treat every customer like a regular. The food is consistently amazing, every single visit."
+      author: "Jennifer K."
+      stars: 5
+  metrics:
+    - "40 years in business since 1985"
+    - "Same family, same grill, same recipes since 1985"
+    - "Original charcoal grill — never switched to gas"
+    - "Local legend in Chatham, Ontario"
+
+cms:
+  type: "nextjs"
+  blog_directory: "app/blog"
+  docs_directory: "docs/"
+  frontmatter_format: "yaml"
+  date_format: "YYYY-MM-DD"
+  slug_style: "kebab-case"
+  slug_max_words: 5
+  image_directory: "public/"
+  frontmatter_schema:
+    required:
+      - title
+      - description
+      - date
+      - slug
+    optional:
+      - author
+      - tags
+      - category
+      - image
+      - draft
+
+competitors:
+  - name: "Kelseys Original Roadhouse"
+    website: "https://maps.app.goo.gl/8VncjUp27dsSc1sS8"
+    id: "comp_kelseys"
+  - name: "A&W Canada"
+    website: "https://maps.app.goo.gl/3adxbiCGPE7Xv1CN7"
+    id: "comp_aw"
+  - name: "Simon's Prime Hamburger"
+    website: "https://maps.app.goo.gl/WdgamPaUYYdHpWah7"
+    id: "comp_simons"
+  - name: "Royale with Cheese"
+    website: "https://maps.app.goo.gl/nSimQZkCsFY7oyMFA"
+    id: "comp_royale"
+
+seo:
+  primary_topics:
+    - "best burgers in Chatham Ontario"
+    - "best smash burger"
+    - "authentic meat burgers"
+    - "smash burgers"
+    - "best burger"
+  brand_terms:
+    - "Chatham Burgers"
+    - "chathamburgers"
+  avoid_terms: []
+  target_regions:
+    - "Chatham, Ontario"
+    - "Chatham-Kent"
+    - "Southwestern Ontario"
+  language: "en"
+
+content:
+  min_word_count: 1200
+  max_word_count: 3500
+  default_author: "ankit.guhe"
+  tone: "warm-local-proud"
+  include_faq: true
+  include_toc: true
+  cta_text: "Order from Chatham Burgers"
+  cta_url: "https://chathamburgers.ca/order"
+  max_posts_per_month: 4
+  requires_human_review: true
+
+technical_seo:
+  meta_description_max_chars: 160
+  title_tag_max_chars: 60
+  image_alt_text_required: true
+  canonical_url_pattern: "https://chathamburgers.ca/blog/{slug}"
+
+integrations:
+  seo_tool: "none"
+  analytics: "vercel-analytics"
+  search_console: false

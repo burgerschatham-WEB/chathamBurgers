@@ -1,0 +1,261 @@
+# Chatham Burgers — Competitor Intelligence
+# Auto-generated 2026-04-14
+# Competitor data is UNVERIFIED unless marked otherwise. Never fabricate claims.
+
+last_updated: "2026-04-14"
+last_verified: "2026-04-14"
+
+competitors:
+  - id: "comp_kelseys"
+    name: "Kelseys Original Roadhouse"
+    website: "https://maps.app.goo.gl/8VncjUp27dsSc1sS8"
+    category: "casual dining chain"
+    pricing_model: "mid-range chain"
+    strengths: "Full bar, chain brand recognition, casual sit-down experience"
+    weaknesses: "Chain restaurant — no local authenticity, gas grill assumed, standardized recipes"
+    notes: "Not yet verified."
+
+  - id: "comp_aw"
+    name: "A&W Canada"
+    website: "https://maps.app.goo.gl/3adxbiCGPE7Xv1CN7"
+    category: "fast food chain"
+    pricing_model: "fast food"
+    strengths: "Speed, brand recognition, consistent pricing, drive-through"
+    weaknesses: "Mass-produced, no charcoal grilling, franchise uniformity, no local story"
+    notes: "Not yet verified."
+
+  - id: "comp_simons"
+    name: "Simon's Prime Hamburger"
+    website: "https://maps.app.goo.gl/WdgamPaUYYdHpWah7"
+    category: "local burger restaurant"
+    pricing_model: "local independent"
+    strengths: "Local independent, burger-focused"
+    weaknesses: "Unknown — not yet verified"
+    notes: "Two locations. Not yet verified."
+
+  - id: "comp_royale"
+    name: "Royale with Cheese"
+    website: "https://maps.app.goo.gl/nSimQZkCsFY7oyMFA"
+    category: "local burger restaurant"
+    pricing_model: "local independent"
+    strengths: "Trendy name/branding, local independent"
+    weaknesses: "Unknown — not yet verified"
+    notes: "Not yet verified."
+
+feature_matrix:
+  - feature_id: "feat_charcoal_grill"
+    our_project:
+      supported: true
+      details: "Real charcoal grill used for every burger and protein. Never switched to gas. Core brand identity since 1985."
+      tier: "all"
+    competitors:
+      comp_kelseys:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_aw:
+        supported: false
+        details: "A&W uses flat-top griddle cooking, not charcoal."
+        tier: "all"
+        confidence: "high"
+        last_verified: "2026-04-14"
+      comp_simons:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_royale:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+
+  - feature_id: "feat_family_recipes"
+    our_project:
+      supported: true
+      details: "Same recipes since 1985. 40-year track record."
+      tier: "all"
+    competitors:
+      comp_kelseys:
+        supported: null
+        details: "Chain — corporate recipes, regularly updated."
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_aw:
+        supported: null
+        details: "Franchise chain — standardized corporate recipes."
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_simons:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_royale:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+
+  - feature_id: "feat_family_owned"
+    our_project:
+      supported: true
+      details: "Same family owned and operated since 1985."
+      tier: "all"
+    competitors:
+      comp_kelseys:
+        supported: false
+        details: "Corporate chain."
+        tier: "n/a"
+        confidence: "high"
+        last_verified: "2026-04-14"
+      comp_aw:
+        supported: false
+        details: "Corporate franchise."
+        tier: "n/a"
+        confidence: "high"
+        last_verified: "2026-04-14"
+      comp_simons:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_royale:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+
+  - feature_id: "feat_smash_burger"
+    our_project:
+      supported: true
+      details: "Dbl Smash Burger — two beef patties smashed with onion & seasoning. $12.99. Fan Favourite."
+      tier: "all"
+    competitors:
+      comp_kelseys:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_aw:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_simons:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_royale:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+
+  - feature_id: "feat_fresh_cut_fries"
+    our_project:
+      supported: true
+      details: "Hand-cut in-house fries. Not frozen. Small/Large/Family sizes."
+      tier: "all"
+    competitors:
+      comp_kelseys:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_aw:
+        supported: false
+        details: "A&W uses pre-cut frozen fries."
+        tier: "all"
+        confidence: "high"
+        last_verified: "2026-04-14"
+      comp_simons:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_royale:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+
+  - feature_id: "feat_poutine"
+    our_project:
+      supported: true
+      details: "Classic Canadian poutine. Small $8.99, Large $10.50."
+      tier: "all"
+    competitors:
+      comp_kelseys:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_aw:
+        supported: true
+        details: "A&W offers poutine."
+        tier: "all"
+        confidence: "high"
+        last_verified: "2026-04-14"
+      comp_simons:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_royale:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+
+  - feature_id: "feat_online_order"
+    our_project:
+      supported: true
+      details: "Online ordering at chathamburgers.ca/order."
+      tier: "all"
+    competitors:
+      comp_kelseys:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_aw:
+        supported: true
+        details: "A&W has mobile app and online ordering."
+        tier: "all"
+        confidence: "high"
+        last_verified: "2026-04-14"
+      comp_simons:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""
+      comp_royale:
+        supported: null
+        details: ""
+        tier: "unknown"
+        confidence: "unverified"
+        last_verified: ""

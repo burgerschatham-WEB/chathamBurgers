@@ -3,6 +3,7 @@ import { Bebas_Neue, Oswald, Lato } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const bebasNeue = Bebas_Neue({
   weight: "400",
@@ -27,11 +28,11 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "Chatham Burgers — Crafted on the Flame",
   description:
-    "Chatham Burgers — Charcoal grilled, family built since 1985. The best burgers in Chatham, Ontario.",
-  keywords: "burgers, charcoal grilled, Chatham Ontario, family restaurant, since 1985",
+    "Chatham Burgers — Crafted on the Flame, family built since 1985. Real local farm meat, fresh-baked buns, fresh-cut fries. The best burgers in Chatham, Ontario.",
+  keywords: "burgers, fresh local meat, Chatham Ontario, family restaurant, crafted on the flame, since 1985",
   openGraph: {
     title: "Chatham Burgers — Crafted on the Flame",
-    description: "Charcoal Grilled. Family Built. Since 1985.",
+    description: "Crafted on the Flame. Family Built. Since 1985.",
     siteName: "Chatham Burgers",
   },
 };
@@ -54,6 +55,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

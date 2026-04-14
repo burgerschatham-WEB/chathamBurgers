@@ -10,12 +10,12 @@ const timeline = [
   {
     year: "1985",
     title: "The Flame is Lit",
-    desc: "Chatham Burgers opens its doors in Chatham, Ontario. A family dream, a real charcoal grill, and a commitment to doing it right.",
+    desc: "Chatham Burgers opens its doors in Chatham, Ontario. A family dream, fresh local meat, a real flame grill, and a commitment to doing it right.",
   },
   {
     year: "1990s",
     title: "A Local Institution",
-    desc: "Word spreads fast. The charcoal-grilled taste can't be replicated anywhere else in town. Regulars become family.",
+    desc: "Word spreads fast. The flavour of fresh local farm meat on the flame can't be replicated anywhere else in town. Regulars become family.",
   },
   {
     year: "2000s",
@@ -30,15 +30,15 @@ const timeline = [
   {
     year: "Today",
     title: "Crafted on the Flame",
-    desc: "40 years later, the same charcoal grill fires up every morning. Some things are worth keeping exactly as they are.",
+    desc: "40 years later, the same flame fires up every morning. Fresh meat in, fresh-baked buns ready, fries cut by hand. Some things are worth keeping exactly as they are.",
   },
 ];
 
 const values = [
   {
     icon: Flame,
-    title: "Real Charcoal, Always",
-    desc: "We've never switched to gas. Real charcoal means real flavour — the kind you can taste in every bite. That's non-negotiable.",
+    title: "Real Meat, Every Day",
+    desc: "Fresh beef from local farms, delivered daily. Fresh-baked buns from a local bakery every morning. Real ingredients — that's non-negotiable.",
     color: "#E85D04",
   },
   {
@@ -121,8 +121,8 @@ export default function AboutPage() {
               lineHeight: "1.7",
             }}
           >
-            Some restaurants come and go. We&apos;re still here — still grilling over real charcoal, still cutting our
-            own fries, still serving the same recipes we started with in 1985. That&apos;s not stubbornness.
+            Some restaurants come and go. We&apos;re still here — still getting fresh meat from local farms every day, still
+            cutting our own fries, still serving the same recipes we started with in 1985. That&apos;s not stubbornness.
             That&apos;s pride.
           </motion.p>
         </div>
@@ -158,7 +158,7 @@ export default function AboutPage() {
               >
                 <p>
                   In 1985, a family in Chatham, Ontario had a simple idea: make burgers the right way.
-                  No shortcuts. No gas. Real charcoal, real flavour, and real care in every order.
+                  No shortcuts. Real local farm meat, fresh-baked buns, fresh-cut fries, and real care in every order.
                 </p>
                 <p>
                   Four decades later, that idea is still alive. The same family, the same grill, the same
@@ -166,8 +166,7 @@ export default function AboutPage() {
                   with their own families. We&apos;ve become part of people&apos;s lives — and that means everything to us.
                 </p>
                 <p>
-                  Charcoal grilling isn&apos;t just a technique here. It&apos;s who we are. Every patty that hits that
-                  grill gets the same attention it got on day one. That&apos;s a promise we&apos;ve kept for 40 years.
+                  Supporting local isn&apos;t a marketing line here — it&apos;s how we operate. Fresh meat from local farms, buns from a local bakery, fries cut by hand every morning. Every order gets the same attention it got on day one. That&apos;s a promise we&apos;ve kept for 40 years.
                 </p>
               </div>
             </motion.div>
@@ -497,7 +496,7 @@ export default function AboutPage() {
               marginBottom: "32px",
             }}
           >
-            40 years of charcoal-grilled tradition. Come see what the fuss is about.
+            40 years of fresh local ingredients, crafted on the flame. Come see what the fuss is about.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -1,0 +1,48 @@
+# Blog Frontmatter Template — Next.js App Router (MDX)
+# All constraints enforced: title ≤ 60 chars, description ≤ 160 chars, slug ≤ 5 words
+
+template: |
+  ---
+  title: ""           # Max 60 characters. Include primary keyword.
+  description: ""     # Max 160 characters. Include primary keyword naturally.
+  date: "YYYY-MM-DD"
+  slug: ""            # Max 5 words, kebab-case. Primary keyword optimized.
+  author: "Chatham Burgers"
+  tags: []            # 3-5 relevant tags
+  category: ""        # One of: local-guide | burger-guide | charcoal-grilling | restaurant-comparison | food-culture
+  image: ""           # /blog-images/{slug}-hero.jpg
+  draft: true         # Set to false only after human review
+  ---
+
+rules:
+  title:
+    max_chars: 60
+    must_include: "primary keyword"
+    format: "Sentence case or Title Case"
+    examples:
+      - "Best Burgers in Chatham Ontario (2026 Guide)"   # 46 chars ✓
+      - "Best Smash Burger in Chatham Ontario"            # 37 chars ✓
+  description:
+    max_chars: 160
+    must_include: "primary keyword"
+    format: "Complete sentence, action-oriented"
+    examples:
+      - "Looking for the best burgers in Chatham Ontario? We've been grilling over real charcoal since 1985. Here's what makes Chatham Burgers different."
+  slug:
+    max_words: 5
+    format: "kebab-case"
+    examples:
+      - "best-burgers-chatham-ontario"
+      - "best-smash-burger-chatham"
+      - "charcoal-grilled-burgers-guide"
+  tags:
+    count: "3-5"
+    examples:
+      - ["chatham ontario", "burgers", "local restaurant", "charcoal grill"]
+  categories:
+    allowed:
+      - "local-guide"
+      - "burger-guide"
+      - "charcoal-grilling"
+      - "restaurant-comparison"
+      - "food-culture"

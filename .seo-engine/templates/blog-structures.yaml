@@ -1,0 +1,82 @@
+# Blog Structures by Type — Chatham Burgers SEO Engine
+# Each type has a distinct voice and section order.
+# E-E-A-T injection point marked in each structure.
+
+structures:
+
+  local_guide:
+    description: "Local SEO guide — used for 'best X in Chatham Ontario' type content"
+    voice: "Knowledgeable local who knows the area. Warm, direct, opinionated. Uses 'we' for Chatham Burgers mentions."
+    word_count: "1800-3000"
+    sections:
+      - "## Introduction — hook with what the reader is looking for + local credibility"
+      - "## What Makes a Great [X] — set the criteria before ranking anything"
+      - "## Our Pick: [Featured Item] at Chatham Burgers — lead with the hero"
+      - "[E-E-A-T: Testimonial + 40-year heritage metric here]"
+      - "## Other Options in Chatham — brief honest mentions (1-2 sentences each)"
+      - "## What to Order at Chatham Burgers — specific recommendations"
+      - "## FAQ — from People Also Ask data"
+      - "## Conclusion + CTA — one soft CTA"
+    eeat_injection: "After hero section — testimonial quote + years in business"
+
+  comparison:
+    description: "X vs Y comparison — used for competitor comparisons and product comparisons"
+    voice: "Analytical but fair. Lead with strengths of each. Never trash competitors. Let the data speak."
+    word_count: "1800-2800"
+    sections:
+      - "## Introduction — frame the decision the reader is trying to make"
+      - "## Quick Verdict — 2-sentence summary for skimmers"
+      - "## [Option A] Overview — strengths first"
+      - "## [Option B] Overview — strengths first"
+      - "## Side-by-Side Comparison — table format where possible"
+      - "[E-E-A-T: Specific experience/data point here]"
+      - "## Which is Better For You — use-case based recommendation"
+      - "## FAQ"
+      - "## Conclusion + CTA"
+    eeat_injection: "In side-by-side section — specific experience detail or metric"
+
+  how_to:
+    description: "How-to / educational guide — for 'how to X' and 'X vs Y' educational content"
+    voice: "Patient teacher. Explains the why, not just the what. Specific and concrete, never vague."
+    word_count: "1200-2200"
+    sections:
+      - "## Introduction — problem/question the reader has"
+      - "## Why This Matters — motivate before instructing"
+      - "## [Step 1 / Factor 1]"
+      - "## [Step 2 / Factor 2]"
+      - "## [Step 3 / Factor 3]"
+      - "[E-E-A-T: Experience or data point here]"
+      - "## Common Mistakes to Avoid"
+      - "## FAQ"
+      - "## Conclusion + CTA"
+    eeat_injection: "Mid-article — specific experience from 40 years of daily cooking"
+
+  thought_leadership:
+    description: "Opinion/brand story — for heritage content, 'why we do X' content"
+    voice: "Confident and proud but not boastful. Takes a clear position. Uses 'we' and 'our'. Tells real stories."
+    word_count: "1500-2500"
+    sections:
+      - "## Opening statement — strong position, no hedging"
+      - "## The backstory — 1985 origin and the original decision"
+      - "## What we've seen over 40 years — specific observations"
+      - "[E-E-A-T: Customer testimonial + specific year/milestone here]"
+      - "## The results — what this approach produces"
+      - "## What this means for you — reader relevance"
+      - "## FAQ"
+      - "## Conclusion + CTA"
+    eeat_injection: "After backstory — specific customer story or long-term regular anecdote"
+
+  listicle:
+    description: "List format — for 'best X' and 'top Y' content"
+    voice: "Helpful curator. Explains WHY each item is on the list, not just that it is."
+    word_count: "2000-3500"
+    sections:
+      - "## Introduction — what criteria you used to build this list"
+      - "## #1: [Top Pick] — most detail here"
+      - "[E-E-A-T: Testimonial or metric after #1 pick]"
+      - "## #2-#N: [Other Picks] — 2-4 sentences each"
+      - "## Honourable Mentions"
+      - "## How to Choose"
+      - "## FAQ"
+      - "## Conclusion + CTA"
+    eeat_injection: "After top pick — testimonial quote from real customer"

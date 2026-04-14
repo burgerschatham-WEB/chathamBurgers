@@ -161,7 +161,7 @@ export default function HeroSection() {
             marginBottom: '40px',
           }}
         >
-          Charcoal Grilled · Family Built
+          Crafted on the Flame · Family Built
         </motion.p>
 
         {/* Buttons */}
