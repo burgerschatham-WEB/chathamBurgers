@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Blog — Stories & Guides | Chatham Burgers",
   description: "Local food guides, restaurant stories, and tips from Chatham Burgers. Family-owned and flame-grilled since 1985 in Chatham, Ontario.",
   alternates: { canonical: "https://chathamburgers.ca/blog" },
-  openGraph: { url: "https://chathamburgers.ca/blog" },
+  openGraph: { url: "https://chathamburgers.ca/blog", images: [{ url: 'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=1200&q=80', width: 1200, height: 630 }] },
 };
 
 const posts = [

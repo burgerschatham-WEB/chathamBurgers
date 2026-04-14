@@ -196,7 +196,7 @@ export default function TestimonialsSection() {
               rel="noopener"
               style={{ color: 'inherit', textDecoration: 'none' }}
             >
-              Based on Google Reviews ★★★★★
+              4.8 stars · 180+ reviews on Google
             </a>
           </p>
         </ScrollReveal>
