@@ -7,4 +7,7 @@ export const images = {
   grill: 'https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=1200&q=80',
   restaurant: 'https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=1200&q=80',
   ctaBg: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=1600&q=80',
+  // About page
+  aboutBonding: 'https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=1200&q=80',
+  aboutAtmosphere: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1600&q=80',
 }

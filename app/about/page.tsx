@@ -186,17 +186,17 @@ export default function AboutPage() {
               }}
             >
               <Image
-                src={images.grill}
-                alt="Charcoal grill at Chatham Burgers"
+                src={images.aboutBonding}
+                alt="Friends and community sharing a meal together"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
               {/* Dark overlay + caption */}
-              <div className="absolute inset-0 bg-black/30" />
+              <div className="absolute inset-0 bg-black/35" />
               <div
                 className="absolute bottom-0 left-0 right-0 p-6"
-                style={{ background: "linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%)" }}
+                style={{ background: "linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%)" }}
               >
                 <p
                   style={{
@@ -207,7 +207,7 @@ export default function AboutPage() {
                     textTransform: "uppercase",
                   }}
                 >
-                  Real Charcoal · Since 1985
+                  Community · Family · Food
                 </p>
               </div>
             </motion.div>
@@ -300,8 +300,8 @@ export default function AboutPage() {
       {/* Atmospheric image break */}
       <section className="relative overflow-hidden" style={{ height: 320 }}>
         <Image
-          src={images.restaurant}
-          alt="Restaurant atmosphere"
+          src={images.aboutAtmosphere}
+          alt="Warm restaurant atmosphere with guests"
           fill
           className="object-cover"
           sizes="100vw"
