@@ -10,12 +10,12 @@ const timeline = [
   {
     year: "1985",
     title: "The Flame is Lit",
-    desc: "Chatham Burgers opens its doors in Chatham, Ontario. A family dream, a real charcoal grill, and a commitment to doing it right.",
+    desc: "Chatham Burgers opens its doors in Chatham, Ontario. A family dream, a real flame grill, and a commitment to doing it right.",
   },
   {
     year: "1990s",
     title: "A Local Institution",
-    desc: "Word spreads fast. The charcoal-grilled taste can't be replicated anywhere else in town. Regulars become family.",
+    desc: "Word spreads fast. The flame-grilled taste can't be replicated anywhere else in town. Regulars become family.",
   },
   {
     year: "2000s",
@@ -30,34 +30,34 @@ const timeline = [
   {
     year: "Today",
     title: "Crafted on the Flame",
-    desc: "40 years later, the same charcoal grill fires up every morning. Some things are worth keeping exactly as they are.",
+    desc: "40 years later, the same flame grill fires up every morning. Some things are worth keeping exactly as they are.",
   },
 ];
 
 const values = [
   {
     icon: Flame,
-    title: "Real Charcoal, Always",
-    desc: "We've never switched to gas. Real charcoal means real flavour — the kind you can taste in every bite. That's non-negotiable.",
-    color: "#E85D04",
+    title: "The Flame, Always",
+    desc: "We've never switched to gas. Flame grilling means real flavour — the kind you can taste in every bite. That's non-negotiable.",
+    color: "#C8102E",
   },
   {
     icon: Award,
     title: "Recipes Since 1985",
     desc: "Our recipes haven't changed. Why would they? When something is perfect, you don't mess with it.",
-    color: "#F5C518",
+    color: "#F5C200",
   },
   {
     icon: Users,
     title: "Family-Owned & Operated",
     desc: "Every burger is made by people who care — because this isn't just a business to us. It's our livelihood and our pride.",
-    color: "#E85D04",
+    color: "#C8102E",
   },
   {
     icon: Heart,
     title: "Community First",
     desc: "We're part of Chatham. We've watched kids grow up and come back with their own kids. That's what we're here for.",
-    color: "#F5C518",
+    color: "#F5C200",
   },
 ];
 
@@ -85,7 +85,7 @@ export default function AboutClient() {
             style={{
               fontFamily: "var(--font-oswald), sans-serif",
               letterSpacing: "0.3em",
-              color: "#E85D04",
+              color: "#C8102E",
               fontSize: "0.85rem",
               textTransform: "uppercase",
               marginBottom: "16px",
@@ -106,7 +106,7 @@ export default function AboutClient() {
               marginBottom: "20px",
             }}
           >
-            OUR <span style={{ color: "#F5C518" }}>STORY</span>
+            OUR <span style={{ color: "#F5C200" }}>STORY</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -121,7 +121,7 @@ export default function AboutClient() {
               lineHeight: "1.7",
             }}
           >
-            Some restaurants come and go. We&apos;re still here — still grilling over real charcoal, still cutting our
+            Some restaurants come and go. We&apos;re still here — still grilling over an open flame, still cutting our
             own fries, still serving the same recipes we started with in 1985. That&apos;s not stubbornness.
             That&apos;s pride.
           </motion.p>
@@ -148,9 +148,9 @@ export default function AboutClient() {
                   lineHeight: 1,
                 }}
               >
-                BUILT ON <span style={{ color: "#F5C518" }}>FIRE</span>
+                BUILT ON <span style={{ color: "#F5C200" }}>FIRE</span>
                 <br />
-                AND <span style={{ color: "#F5C518" }}>FAMILY</span>
+                AND <span style={{ color: "#F5C200" }}>FAMILY</span>
               </h2>
               <div
                 className="flex flex-col gap-5"
@@ -158,7 +158,7 @@ export default function AboutClient() {
               >
                 <p>
                   In 1985, a family in Chatham, Ontario had a simple idea: make burgers the right way.
-                  No shortcuts. No gas. Real charcoal, real flavour, and real care in every order.
+                  No shortcuts. The Flame. Real heat, real flavour, and real care in every order.
                 </p>
                 <p>
                   Four decades later, that idea is still alive. The same family, the same grill, the same
@@ -166,7 +166,7 @@ export default function AboutClient() {
                   with their own families. We&apos;ve become part of people&apos;s lives — and that means everything to us.
                 </p>
                 <p>
-                  Charcoal grilling isn&apos;t just a technique here. It&apos;s who we are. Every patty that hits that
+                  Flame grilling isn&apos;t just a technique here. It&apos;s who we are. Every patty that hits that
                   grill gets the same attention it got on day one. That&apos;s a promise we&apos;ve kept for 40 years.
                 </p>
               </div>
@@ -201,7 +201,7 @@ export default function AboutClient() {
                   style={{
                     fontFamily: "var(--font-oswald), sans-serif",
                     letterSpacing: "0.15em",
-                    color: "#F5C518",
+                    color: "#F5C200",
                     fontSize: "0.75rem",
                     textTransform: "uppercase",
                   }}
@@ -232,7 +232,7 @@ export default function AboutClient() {
                 color: "#ffffff",
               }}
             >
-              WHAT MAKES US <span style={{ color: "#F5C518" }}>DIFFERENT</span>
+              WHAT MAKES US <span style={{ color: "#F5C200" }}>DIFFERENT</span>
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -323,7 +323,7 @@ export default function AboutClient() {
               }}
             >
               SAME GRILL.{" "}
-              <span style={{ color: "#F5C518" }}>SAME FAMILY.</span>
+              <span style={{ color: "#F5C200" }}>SAME FAMILY.</span>
               <br />
               40 YEARS LATER.
             </p>
@@ -349,7 +349,7 @@ export default function AboutClient() {
                 color: "#ffffff",
               }}
             >
-              THE <span style={{ color: "#F5C518" }}>ATMOSPHERE</span>
+              THE <span style={{ color: "#F5C200" }}>ATMOSPHERE</span>
             </h2>
           </motion.div>
           <motion.div
@@ -394,14 +394,14 @@ export default function AboutClient() {
                 color: "#ffffff",
               }}
             >
-              40 YEARS OF <span style={{ color: "#F5C518" }}>FLAME</span>
+              40 YEARS OF <span style={{ color: "#F5C200" }}>FLAME</span>
             </h2>
           </motion.div>
 
           <div className="relative">
             <div
               className="absolute left-8 top-0 bottom-0 w-px"
-              style={{ background: "linear-gradient(to bottom, #F5C518, transparent)" }}
+              style={{ background: "linear-gradient(to bottom, #F5C200, transparent)" }}
             />
             <div className="flex flex-col gap-10">
               {timeline.map((item, i) => (
@@ -419,9 +419,9 @@ export default function AboutClient() {
                         width: 16,
                         height: 16,
                         borderRadius: "50%",
-                        background: "#F5C518",
+                        background: "#F5C200",
                         border: "3px solid #0a0a0a",
-                        boxShadow: "0 0 0 2px #F5C518",
+                        boxShadow: "0 0 0 2px #F5C200",
                         flexShrink: 0,
                         marginTop: 4,
                       }}
@@ -432,7 +432,7 @@ export default function AboutClient() {
                       style={{
                         fontFamily: "var(--font-bebas), sans-serif",
                         letterSpacing: "0.1em",
-                        color: "#F5C518",
+                        color: "#F5C200",
                         fontSize: "1.1rem",
                       }}
                     >
@@ -486,7 +486,7 @@ export default function AboutClient() {
               marginBottom: "16px",
             }}
           >
-            TASTE THE <span style={{ color: "#F5C518" }}>DIFFERENCE</span>
+            TASTE THE <span style={{ color: "#F5C200" }}>DIFFERENCE</span>
           </h2>
           <p
             style={{
@@ -496,7 +496,7 @@ export default function AboutClient() {
               marginBottom: "32px",
             }}
           >
-            40 years of charcoal-grilled tradition. Come see what the fuss is about.
+            40 years of flame-grilled tradition. Come see what the fuss is about.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -505,7 +505,7 @@ export default function AboutClient() {
                 fontFamily: "var(--font-bebas), sans-serif",
                 letterSpacing: "0.12em",
                 fontSize: "1.1rem",
-                background: "#F5C518",
+                background: "#F5C200",
                 color: "#0a0a0a",
                 padding: "14px 36px",
                 borderRadius: "4px",

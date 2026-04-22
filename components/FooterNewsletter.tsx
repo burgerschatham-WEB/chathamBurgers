@@ -26,7 +26,7 @@ export default function FooterNewsletter() {
           style={{
             fontFamily: 'var(--font-oswald), sans-serif',
             letterSpacing: '0.1em',
-            color: '#F5C518',
+            color: '#F5C200',
             fontSize: '1rem',
             textAlign: 'center',
           }}
@@ -55,6 +55,7 @@ export default function FooterNewsletter() {
               onChange={(e) => setEmail(e.target.value)}
               placeholder="your@email.com"
               required
+              suppressHydrationWarning
               style={{
                 background: '#1a1a1a',
                 border: '1px solid #3a3a3a',
@@ -70,9 +71,10 @@ export default function FooterNewsletter() {
           </div>
           <button
             type="submit"
+            suppressHydrationWarning
             style={{
-              background: '#F5C518',
-              color: '#0a0a0a',
+              background: '#C8102E',
+              color: '#ffffff',
               border: 'none',
               borderRadius: '4px',
               padding: '12px 28px',

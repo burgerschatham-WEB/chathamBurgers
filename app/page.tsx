@@ -3,9 +3,9 @@ import HeroSection from '@/components/HeroSection'
 import BrandMarquee from '@/components/BrandMarquee'
 import FeaturedItems from '@/components/FeaturedItems'
 import StatsStrip from '@/components/StatsStrip'
-import CTABanner from '@/components/CTABanner'
 import TestimonialsSection from '@/components/TestimonialsSection'
 import LocationSection from '@/components/LocationSection'
+import FAQSection from '@/components/FAQSection'
 
 export const metadata: Metadata = {
   title: 'Chatham Burgers — Best Burgers in Chatham, Ontario Since 1985',
@@ -21,9 +21,9 @@ export default function HomePage() {
       <BrandMarquee />
       <FeaturedItems />
       <StatsStrip />
-      <CTABanner />
       <TestimonialsSection />
       <LocationSection />
+      <FAQSection />
     </>
   )
 }

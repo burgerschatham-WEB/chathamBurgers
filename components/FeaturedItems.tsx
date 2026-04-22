@@ -22,7 +22,7 @@ const itemAlts: Record<string, string> = {
 
 export default function FeaturedItems() {
   return (
-    <section style={{ background: '#0a0a0a' }} className="py-32">
+    <section style={{ background: '#F5F0E8' }} className="py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <ScrollReveal className="text-center mb-16">
@@ -30,7 +30,7 @@ export default function FeaturedItems() {
             style={{
               fontFamily: 'var(--font-oswald), sans-serif',
               letterSpacing: '0.3em',
-              color: '#E85D04',
+              color: '#C8102E',
               fontSize: '0.85rem',
               textTransform: 'uppercase',
               marginBottom: '12px',
@@ -43,17 +43,17 @@ export default function FeaturedItems() {
               fontFamily: 'var(--font-bebas), sans-serif',
               letterSpacing: '0.05em',
               fontSize: 'clamp(2.5rem, 6vw, 4rem)',
-              color: '#ffffff',
+              color: '#3D1F0A',
               lineHeight: 1,
             }}
           >
-            THE <span style={{ color: '#F5C518' }}>LEGENDS</span>
+            THE <span style={{ color: '#F5C200' }}>LEGENDS</span>
           </h2>
           <div
             style={{
               width: 60,
               height: 3,
-              background: '#F5C518',
+              background: '#C8102E',
               margin: '16px auto 0',
               borderRadius: '2px',
             }}
@@ -67,15 +67,15 @@ export default function FeaturedItems() {
               <div
                 className="group relative flex flex-col h-full rounded-xl overflow-hidden cursor-pointer transition-all duration-500"
                 style={{
-                  background: '#141414',
-                  border: '1px solid rgba(245,197,24,0.2)',
+                  background: '#ffffff',
+                  border: '1px solid rgba(200,16,46,0.15)',
                 }}
                 onMouseEnter={(e) => {
-                  ;(e.currentTarget as HTMLDivElement).style.border = '1px solid rgba(245,197,24,0.6)'
-                  ;(e.currentTarget as HTMLDivElement).style.boxShadow = '0 0 40px rgba(245,197,24,0.15)'
+                  ;(e.currentTarget as HTMLDivElement).style.border = '1px solid rgba(200,16,46,0.5)'
+                  ;(e.currentTarget as HTMLDivElement).style.boxShadow = '0 0 40px rgba(200,16,46,0.1)'
                 }}
                 onMouseLeave={(e) => {
-                  ;(e.currentTarget as HTMLDivElement).style.border = '1px solid rgba(245,197,24,0.2)'
+                  ;(e.currentTarget as HTMLDivElement).style.border = '1px solid rgba(200,16,46,0.15)'
                   ;(e.currentTarget as HTMLDivElement).style.boxShadow = 'none'
                 }}
               >
@@ -107,7 +107,7 @@ export default function FeaturedItems() {
                     <span
                       className="absolute top-3 right-3 animate-pulse"
                       style={{
-                        background: '#E85D04',
+                        background: '#C8102E',
                         color: '#ffffff',
                         fontSize: '0.65rem',
                         fontFamily: 'var(--font-oswald), sans-serif',
@@ -128,7 +128,7 @@ export default function FeaturedItems() {
                     style={{
                       fontFamily: 'var(--font-oswald), sans-serif',
                       letterSpacing: '0.05em',
-                      color: '#ffffff',
+                      color: '#3D1F0A',
                       fontSize: '1.1rem',
                       textTransform: 'uppercase',
                     }}
@@ -139,7 +139,7 @@ export default function FeaturedItems() {
                     className="flex-1"
                     style={{
                       fontFamily: 'var(--font-lato), sans-serif',
-                      color: '#888',
+                      color: '#7a6a5a',
                       fontSize: '0.825rem',
                       lineHeight: '1.5',
                     }}
@@ -150,7 +150,7 @@ export default function FeaturedItems() {
                     style={{
                       fontFamily: 'var(--font-bebas), sans-serif',
                       letterSpacing: '0.1em',
-                      color: '#F5C518',
+                      color: '#C8102E',
                       fontSize: '2rem',
                       marginTop: '8px',
                     }}
@@ -164,10 +164,10 @@ export default function FeaturedItems() {
                       href="https://order.online/store/chatham-burgers-grand-ave-w-25072946"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="block w-full text-center font-bold py-2 rounded-lg transition-colors text-sm tracking-wider hover:bg-yellow-300"
+                      className="block w-full text-center font-bold py-2 rounded-lg transition-colors text-sm tracking-wider hover:bg-red-700"
                       style={{
-                        background: '#F5C518',
-                        color: '#0a0a0a',
+                        background: '#C8102E',
+                        color: '#ffffff',
                         fontFamily: 'var(--font-oswald), sans-serif',
                         letterSpacing: '0.1em',
                         fontSize: '0.8rem',
@@ -191,14 +191,14 @@ export default function FeaturedItems() {
               fontFamily: 'var(--font-bebas), sans-serif',
               letterSpacing: '0.12em',
               fontSize: '1.1rem',
-              border: '2px solid #F5C518',
-              color: '#F5C518',
+              background: '#C8102E',
+              color: '#ffffff',
               padding: '14px 36px',
               borderRadius: '4px',
               textDecoration: 'none',
               display: 'inline-block',
             }}
-            className="hover:bg-yellow-500 hover:text-black transition-all"
+            className="hover:bg-red-700 transition-all"
           >
             View Full Menu →
           </Link>

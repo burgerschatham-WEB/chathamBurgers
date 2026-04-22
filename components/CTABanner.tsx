@@ -64,7 +64,7 @@ export default function CTABanner() {
                   style={{ display: 'block' }}
                 >
                   {rotatingLines[lineIndex]}{' '}
-                  <span style={{ color: '#F5C518' }}>Order Online Now</span>
+                  <span style={{ color: '#F5C200' }}>Order Online Now</span>
                 </motion.span>
               </AnimatePresence>
             </div>
@@ -87,19 +87,19 @@ export default function CTABanner() {
             className="flex items-center gap-3 whitespace-nowrap"
             whileHover={{
               scale: 1.05,
-              boxShadow: '0 0 50px rgba(245,197,24,0.5)',
+              boxShadow: '0 0 50px rgba(200,16,46,0.5)',
             }}
             whileTap={{ scale: 0.97 }}
             style={{
               fontFamily: 'var(--font-bebas), sans-serif',
               letterSpacing: '0.12em',
               fontSize: '1.2rem',
-              background: '#F5C518',
-              color: '#0a0a0a',
+              background: '#C8102E',
+              color: '#ffffff',
               padding: '18px 40px',
               borderRadius: '100px',
               textDecoration: 'none',
-              boxShadow: '0 0 30px rgba(245,197,24,0.35)',
+              boxShadow: '0 0 30px rgba(200,16,46,0.35)',
             }}
           >
             Order Now

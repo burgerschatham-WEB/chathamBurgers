@@ -27,7 +27,7 @@ export default function OrderClient() {
             style={{
               fontFamily: "var(--font-oswald), sans-serif",
               letterSpacing: "0.3em",
-              color: "#E85D04",
+              color: "#C8102E",
               fontSize: "0.85rem",
               textTransform: "uppercase",
               marginBottom: "16px",
@@ -48,7 +48,7 @@ export default function OrderClient() {
               marginBottom: "20px",
             }}
           >
-            ORDER <span style={{ color: "#F5C518" }}>ONLINE</span>
+            ORDER <span style={{ color: "#F5C200" }}>ONLINE</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -84,12 +84,12 @@ export default function OrderClient() {
                 fontFamily: "var(--font-bebas), sans-serif",
                 letterSpacing: "0.12em",
                 fontSize: "1.4rem",
-                background: "#F5C518",
-                color: "#0a0a0a",
+                background: "#C8102E",
+                color: "#ffffff",
                 padding: "20px 56px",
                 borderRadius: "4px",
                 textDecoration: "none",
-                boxShadow: "0 0 40px rgba(245,197,24,0.25)",
+                boxShadow: "0 0 40px rgba(200,16,46,0.25)",
                 transition: "box-shadow 0.3s, background 0.2s",
               }}
             >
@@ -132,7 +132,7 @@ export default function OrderClient() {
                 color: "#ffffff",
               }}
             >
-              HOW IT <span style={{ color: "#F5C518" }}>WORKS</span>
+              HOW IT <span style={{ color: "#F5C200" }}>WORKS</span>
             </h2>
           </motion.div>
 
@@ -161,7 +161,7 @@ export default function OrderClient() {
                     fontFamily: "var(--font-bebas), sans-serif",
                     letterSpacing: "0.1em",
                     fontSize: "3rem",
-                    color: "#F5C518",
+                    color: "#F5C200",
                     opacity: 0.3,
                     lineHeight: 1,
                     marginBottom: "12px",
@@ -213,7 +213,7 @@ export default function OrderClient() {
                 padding: "24px",
               }}
             >
-              <Clock size={24} style={{ color: "#E85D04", marginBottom: "12px" }} />
+              <Clock size={24} style={{ color: "#C8102E", marginBottom: "12px" }} />
               <h4
                 style={{
                   fontFamily: "var(--font-oswald), sans-serif",
@@ -255,7 +255,7 @@ export default function OrderClient() {
                 padding: "24px",
               }}
             >
-              <Phone size={24} style={{ color: "#E85D04", marginBottom: "12px" }} />
+              <Phone size={24} style={{ color: "#C8102E", marginBottom: "12px" }} />
               <h4
                 style={{
                   fontFamily: "var(--font-oswald), sans-serif",
@@ -272,7 +272,7 @@ export default function OrderClient() {
                 href="tel:5193541414"
                 style={{
                   fontFamily: "var(--font-lato), sans-serif",
-                  color: "#F5C518",
+                  color: "#F5C200",
                   fontSize: "1.1rem",
                   fontWeight: "700",
                   textDecoration: "none",
@@ -299,7 +299,7 @@ export default function OrderClient() {
                 padding: "24px",
               }}
             >
-              <MapPin size={24} style={{ color: "#E85D04", marginBottom: "12px" }} />
+              <MapPin size={24} style={{ color: "#C8102E", marginBottom: "12px" }} />
               <h4
                 style={{
                   fontFamily: "var(--font-oswald), sans-serif",
@@ -335,7 +335,7 @@ export default function OrderClient() {
               style={{
                 fontFamily: "var(--font-oswald), sans-serif",
                 letterSpacing: "0.05em",
-                color: "#F5C518",
+                color: "#F5C200",
                 fontSize: "0.95rem",
                 textTransform: "uppercase",
                 marginBottom: "16px",
@@ -351,7 +351,7 @@ export default function OrderClient() {
                 "Made with care, every single time",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-3">
-                  <CheckCircle size={16} style={{ color: "#F5C518", flexShrink: 0 }} />
+                  <CheckCircle size={16} style={{ color: "#F5C200", flexShrink: 0 }} />
                   <span
                     style={{
                       fontFamily: "var(--font-lato), sans-serif",

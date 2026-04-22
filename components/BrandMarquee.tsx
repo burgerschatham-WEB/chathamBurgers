@@ -18,8 +18,8 @@ export default function BrandMarquee() {
     <div
       className="overflow-hidden py-4 border-y"
       style={{
-        background: '#F5C518',
-        borderColor: '#d4a900',
+        background: '#F5C200',
+        borderColor: '#d4a800',
       }}
     >
       <div className="flex animate-marquee whitespace-nowrap">
@@ -37,7 +37,7 @@ export default function BrandMarquee() {
             }}
           >
             {item}
-            <span style={{ color: '#d4a900', marginLeft: '16px' }}>•</span>
+            <span style={{ color: '#d4a800', marginLeft: '16px' }}>•</span>
           </span>
         ))}
       </div>

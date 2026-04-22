@@ -21,9 +21,9 @@ export default function StatsStrip() {
       ref={ref}
       className="py-24 relative overflow-hidden"
       style={{
-        background: '#0d0d0d',
+        background: '#3D1F0A',
         backgroundImage:
-          'radial-gradient(circle at 1px 1px, rgba(255,255,255,0.04) 1px, transparent 0)',
+          'radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 0)',
         backgroundSize: '32px 32px',
       }}
     >
@@ -36,7 +36,7 @@ export default function StatsStrip() {
                   fontFamily: 'var(--font-bebas), sans-serif',
                   letterSpacing: '0.04em',
                   fontSize: 'clamp(3.5rem, 8vw, 5.5rem)',
-                  color: '#F5C518',
+                  color: '#F5C200',
                   lineHeight: 1,
                 }}
               >
@@ -56,7 +56,7 @@ export default function StatsStrip() {
                 style={{
                   fontFamily: 'var(--font-oswald), sans-serif',
                   letterSpacing: '0.1em',
-                  color: '#888',
+                  color: 'rgba(245,240,232,0.7)',
                   fontSize: '0.8rem',
                   textTransform: 'uppercase',
                   marginTop: '8px',

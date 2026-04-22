@@ -57,13 +57,13 @@ export default function MenuClient() {
             style={{
               fontFamily: "var(--font-oswald), sans-serif",
               letterSpacing: "0.3em",
-              color: "#E85D04",
+              color: "#C8102E",
               fontSize: "0.85rem",
               textTransform: "uppercase",
               marginBottom: "12px",
             }}
           >
-            Charcoal Grilled. Family Built.
+            flame grilled. Family Built.
           </p>
           <h1
             style={{
@@ -74,9 +74,9 @@ export default function MenuClient() {
               lineHeight: 1,
             }}
           >
-            OUR <span style={{ color: "#F5C518" }}>MENU</span>
+            OUR <span style={{ color: "#F5C200" }}>MENU</span>
           </h1>
-          <div style={{ width: 60, height: 3, background: "#F5C518", margin: "12px auto 0", borderRadius: "2px" }} />
+          <div style={{ width: 60, height: 3, background: "#F5C200", margin: "12px auto 0", borderRadius: "2px" }} />
         </div>
       </div>
 
@@ -98,9 +98,9 @@ export default function MenuClient() {
                 fontSize: "0.8rem",
                 textTransform: "uppercase",
                 color: activeCategory === cat.id ? "#0a0a0a" : "#aaa",
-                background: activeCategory === cat.id ? "#F5C518" : "transparent",
+                background: activeCategory === cat.id ? "#F5C200" : "transparent",
                 border: "1px solid",
-                borderColor: activeCategory === cat.id ? "#F5C518" : "#2a2a2a",
+                borderColor: activeCategory === cat.id ? "#F5C200" : "#2a2a2a",
                 padding: "6px 14px",
                 borderRadius: "3px",
                 cursor: "pointer",
@@ -123,9 +123,9 @@ export default function MenuClient() {
               letterSpacing: "0.06em",
               fontSize: "0.85rem",
               textTransform: "uppercase",
-              color: "#F5C518",
+              color: "#F5C200",
               background: "#141414",
-              border: "1px solid #F5C518",
+              border: "1px solid #F5C200",
               padding: "10px 16px",
               borderRadius: "4px",
               cursor: "pointer",
@@ -163,7 +163,7 @@ export default function MenuClient() {
                       letterSpacing: "0.06em",
                       fontSize: "0.85rem",
                       textTransform: "uppercase",
-                      color: activeCategory === cat.id ? "#F5C518" : "#cccccc",
+                      color: activeCategory === cat.id ? "#F5C200" : "#cccccc",
                       background: "transparent",
                       border: "none",
                       borderBottom: "1px solid #2a2a2a",
@@ -208,7 +208,7 @@ export default function MenuClient() {
               fontFamily: "var(--font-bebas), sans-serif",
               letterSpacing: "0.12em",
               fontSize: "1.2rem",
-              background: "#F5C518",
+              background: "#F5C200",
               color: "#0a0a0a",
               padding: "16px 48px",
               borderRadius: "4px",

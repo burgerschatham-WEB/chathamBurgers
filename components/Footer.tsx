@@ -1,12 +1,13 @@
 import Link from 'next/link'
-import { Flame, MapPin, Phone, Clock } from 'lucide-react'
+import Image from 'next/image'
+import { MapPin, Phone, Clock } from 'lucide-react'
 import FooterNewsletter from './FooterNewsletter'
 
 export default function Footer() {
   return (
     <footer
       className="relative overflow-hidden"
-      style={{ background: '#0a0a0a', borderTop: '4px solid #F5C518' }}
+      style={{ background: '#0a0a0a', borderTop: '4px solid #C8102E' }}
     >
       {/* Ghost watermark text */}
       <div
@@ -32,13 +33,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <Flame size={28} style={{ color: '#E85D04' }} />
+              <Image src="/CB-2.png" alt="Chatham Burgers logo" width={44} height={44} />
               <span
                 style={{
                   fontFamily: 'var(--font-bebas), sans-serif',
                   letterSpacing: '0.1em',
                   fontSize: '2rem',
-                  color: '#F5C518',
+                  color: '#F5C200',
                 }}
               >
                 Chatham Burgers
@@ -65,9 +66,9 @@ export default function Footer() {
                 href="https://www.facebook.com/profile.php?id=61575925564207"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 hover:bg-yellow-400 hover:text-black"
+                className="flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 hover:bg-red-700 hover:text-white"
                 style={{
-                  border: '1px solid rgba(245,197,24,0.4)',
+                  border: '1px solid rgba(200,16,46,0.4)',
                   color: '#cccccc',
                 }}
                 aria-label="Facebook"
@@ -80,9 +81,9 @@ export default function Footer() {
                 href="https://instagram.com/chathamburgers"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 hover:bg-yellow-400 hover:text-black"
+                className="flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 hover:bg-red-700 hover:text-white"
                 style={{
-                  border: '1px solid rgba(245,197,24,0.4)',
+                  border: '1px solid rgba(200,16,46,0.4)',
                   color: '#cccccc',
                 }}
                 aria-label="Instagram"
@@ -100,7 +101,7 @@ export default function Footer() {
               style={{
                 fontFamily: 'var(--font-oswald), sans-serif',
                 letterSpacing: '0.1em',
-                color: '#F5C518',
+                color: '#F5C200',
                 fontSize: '1rem',
                 marginBottom: '16px',
                 textTransform: 'uppercase',
@@ -124,7 +125,7 @@ export default function Footer() {
                     fontSize: '0.875rem',
                     fontFamily: 'var(--font-lato), sans-serif',
                   }}
-                  className="hover:text-yellow-400 transition-colors"
+                  className="hover:text-red-600 transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -138,7 +139,7 @@ export default function Footer() {
               style={{
                 fontFamily: 'var(--font-oswald), sans-serif',
                 letterSpacing: '0.1em',
-                color: '#F5C518',
+                color: '#F5C200',
                 fontSize: '1rem',
                 marginBottom: '16px',
                 textTransform: 'uppercase',
@@ -148,27 +149,27 @@ export default function Footer() {
             </h3>
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
-                <MapPin size={18} style={{ color: '#E85D04', flexShrink: 0, marginTop: '2px' }} />
+                <MapPin size={18} style={{ color: '#C8102E', flexShrink: 0, marginTop: '2px' }} />
                 <span style={{ color: '#cccccc', fontSize: '0.875rem', fontFamily: 'var(--font-lato)', lineHeight: '1.5' }}>
                   215 Grand Ave W<br />Chatham, ON N7L 1C3
                 </span>
               </div>
               <div className="flex items-start gap-3">
-                <Phone size={18} style={{ color: '#E85D04', flexShrink: 0, marginTop: '2px' }} />
+                <Phone size={18} style={{ color: '#C8102E', flexShrink: 0, marginTop: '2px' }} />
                 <a
                   href="tel:+15193541414"
                   style={{ color: '#cccccc', fontSize: '0.875rem', fontFamily: 'var(--font-lato)', textDecoration: 'none' }}
-                  className="hover:text-yellow-400 transition-colors"
+                  className="hover:text-red-600 transition-colors"
                 >
                   (519) 354-1414
                 </a>
               </div>
               <div className="flex items-start gap-3">
-                <Clock size={18} style={{ color: '#E85D04', flexShrink: 0, marginTop: '2px' }} />
+                <Clock size={18} style={{ color: '#C8102E', flexShrink: 0, marginTop: '2px' }} />
                 <span style={{ color: '#cccccc', fontSize: '0.875rem', fontFamily: 'var(--font-lato)', lineHeight: '1.5' }}>
-                  Mon–Thu: 10am–8pm<br />
-                  Fri–Sat: 10am–9pm<br />
-                  Sun: 11am–8pm
+                  Mon–Thu: 10 a.m.–8 p.m.<br />
+                  Fri–Sat: 10 a.m.–9 p.m.<br />
+                  Sun: 11 a.m.–8 p.m.
                 </span>
               </div>
             </div>

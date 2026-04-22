@@ -22,7 +22,7 @@ export default function MenuCategory({ category }: MenuCategoryProps) {
           style={{
             width: 4,
             height: 36,
-            background: "#F5C518",
+            background: "#C8102E",
             borderRadius: "2px",
             flexShrink: 0,
           }}
@@ -31,7 +31,7 @@ export default function MenuCategory({ category }: MenuCategoryProps) {
           style={{
             fontFamily: "var(--font-bebas), sans-serif",
             letterSpacing: "0.08em",
-            color: "#ffffff",
+            color: "#3D1F0A",
             fontSize: "clamp(1.5rem, 3vw, 2rem)",
             textTransform: "uppercase",
           }}

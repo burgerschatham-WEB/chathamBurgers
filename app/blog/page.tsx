@@ -36,7 +36,7 @@ export default function BlogIndexPage() {
             style={{
               fontFamily: "var(--font-oswald), sans-serif",
               letterSpacing: "0.3em",
-              color: "#E85D04",
+              color: "#C8102E",
               fontSize: "0.8rem",
               textTransform: "uppercase",
               marginBottom: "12px",
@@ -53,7 +53,7 @@ export default function BlogIndexPage() {
               lineHeight: 1,
             }}
           >
-            THE <span style={{ color: "#F5C518" }}>BLOG</span>
+            THE <span style={{ color: "#F5C200" }}>BLOG</span>
           </h1>
         </div>
       </section>
@@ -85,7 +85,7 @@ export default function BlogIndexPage() {
                       letterSpacing: "0.15em",
                       fontSize: "0.7rem",
                       textTransform: "uppercase",
-                      color: "#E85D04",
+                      color: "#C8102E",
                       background: "rgba(232,93,4,0.1)",
                       border: "1px solid rgba(232,93,4,0.3)",
                       padding: "3px 10px",
@@ -132,7 +132,7 @@ export default function BlogIndexPage() {
                     fontFamily: "var(--font-oswald), sans-serif",
                     letterSpacing: "0.1em",
                     fontSize: "0.8rem",
-                    color: "#F5C518",
+                    color: "#F5C200",
                     textTransform: "uppercase",
                     marginTop: "16px",
                     marginBottom: 0,

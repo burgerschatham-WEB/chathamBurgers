@@ -1,9 +1,7 @@
 'use client'
 
-import { motion, useInView } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { Star } from 'lucide-react'
-import { useRef } from 'react'
-import useEmblaCarousel from 'embla-carousel-react'
 import { ScrollReveal } from './ScrollReveal'
 
 const testimonials = [
@@ -24,58 +22,49 @@ const testimonials = [
   },
 ]
 
-function StarRating({ count, inView, delay }: { count: number; inView: boolean; delay: number }) {
+function StarRating({ count }: { count: number }) {
   return (
-    <div className="flex gap-1">
+    <div className="flex gap-1" aria-label={`${count} out of 5 stars`}>
       {[...Array(count)].map((_, i) => (
-        <motion.div
-          key={i}
-          initial={{ opacity: 0, scale: 0 }}
-          animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0 }}
-          transition={{ delay: delay + i * 0.07, duration: 0.3, type: 'spring' }}
-        >
-          <Star size={16} fill="#F5C518" style={{ color: '#F5C518' }} />
-        </motion.div>
+        <Star key={i} size={16} fill="#F5C200" style={{ color: '#F5C200' }} />
       ))}
     </div>
   )
 }
 
 function TestimonialCard({ t, delay }: { t: typeof testimonials[0]; delay: number }) {
-  const ref = useRef<HTMLDivElement>(null)
-  const inView = useInView(ref, { once: true, margin: '-60px' })
-
   return (
-    <div
-      ref={ref}
-      className="flex-shrink-0 w-full md:w-auto rounded-2xl p-8 transition-all duration-300 hover:border-yellow-400/30"
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-60px' }}
+      transition={{ delay, duration: 0.5 }}
+      className="rounded-2xl p-8 transition-all duration-300"
       style={{
-        background: 'rgba(255,255,255,0.04)',
-        backdropFilter: 'blur(12px)',
-        border: '1px solid rgba(255,255,255,0.08)',
-        minWidth: 0,
+        background: '#F5F0E8',
+        border: '1px solid rgba(61,31,10,0.1)',
       }}
     >
-      {/* Large quote mark */}
       <div
         style={{
           fontFamily: 'Georgia, serif',
           fontSize: '5rem',
-          color: 'rgba(245,197,24,0.25)',
+          color: 'rgba(200,16,46,0.2)',
           lineHeight: 0.8,
           marginBottom: '12px',
           userSelect: 'none',
         }}
+        aria-hidden="true"
       >
         &ldquo;
       </div>
 
-      <StarRating count={t.stars} inView={inView} delay={delay} />
+      <StarRating count={t.stars} />
 
       <p
         style={{
           fontFamily: 'var(--font-lato), sans-serif',
-          color: '#cccccc',
+          color: '#5a4a3a',
           fontSize: '0.95rem',
           lineHeight: '1.7',
           fontStyle: 'italic',
@@ -88,13 +77,13 @@ function TestimonialCard({ t, delay }: { t: typeof testimonials[0]; delay: numbe
         style={{
           fontFamily: 'var(--font-oswald), sans-serif',
           letterSpacing: '0.05em',
-          color: '#F5C518',
+          color: '#C8102E',
           fontSize: '0.85rem',
         }}
       >
         — {t.author}
       </p>
-    </div>
+    </motion.div>
   )
 }
 
@@ -107,31 +96,26 @@ const reviewSchema = {
       "@type": "Review",
       reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
       author: { "@type": "Person", name: "Hary" },
-      reviewBody:
-        "The burgers were juicy, perfectly seasoned, and clearly made with fresh ingredients. What really stood out was their commitment to supporting local suppliers — you can taste the difference. The fries were crispy, portions generous, and the staff were super friendly. Definitely a spot I'll be coming back to.",
+      reviewBody: "The burgers were juicy, perfectly seasoned, and clearly made with fresh ingredients. What really stood out was their commitment to supporting local suppliers — you can taste the difference. The fries were crispy, portions generous, and the staff were super friendly. Definitely a spot I'll be coming back to.",
     },
     {
       "@type": "Review",
       reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
       author: { "@type": "Person", name: "Shirley Konecny" },
-      reviewBody:
-        "Best burgers in town. Being fussy, I only like a burger made of real meat. Never disappointed — always happy with how friendly and willing they are to accommodate my dietary preferences. I recommend this restaurant to anyone asking where I'd eat.",
+      reviewBody: "Best burgers in town. Being fussy, I only like a burger made of real meat. Never disappointed — always happy with how friendly and willing they are to accommodate my dietary preferences. I recommend this restaurant to anyone asking where I'd eat.",
     },
     {
       "@type": "Review",
       reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
       author: { "@type": "Person", name: "Katie W." },
-      reviewBody:
-        "I don't live in town anymore but every time I come to visit family, I always stop at Chatham Burger to get a Greek salad. Without a doubt, it's one of the best Greek salads I've ever had and it's always so filling. The people here really care about their customers.",
+      reviewBody: "I don't live in town anymore but every time I come to visit family, I always stop at Chatham Burger to get a Greek salad. Without a doubt, it's one of the best Greek salads I've ever had and it's always so filling. The people here really care about their customers.",
     },
   ],
-};
+}
 
 export default function TestimonialsSection() {
-  const [emblaRef] = useEmblaCarousel({ loop: true, align: 'start' })
-
   return (
-    <section style={{ background: '#0d0d0d' }} className="py-24">
+    <section style={{ background: '#ffffff' }} className="py-24">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
@@ -142,7 +126,7 @@ export default function TestimonialsSection() {
             style={{
               fontFamily: 'var(--font-oswald), sans-serif',
               letterSpacing: '0.3em',
-              color: '#E85D04',
+              color: '#C8102E',
               fontSize: '0.85rem',
               textTransform: 'uppercase',
               marginBottom: '12px',
@@ -155,50 +139,39 @@ export default function TestimonialsSection() {
               fontFamily: 'var(--font-bebas), sans-serif',
               letterSpacing: '0.05em',
               fontSize: 'clamp(2rem, 5vw, 3.5rem)',
-              color: '#ffffff',
+              color: '#3D1F0A',
             }}
           >
-            THE <span style={{ color: '#F5C518' }}>VERDICT</span>
+            THE <span style={{ color: '#F5C200' }}>VERDICT</span>
           </h2>
         </ScrollReveal>
 
-        {/* Desktop: 3-col grid */}
-        <div className="hidden md:grid grid-cols-3 gap-6">
+        {/* Single responsive grid — no DOM duplication */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((t, i) => (
-            <TestimonialCard key={i} t={t} delay={i * 0.1} />
+            <TestimonialCard key={t.author} t={t} delay={i * 0.1} />
           ))}
         </div>
 
-        {/* Mobile: embla carousel */}
-        <div className="md:hidden overflow-hidden" ref={emblaRef}>
-          <div className="flex gap-4">
-            {testimonials.map((t, i) => (
-              <div key={i} style={{ flex: '0 0 88%' }}>
-                <TestimonialCard t={t} delay={0} />
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Google Reviews badge */}
         <ScrollReveal delay={0.3} className="text-center mt-10">
-          <p
+          <a
+            href="https://g.page/r/chathamburgers"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               fontFamily: 'var(--font-lato), sans-serif',
-              color: '#555',
-              fontSize: '0.8rem',
+              color: '#7a6a5a',
+              fontSize: '0.85rem',
               letterSpacing: '0.05em',
+              textDecoration: 'none',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '6px',
             }}
           >
-            <a
-              href="https://g.page/r/chathamburgers"
-              target="_blank"
-              rel="noopener"
-              style={{ color: 'inherit', textDecoration: 'none' }}
-            >
-              4.8 stars · 180+ reviews on Google
-            </a>
-          </p>
+            <span style={{ color: '#F5C200' }}>★★★★★</span>
+            <span>4.8 stars · 180+ reviews on Google →</span>
+          </a>
         </ScrollReveal>
       </div>
     </section>

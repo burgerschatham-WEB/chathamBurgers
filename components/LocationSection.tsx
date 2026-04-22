@@ -25,14 +25,14 @@ export default function LocationSection() {
   const status = getOpenStatus()
 
   return (
-    <section style={{ background: '#0a0a0a' }} className="py-24">
+    <section style={{ background: '#F5F0E8' }} className="py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal className="text-center mb-14">
           <p
             style={{
               fontFamily: 'var(--font-oswald), sans-serif',
               letterSpacing: '0.3em',
-              color: '#E85D04',
+              color: '#C8102E',
               fontSize: '0.85rem',
               textTransform: 'uppercase',
               marginBottom: '12px',
@@ -45,13 +45,25 @@ export default function LocationSection() {
               fontFamily: 'var(--font-bebas), sans-serif',
               letterSpacing: '0.05em',
               fontSize: 'clamp(2rem, 5vw, 3.5rem)',
-              color: '#ffffff',
+              color: '#3D1F0A',
             }}
           >
             WE&apos;RE IN{' '}
-            <span style={{ color: '#F5C518' }}>CHATHAM, ON</span>
+            <span style={{ color: '#F5C200' }}>CHATHAM, ON</span>
           </h2>
         </ScrollReveal>
+
+        <p
+          style={{
+            fontFamily: 'var(--font-lato), sans-serif',
+            color: '#7a6a5a',
+            fontSize: '0.95rem',
+            textAlign: 'center',
+            marginBottom: '40px',
+          }}
+        >
+          Proudly serving <strong style={{ color: '#3D1F0A' }}>Chatham, Ontario</strong> and the surrounding <strong style={{ color: '#3D1F0A' }}>Chatham-Kent region</strong> — including Blenheim, Wallaceburg, Tilbury, and Windsor — since 1985.
+        </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 items-stretch">
           {/* Map — 3/5 width on desktop */}
@@ -61,7 +73,7 @@ export default function LocationSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
             className="lg:col-span-3"
-            style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid #2a2a2a', minHeight: 380 }}
+            style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid #e0d8cc', minHeight: 380 }}
           >
             <iframe
               src="https://maps.google.com/maps?q=215+Grand+Ave+W,+Chatham,+ON+N7L+1C3&output=embed"
@@ -83,8 +95,8 @@ export default function LocationSection() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-2 flex flex-col gap-0"
             style={{
-              background: '#141414',
-              borderTop: '4px solid #F5C518',
+              background: '#ffffff',
+              borderTop: '4px solid #C8102E',
               borderRadius: '12px',
               padding: '32px',
               boxShadow: '0 20px 60px rgba(0,0,0,0.5)',
@@ -112,12 +124,12 @@ export default function LocationSection() {
 
             {/* Address */}
             <div className="flex items-start gap-3 mb-6">
-              <MapPin size={20} style={{ color: '#E85D04', flexShrink: 0, marginTop: 2 }} />
+              <MapPin size={20} style={{ color: '#C8102E', flexShrink: 0, marginTop: 2 }} />
               <div>
                 <p
                   style={{
                     fontFamily: 'var(--font-oswald), sans-serif',
-                    color: '#fff',
+                    color: '#3D1F0A',
                     fontSize: '0.85rem',
                     textTransform: 'uppercase',
                     letterSpacing: '0.05em',
@@ -126,7 +138,7 @@ export default function LocationSection() {
                 >
                   Location
                 </p>
-                <p style={{ color: '#ccc', fontSize: '0.9rem', fontFamily: 'var(--font-lato)', lineHeight: 1.5 }}>
+                <p style={{ color: '#5a4a3a', fontSize: '0.9rem', fontFamily: 'var(--font-lato)', lineHeight: 1.5 }}>
                   215 Grand Ave W<br />Chatham, ON N7L 1C3
                 </p>
               </div>
@@ -134,12 +146,12 @@ export default function LocationSection() {
 
             {/* Hours */}
             <div className="flex items-start gap-3 mb-8">
-              <Clock size={20} style={{ color: '#E85D04', flexShrink: 0, marginTop: 2 }} />
+              <Clock size={20} style={{ color: '#C8102E', flexShrink: 0, marginTop: 2 }} />
               <div className="w-full">
                 <p
                   style={{
                     fontFamily: 'var(--font-oswald), sans-serif',
-                    color: '#fff',
+                    color: '#3D1F0A',
                     fontSize: '0.85rem',
                     textTransform: 'uppercase',
                     letterSpacing: '0.05em',
@@ -153,7 +165,7 @@ export default function LocationSection() {
                     <span style={{ color: '#888', fontSize: '0.85rem', fontFamily: 'var(--font-lato)' }}>
                       {row.label}
                     </span>
-                    <span style={{ color: '#ccc', fontSize: '0.85rem', fontFamily: 'var(--font-lato)' }}>
+                    <span style={{ color: '#5a4a3a', fontSize: '0.85rem', fontFamily: 'var(--font-lato)' }}>
                       {row.display}
                     </span>
                   </div>
@@ -164,10 +176,10 @@ export default function LocationSection() {
             {/* Phone button */}
             <a
               href="tel:+15193541414"
-              className="flex items-center justify-center gap-3 rounded-xl font-bold text-lg transition-colors hover:bg-yellow-300 mb-3"
+              className="flex items-center justify-center gap-3 rounded-xl font-bold text-lg transition-colors hover:bg-red-700 mb-3"
               style={{
-                background: '#F5C518',
-                color: '#0a0a0a',
+                background: '#C8102E',
+                color: '#ffffff',
                 padding: '16px 24px',
                 textDecoration: 'none',
                 fontFamily: 'var(--font-oswald), sans-serif',
@@ -184,10 +196,10 @@ export default function LocationSection() {
               href="https://maps.google.com/?q=215+Grand+Ave+W,+Chatham,+ON+N7L+1C3"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 rounded-xl transition-all hover:border-yellow-400 hover:text-yellow-400"
+              className="flex items-center justify-center gap-2 rounded-xl transition-all hover:border-red-600 hover:text-red-600"
               style={{
-                border: '1px solid #3a3a3a',
-                color: '#ccc',
+                border: '1px solid #d0c8bc',
+                color: '#3D1F0A',
                 padding: '12px 24px',
                 textDecoration: 'none',
                 fontFamily: 'var(--font-oswald), sans-serif',

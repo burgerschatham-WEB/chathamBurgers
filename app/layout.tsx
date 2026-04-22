@@ -3,8 +3,6 @@ import { Bebas_Neue, Oswald, Lato } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Analytics } from "@vercel/analytics/next";
-
 const bebasNeue = Bebas_Neue({
   weight: "400",
   variable: "--font-bebas",
@@ -90,11 +88,11 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${bebasNeue.variable} ${oswald.variable} ${lato.variable} h-full`}
-      style={{ background: "#0a0a0a" }}
+      style={{ background: "#ffffff" }}
     >
       <body
         className="min-h-full flex flex-col antialiased"
-        style={{ background: "#0a0a0a", color: "#ffffff", fontFamily: "var(--font-lato), sans-serif" }}
+        style={{ background: "#ffffff", color: "#3D1F0A", fontFamily: "var(--font-lato), sans-serif" }}
       >
         <script
           type="application/ld+json"
@@ -103,7 +101,6 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
-        <Analytics />
       </body>
     </html>
   );
