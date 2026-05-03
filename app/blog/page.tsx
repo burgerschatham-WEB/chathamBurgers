@@ -10,6 +10,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "smash-burger-chatham-ontario",
+    title: "Smash Burgers in Chatham Ontario — The Charcoal Difference",
+    description:
+      "What makes a smash burger worth the hype? Chatham Burgers has been doing it with live charcoal since 1985 — here's why that changes everything.",
+    date: "May 3, 2026",
+    category: "Technique & Taste",
+    readTime: "6 min read",
+  },
+  {
     slug: "best-burgers-chatham-ontario",
     title: "Best Burgers in Chatham Ontario (2026 Guide)",
     description:
