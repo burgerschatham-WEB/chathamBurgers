@@ -182,7 +182,7 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <motion.a
-            href="https://order.online/store/chatham-burgers-grand-ave-w-25072946"
+            href="https://order.toasttab.com/online/chathamburgers"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(200,16,46,0.5)' }}

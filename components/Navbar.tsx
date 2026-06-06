@@ -70,7 +70,7 @@ export default function Navbar() {
           }}
         >
           {/* LEFT nav links */}
-          <div style={{ display: "flex", alignItems: "center", gap: "2rem", flex: 1 }} className="hidden md:flex">
+          <div style={{ alignItems: "center", gap: "2rem", flex: 1 }} className="hidden md:flex">
             {navLinks.slice(0, 3).map((link) => (
               <Link
                 key={link.href}
@@ -94,7 +94,7 @@ export default function Navbar() {
           <Link
             href="/"
             style={{ textDecoration: "none", lineHeight: 1, flexShrink: 0 }}
-            className="md:absolute md:left-1/2 md:-translate-x-1/2 group"
+            className="hidden md:block md:absolute md:left-1/2 md:-translate-x-1/2 group"
           >
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "2px" }}
               className="transition-transform duration-200 group-hover:scale-105">
@@ -135,7 +135,7 @@ export default function Navbar() {
           </Link>
 
           {/* RIGHT nav links + CTA */}
-          <div style={{ display: "flex", alignItems: "center", gap: "2rem", flex: 1, justifyContent: "flex-end" }} className="hidden md:flex">
+          <div style={{ alignItems: "center", gap: "2rem", flex: 1, justifyContent: "flex-end" }} className="hidden md:flex">
             {navLinks.slice(3).map((link) => (
               <Link
                 key={link.href}

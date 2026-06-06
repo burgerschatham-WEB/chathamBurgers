@@ -76,7 +76,7 @@ export default function OrderClient() {
             whileTap={{ scale: 0.97 }}
           >
             <a
-              href="https://order.online/store/chatham-burgers-grand-ave-w-25072946"
+              href="https://order.toasttab.com/online/chathamburgers"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3"

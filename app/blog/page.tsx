@@ -10,6 +10,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "history-of-burgers",
+    title: "The History of Burgers: From Hamburg to Chatham",
+    description:
+      "From 19th-century Hamburg steak to the 1904 World's Fair, fast food, and the charcoal grill — the full story of how the burger became the world's favourite sandwich.",
+    date: "June 6, 2026",
+    category: "Food History",
+    readTime: "9 min read",
+  },
+  {
     slug: "smash-burger-chatham-ontario",
     title: "Smash Burgers in Chatham Ontario — The Charcoal Difference",
     description:

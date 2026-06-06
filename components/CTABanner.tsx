@@ -81,7 +81,7 @@ export default function CTABanner() {
           </div>
 
           <motion.a
-            href="https://order.online/store/chatham-burgers-grand-ave-w-25072946"
+            href="https://order.toasttab.com/online/chathamburgers"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 whitespace-nowrap"

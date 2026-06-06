@@ -1,8 +1,9 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import type { Variants } from 'framer-motion'
-import { MessageSquare, Star, Clock, Tag, Phone } from 'lucide-react'
+import { MessageSquare, Star, Clock, Tag, Phone, ChevronDown, CheckCircle2, Send } from 'lucide-react'
 import Link from 'next/link'
 
 // ─── Brand tokens ──────────────────────────────────────────────────────────
@@ -25,7 +26,141 @@ const fadeUp: Variants = {
   }),
 }
 
-const deals = [
+interface Deal {
+  tag: string
+  tagColor: string
+  title: string
+  subtitle: string
+  description: string
+  cta: string
+  href: string
+  highlight: boolean
+  badge: string | null
+  badgeColor: string | null
+}
+
+// ─── Claim Form ─────────────────────────────────────────────────────────────
+function ClaimForm({ deal, dark }: { deal: Deal; dark: boolean }) {
+  const [open, setOpen] = useState(false)
+  const [name, setName] = useState('')
+  const [sent, setSent] = useState(false)
+
+  function handleClaim() {
+    if (!name.trim()) return
+    const msg = encodeURIComponent(
+      `Hi! I'm ${name.trim()} and I'd like to claim the ${deal.title} offer (${deal.subtitle}). I'll be coming in soon!`
+    )
+    window.open(`sms:5193541414?body=${msg}`, '_self')
+    setSent(true)
+  }
+
+  const labelColor = dark ? 'rgba(255,255,255,0.55)' : C.brown
+  const inputBg    = dark ? '#2a2a2a' : '#f5f5f5'
+  const inputColor = dark ? '#ffffff' : C.ink
+  const borderCol  = dark ? 'rgba(255,255,255,0.12)' : 'rgba(0,0,0,0.12)'
+
+  if (sent) {
+    return (
+      <div style={{ marginTop: '16px', background: dark ? 'rgba(255,255,255,0.05)' : 'rgba(34,197,94,0.07)', border: `1px solid ${dark ? 'rgba(255,255,255,0.1)' : 'rgba(34,197,94,0.25)'}`, borderRadius: '8px', padding: '14px 16px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <CheckCircle2 size={18} color="#22c55e" />
+        <div>
+          <p style={{ fontFamily: 'var(--font-oswald)', fontSize: '0.82rem', letterSpacing: '0.06em', color: '#22c55e', margin: 0, fontWeight: 600 }}>Claim sent!</p>
+          <p style={{ fontFamily: 'var(--font-oswald)', fontSize: '0.72rem', letterSpacing: '0.04em', color: labelColor, margin: '2px 0 0' }}>Check your messages app — we'll see you soon.</p>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div style={{ marginTop: '14px' }}>
+      <button
+        onClick={() => setOpen(o => !o)}
+        style={{
+          display: 'inline-flex', alignItems: 'center', gap: '6px',
+          background: 'transparent',
+          border: `1.5px dashed ${dark ? 'rgba(255,255,255,0.22)' : 'rgba(0,0,0,0.2)'}`,
+          color: dark ? 'rgba(255,255,255,0.6)' : C.brown,
+          fontFamily: 'var(--font-oswald)', letterSpacing: '0.1em',
+          fontSize: '0.74rem', textTransform: 'uppercase',
+          padding: '7px 14px', borderRadius: '6px', cursor: 'pointer',
+          transition: 'all 0.18s',
+        }}
+        onMouseEnter={e => { e.currentTarget.style.borderColor = C.gold; e.currentTarget.style.color = C.gold }}
+        onMouseLeave={e => { e.currentTarget.style.borderColor = dark ? 'rgba(255,255,255,0.22)' : 'rgba(0,0,0,0.2)'; e.currentTarget.style.color = dark ? 'rgba(255,255,255,0.6)' : C.brown }}
+      >
+        <Send size={11} />
+        Claim This Offer
+        <motion.span animate={{ rotate: open ? 180 : 0 }} transition={{ duration: 0.2 }}>
+          <ChevronDown size={11} />
+        </motion.span>
+      </button>
+
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            key="form"
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.22, ease: [0.25, 0.1, 0.25, 1] }}
+            style={{ overflow: 'hidden' }}
+          >
+            <div style={{ paddingTop: '12px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+              <p style={{ fontFamily: 'var(--font-oswald)', fontSize: '0.72rem', letterSpacing: '0.12em', color: labelColor, textTransform: 'uppercase', margin: 0 }}>
+                Tell us your name — we'll have it ready
+              </p>
+              <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+                <input
+                  type="text"
+                  placeholder="Your first name"
+                  value={name}
+                  onChange={e => setName(e.target.value)}
+                  onKeyDown={e => e.key === 'Enter' && handleClaim()}
+                  maxLength={40}
+                  style={{
+                    flex: 1, minWidth: '140px',
+                    background: inputBg,
+                    border: `1px solid ${borderCol}`,
+                    borderRadius: '6px',
+                    padding: '9px 13px',
+                    fontFamily: 'var(--font-oswald)',
+                    fontSize: '0.84rem',
+                    letterSpacing: '0.04em',
+                    color: inputColor,
+                    outline: 'none',
+                  }}
+                />
+                <button
+                  onClick={handleClaim}
+                  disabled={!name.trim()}
+                  style={{
+                    display: 'inline-flex', alignItems: 'center', gap: '6px',
+                    background: name.trim() ? `linear-gradient(135deg, ${C.red}, ${C.redDark})` : (dark ? '#333' : '#ddd'),
+                    color: name.trim() ? '#ffffff' : (dark ? '#555' : '#aaa'),
+                    fontFamily: 'var(--font-oswald)', letterSpacing: '0.12em',
+                    fontSize: '0.8rem', textTransform: 'uppercase', fontWeight: 600,
+                    padding: '9px 16px', borderRadius: '6px',
+                    border: 'none', cursor: name.trim() ? 'pointer' : 'not-allowed',
+                    transition: 'all 0.18s', whiteSpace: 'nowrap',
+                    boxShadow: name.trim() ? '0 4px 14px rgba(220,38,38,0.3)' : 'none',
+                  }}
+                >
+                  <MessageSquare size={13} />
+                  Send via SMS
+                </button>
+              </div>
+              <p style={{ fontFamily: 'var(--font-oswald)', fontSize: '0.66rem', letterSpacing: '0.08em', color: dark ? 'rgba(255,255,255,0.28)' : 'rgba(0,0,0,0.35)', margin: 0 }}>
+                Opens your messages app · Pre-filled · No app required
+              </p>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  )
+}
+
+const deals: Deal[] = [
   {
     tag: 'SMS EXCLUSIVE',
     tagColor: C.red,
@@ -136,7 +271,6 @@ export default function OffersClient() {
 
       {/* ── Page Header ─────────────────────────────────────────────── */}
       <div style={{ background: C.red, padding: '56px 0 44px', position: 'relative', overflow: 'hidden' }}>
-        {/* subtle radial highlight */}
         <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse at 50% 0%, rgba(255,255,255,0.12) 0%, transparent 65%)', pointerEvents: 'none' }} />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center" style={{ position: 'relative' }}>
           <motion.p
@@ -313,12 +447,13 @@ export default function OffersClient() {
                   {deal.description}
                 </p>
 
+                {/* Primary CTA */}
                 <a
                   href={deal.href}
                   style={{
                     display: 'inline-flex', alignItems: 'center', gap: '7px',
                     background: deal.highlight ? C.red : 'transparent',
-                    border: `1.5px solid ${deal.highlight ? C.red : C.red}`,
+                    border: `1.5px solid ${C.red}`,
                     color: deal.highlight ? '#ffffff' : C.red,
                     fontFamily: 'var(--font-oswald)', letterSpacing: '0.12em',
                     fontSize: '0.8rem', textTransform: 'uppercase', fontWeight: 600,
@@ -331,6 +466,9 @@ export default function OffersClient() {
                   {deal.href.startsWith('tel:') ? <Phone size={13} /> : <MessageSquare size={13} />}
                   {deal.cta}
                 </a>
+
+                {/* Claim form */}
+                <ClaimForm deal={deal} dark={deal.highlight} />
               </motion.div>
             ))}
           </div>

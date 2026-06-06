@@ -161,7 +161,7 @@ export default function FeaturedItems() {
                   {/* Hover CTA */}
                   <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">
                     <a
-                      href="https://order.online/store/chatham-burgers-grand-ave-w-25072946"
+                      href="https://order.toasttab.com/online/chathamburgers"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block w-full text-center font-bold py-2 rounded-lg transition-colors text-sm tracking-wider hover:bg-red-700"
