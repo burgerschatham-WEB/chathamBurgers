@@ -167,9 +167,8 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <Clock size={18} style={{ color: '#C8102E', flexShrink: 0, marginTop: '2px' }} />
                 <span style={{ color: '#cccccc', fontSize: '0.875rem', fontFamily: 'var(--font-lato)', lineHeight: '1.5' }}>
-                  Mon–Thu: 10 a.m.–8 p.m.<br />
-                  Fri–Sat: 10 a.m.–9 p.m.<br />
-                  Sun: 11 a.m.–8 p.m.
+                  Sun–Thu: 11 a.m.–8 p.m.<br />
+                  Fri–Sat: 11 a.m.–9 p.m.
                 </span>
               </div>
             </div>

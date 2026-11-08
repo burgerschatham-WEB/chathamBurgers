@@ -231,9 +231,8 @@ export default function OrderClient() {
                 style={{ fontFamily: "var(--font-lato), sans-serif", fontSize: "0.875rem" }}
               >
                 {[
-                  { day: "Mon – Thu", hours: "10am – 8pm" },
-                  { day: "Fri – Sat", hours: "10am – 9pm" },
-                  { day: "Sunday", hours: "11am – 8pm" },
+                  { day: "Sun – Thu", hours: "11am – 8pm" },
+                  { day: "Fri – Sat", hours: "11am – 9pm" },
                 ].map(({ day, hours }) => (
                   <div key={day} className="flex justify-between">
                     <span style={{ color: "#888" }}>{day}</span>

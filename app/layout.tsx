@@ -66,9 +66,8 @@ const restaurantSchema = {
   },
   geo: { "@type": "GeoCoordinates", latitude: 42.4048, longitude: -82.191 },
   openingHoursSpecification: [
-    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday"], opens: "10:00", closes: "20:00" },
-    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Friday","Saturday"], opens: "10:00", closes: "21:00" },
-    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Sunday"], opens: "11:00", closes: "20:00" },
+    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Sunday","Monday","Tuesday","Wednesday","Thursday"], opens: "11:00", closes: "20:00" },
+    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Friday","Saturday"], opens: "11:00", closes: "21:00" },
   ],
   servesCuisine: ["Burgers", "Canadian", "Fast Food"],
   priceRange: "$$",

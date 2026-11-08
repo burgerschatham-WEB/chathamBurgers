@@ -7,7 +7,7 @@ import { ChevronDown } from 'lucide-react'
 const faqs = [
   {
     q: 'Is Chatham Burgers open on Sunday?',
-    a: 'Yes! We\'re open Sunday from 11 a.m. to 8 p.m. Monday through Thursday we\'re open 10 a.m.–8 p.m., and Friday–Saturday 10 a.m.–9 p.m.',
+    a: 'Yes! Sunday through Thursday we\'re open 11 a.m.–8 p.m., and Friday–Saturday 11 a.m.–9 p.m.',
   },
   {
     q: 'Where is Chatham Burgers located?',

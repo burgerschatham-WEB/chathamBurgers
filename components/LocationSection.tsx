@@ -5,9 +5,8 @@ import { MapPin, Phone, Clock, ExternalLink } from 'lucide-react'
 import { ScrollReveal } from './ScrollReveal'
 
 const hours = [
-  { days: [1, 2, 3, 4],    open: 10, close: 20, label: 'Monday – Thursday', display: '10 a.m. – 8 p.m.' },
-  { days: [5, 6],           open: 10, close: 21, label: 'Friday – Saturday',  display: '10 a.m. – 9 p.m.' },
-  { days: [0],              open: 11, close: 20, label: 'Sunday',             display: '11 a.m. – 8 p.m.' },
+  { days: [0, 1, 2, 3, 4], open: 11, close: 20, label: 'Sunday – Thursday', display: '11 a.m. – 8 p.m.' },
+  { days: [5, 6],          open: 11, close: 21, label: 'Friday – Saturday', display: '11 a.m. – 9 p.m.' },
 ]
 
 function getOpenStatus() {
