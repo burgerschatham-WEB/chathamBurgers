@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Chatham Burgers — Crafted on the Flame since 1985. Real local farm meat, fresh-baked buns, fresh-cut fries. The best burgers in Chatham, Ontario.",
-  keywords: "burgers, fresh local meat, Chatham Ontario, flame-grilled burgers, crafted on the flame, since 1985",
+    "Chatham Burgers — flame-grilled burgers, gyros and poutine in Chatham, Ontario. Serving Chatham since 1985.",
+  keywords: "burgers, gyros, poutine, smash burger, Chatham Ontario, flame-grilled burgers, since 1985",
   metadataBase: new URL("https://chathamburger.com"),
   openGraph: {
     type: "website",

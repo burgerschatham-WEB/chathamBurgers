@@ -3,7 +3,7 @@ import AboutClient from '@/components/AboutClient'
 
 export const metadata: Metadata = {
   title: 'Our Story Since 1985 — Chatham Burgers',
-  description: 'Flame-grilling in Chatham, Ontario since 1985. Real local farm meat, fresh-baked buns, fresh-cut fries. Thanks, Chatham — for keeping this place going.',
+  description: 'Flame-grilling burgers in Chatham, Ontario since 1985. Thanks, Chatham — for keeping this place going.',
   alternates: { canonical: 'https://chathamburger.com/about' },
   openGraph: { url: 'https://chathamburger.com/about', images: ['/opengraph-image'] },
 }

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Smash Burger Chatham Ontario — Flame-Grilled Since 1985",
   description:
-    "A flame-grilled smash burger in Chatham, Ontario, made with fresh local farm beef. What makes our Dbl Smash Burger different, and why it matters.",
+    "A flame-grilled smash burger in Chatham, Ontario. What makes our Dbl Smash Burger different, and why it matters.",
   alternates: { canonical: "https://chathamburger.com/blog/smash-burger-chatham-ontario" },
   openGraph: {
     url: "https://chathamburger.com/blog/smash-burger-chatham-ontario", images: ['/opengraph-image'],
@@ -15,7 +15,7 @@ const schemaData = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: "Smash Burger Chatham Ontario — Flame-Grilled Since 1985",
-  description: "A flame-grilled smash burger in Chatham, Ontario, made with fresh local farm beef. Serving Chatham since 1985.",
+  description: "A flame-grilled smash burger in Chatham, Ontario. Serving Chatham since 1985.",
   datePublished: "2026-05-03",
   dateModified: "2026-05-03",
   author: { "@type": "Organization", name: "Chatham Burgers", url: "https://chathamburger.com" },
