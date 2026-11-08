@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -96,42 +97,7 @@ export default function Navbar() {
             style={{ textDecoration: "none", lineHeight: 1, flexShrink: 0 }}
             className="hidden md:block md:absolute md:left-1/2 md:-translate-x-1/2 group"
           >
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "2px" }}
-              className="transition-transform duration-200 group-hover:scale-105">
-              <span style={{
-                fontFamily: "var(--font-oswald), sans-serif",
-                fontSize: "0.58rem",
-                letterSpacing: "0.4em",
-                color: "rgba(255,255,255,0.45)",
-                textTransform: "uppercase",
-              }}>
-                Since 1985
-              </span>
-              <div style={{ display: "flex", alignItems: "baseline", gap: "7px" }}>
-                <span style={{
-                  fontFamily: "var(--font-bebas), sans-serif",
-                  fontSize: "2rem",
-                  letterSpacing: "0.07em",
-                  color: "#F5C200",
-                  lineHeight: 1,
-                }}>
-                  CHATHAM
-                </span>
-                <span style={{
-                  fontFamily: "var(--font-bebas), sans-serif",
-                  fontSize: "2rem",
-                  letterSpacing: "0.07em",
-                  color: "#C8102E",
-                  lineHeight: 1,
-                }}>
-                  BURGERS
-                </span>
-              </div>
-              <div style={{ display: "flex", gap: "3px" }}>
-                <div style={{ width: "28px", height: "2px", background: "#C8102E", borderRadius: "1px" }} />
-                <div style={{ width: "8px", height: "2px", background: "#F5C200", borderRadius: "1px" }} />
-              </div>
-            </div>
+            <Image src="/logo-horizontal.png" alt="Chatham Burgers — since 1985" width={150} height={52} priority className="transition-transform duration-200 group-hover:scale-105" style={{ height: "52px", width: "auto" }} />
           </Link>
 
           {/* RIGHT nav links + CTA */}
@@ -176,15 +142,7 @@ export default function Navbar() {
 
           {/* Mobile: wordmark left + hamburger right */}
           <Link href="/" style={{ textDecoration: "none", lineHeight: 1 }} className="md:hidden">
-            <div style={{ display: "flex", flexDirection: "column", gap: "1px" }}>
-              <span style={{ fontFamily: "var(--font-oswald), sans-serif", fontSize: "0.52rem", letterSpacing: "0.35em", color: "rgba(255,255,255,0.4)", textTransform: "uppercase" }}>
-                Since 1985
-              </span>
-              <div style={{ display: "flex", gap: "5px", alignItems: "baseline" }}>
-                <span style={{ fontFamily: "var(--font-bebas), sans-serif", fontSize: "1.5rem", letterSpacing: "0.06em", color: "#F5C200", lineHeight: 1 }}>CHATHAM</span>
-                <span style={{ fontFamily: "var(--font-bebas), sans-serif", fontSize: "1.5rem", letterSpacing: "0.06em", color: "#C8102E", lineHeight: 1 }}>BURGERS</span>
-              </div>
-            </div>
+            <Image src="/logo-horizontal.png" alt="Chatham Burgers — since 1985" width={121} height={42} priority style={{ height: "42px", width: "auto" }} />
           </Link>
           <button
             className="md:hidden p-2"
@@ -217,13 +175,7 @@ export default function Navbar() {
               style={{ background: "#331A0A", borderLeft: "1px solid rgba(255,255,255,0.08)" }}
             >
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "20px 20px", borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
-                <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-                  <span style={{ fontFamily: "var(--font-oswald), sans-serif", fontSize: "0.52rem", letterSpacing: "0.35em", color: "rgba(255,255,255,0.4)", textTransform: "uppercase" }}>Since 1985</span>
-                  <div style={{ display: "flex", gap: "5px", alignItems: "baseline" }}>
-                    <span style={{ fontFamily: "var(--font-bebas), sans-serif", fontSize: "1.4rem", letterSpacing: "0.06em", color: "#F5C200", lineHeight: 1 }}>CHATHAM</span>
-                    <span style={{ fontFamily: "var(--font-bebas), sans-serif", fontSize: "1.4rem", letterSpacing: "0.06em", color: "#C8102E", lineHeight: 1 }}>BURGERS</span>
-                  </div>
-                </div>
+                <Image src="/logo-horizontal.png" alt="Chatham Burgers — since 1985" width={115} height={40} style={{ height: "40px", width: "auto" }} />
                 <button onClick={() => setIsOpen(false)} style={{ color: "rgba(255,255,255,0.6)" }}>
                   <X size={22} />
                 </button>

@@ -32,18 +32,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <Image src="/CB-2.png" alt="Chatham Burgers logo" width={44} height={44} />
-              <span
-                style={{
-                  fontFamily: 'var(--font-bebas), sans-serif',
-                  letterSpacing: '0.1em',
-                  fontSize: '2rem',
-                  color: '#F5C200',
-                }}
-              >
-                Chatham Burgers
-              </span>
+            <div className="mb-4">
+              <Image
+                src="/logo-stacked.png"
+                alt="Chatham Burgers — since 1985"
+                width={150}
+                height={160}
+                style={{ height: '160px', width: 'auto' }}
+              />
             </div>
             <p
               style={{
