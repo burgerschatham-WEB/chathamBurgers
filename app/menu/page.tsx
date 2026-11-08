@@ -5,8 +5,8 @@ import StructuredData from '@/components/StructuredData'
 export const metadata: Metadata = {
   title: 'Full Menu — Chatham Burgers | Chatham, Ontario',
   description: 'Browse the full Chatham Burgers menu. Classic burgers, smash burgers, wraps, poutine, wings, dinner plates, and more. Fresh local ingredients since 1985.',
-  alternates: { canonical: 'https://chathamburgers.ca/menu' },
-  openGraph: { url: 'https://chathamburgers.ca/menu', images: [{ url: 'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=1200&q=80', width: 1200, height: 630 }] },
+  alternates: { canonical: 'https://chathamburger.com/menu' },
+  openGraph: { url: 'https://chathamburger.com/menu', images: [{ url: 'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=1200&q=80', width: 1200, height: 630 }] },
 }
 
 const menuSchema = {

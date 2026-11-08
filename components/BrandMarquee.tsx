@@ -2,12 +2,12 @@
 
 const items = [
   '🥩 Fresh Local Farm Meat',
-  '⭐ Family-Owned Since 1985',
+  '⭐ Serving Chatham Since 1985',
   '📍 Chatham, Ontario',
   '🍟 Fresh-Cut Fries Daily',
   '🏆 40 Years Strong',
   '🥩 Fresh Local Farm Meat',
-  '⭐ Family-Owned Since 1985',
+  '⭐ Serving Chatham Since 1985',
   '📍 Chatham, Ontario',
   '🍟 Fresh-Cut Fries Daily',
   '🏆 40 Years Strong',

@@ -10,17 +10,17 @@ const timeline = [
   {
     year: "1985",
     title: "The Flame is Lit",
-    desc: "Chatham Burgers opens its doors in Chatham, Ontario. A family dream, a real flame grill, and a commitment to doing it right.",
+    desc: "Chatham Burgers opens its doors in Chatham, Ontario. A real flame grill and a commitment to doing it right.",
   },
   {
     year: "1990s",
     title: "A Local Institution",
-    desc: "Word spreads fast. The flame-grilled taste can't be replicated anywhere else in town. Regulars become family.",
+    desc: "Word spreads fast. The flame-grilled taste can't be replicated anywhere else in town. Regulars become friends.",
   },
   {
     year: "2000s",
-    title: "Recipes Unchanged",
-    desc: "While fast food giants come and go, Chatham Burgers stays true. Same recipes, same grill, same family.",
+    title: "Sticking Around",
+    desc: "While fast food giants come and go, Chatham Burgers sticks around. Still flame-grilled. Still local.",
   },
   {
     year: "2010s",
@@ -30,7 +30,7 @@ const timeline = [
   {
     year: "Today",
     title: "Crafted on the Flame",
-    desc: "40 years later, the same flame grill fires up every morning. Some things are worth keeping exactly as they are.",
+    desc: "40 years later, the grill still fires up every morning. Thanks, Chatham — for keeping this place going.",
   },
 ];
 
@@ -38,25 +38,25 @@ const values = [
   {
     icon: Flame,
     title: "The Flame, Always",
-    desc: "We've never switched to gas. Flame grilling means real flavour — the kind you can taste in every bite. That's non-negotiable.",
+    desc: "Flame grilling means real flavour — the kind you can taste in every bite. That's non-negotiable.",
     color: "#C8102E",
   },
   {
     icon: Award,
-    title: "Recipes Since 1985",
-    desc: "Our recipes haven't changed. Why would they? When something is perfect, you don't mess with it.",
+    title: "Serving Chatham Since 1985",
+    desc: "Four decades of burgers, fries and poutine in Chatham. We don't take that for granted.",
     color: "#F5C200",
   },
   {
     icon: Users,
-    title: "Family-Owned & Operated",
+    title: "Locally Owned & Operated",
     desc: "Every burger is made by people who care — because this isn't just a business to us. It's our livelihood and our pride.",
     color: "#C8102E",
   },
   {
     icon: Heart,
     title: "Community First",
-    desc: "We're part of Chatham. We've watched kids grow up and come back with their own kids. That's what we're here for.",
+    desc: "We're part of Chatham. Kids who came in for a burger now bring their own kids. That's what we're here for.",
     color: "#F5C200",
   },
 ];
@@ -122,8 +122,7 @@ export default function AboutClient() {
             }}
           >
             Some restaurants come and go. We&apos;re still here — still grilling over an open flame, still cutting our
-            own fries, still serving the same recipes we started with in 1985. That&apos;s not stubbornness.
-            That&apos;s pride.
+            own fries, still serving Chatham since 1985. Thanks for keeping us going.
           </motion.p>
         </div>
       </section>
@@ -150,24 +149,23 @@ export default function AboutClient() {
               >
                 BUILT ON <span style={{ color: "#F5C200" }}>FIRE</span>
                 <br />
-                AND <span style={{ color: "#F5C200" }}>FAMILY</span>
+                KEPT GOING BY <span style={{ color: "#F5C200" }}>CHATHAM</span>
               </h2>
               <div
                 className="flex flex-col gap-5"
                 style={{ fontFamily: "var(--font-lato), sans-serif", color: "#cccccc", fontSize: "0.975rem", lineHeight: "1.8" }}
               >
                 <p>
-                  In 1985, a family in Chatham, Ontario had a simple idea: make burgers the right way.
+                  In 1985, Chatham Burgers opened with a simple idea: make burgers the right way.
                   No shortcuts. The Flame. Real heat, real flavour, and real care in every order.
                 </p>
                 <p>
-                  Four decades later, that idea is still alive. The same family, the same grill, the same
-                  recipes that made Chatham Burgers a local legend. We&apos;ve watched kids grow up and come back
-                  with their own families. We&apos;ve become part of people&apos;s lives — and that means everything to us.
+                  Four decades later, that idea is still alive — because Chatham kept showing up. Kids who
+                  came in for a burger now come back with their own families. We&apos;ve become part of people&apos;s lives — and that means everything to us.
                 </p>
                 <p>
                   Flame grilling isn&apos;t just a technique here. It&apos;s who we are. Every patty that hits that
-                  grill gets the same attention it got on day one. That&apos;s a promise we&apos;ve kept for 40 years.
+                  grill gets real attention. Thanks, Chatham — for keeping this place going.
                 </p>
               </div>
             </motion.div>
@@ -187,7 +185,7 @@ export default function AboutClient() {
             >
               <Image
                 src="/about-family-grill.jpg"
-                alt="Family serving customers at Chatham Burgers restaurant, established 1985 in Chatham Ontario"
+                alt="Serving customers at Chatham Burgers, flame-grilling in Chatham, Ontario since 1985"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -206,7 +204,7 @@ export default function AboutClient() {
                     textTransform: "uppercase",
                   }}
                 >
-                  Est. 1985 · Same Family · Same Grill
+                  Est. 1985 · Flame-Grilled · Chatham, ON
                 </p>
               </div>
             </motion.div>
@@ -322,8 +320,8 @@ export default function AboutClient() {
                 lineHeight: 1.1,
               }}
             >
-              SAME GRILL.{" "}
-              <span style={{ color: "#F5C200" }}>SAME FAMILY.</span>
+              STILL FLAME-GRILLED.{" "}
+              <span style={{ color: "#F5C200" }}>STILL CHATHAM.</span>
               <br />
               40 YEARS LATER.
             </p>

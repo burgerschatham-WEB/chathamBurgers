@@ -57,7 +57,7 @@ export default function Footer() {
               Crafted on the Flame
             </p>
             <p style={{ color: '#888', fontSize: '0.875rem', lineHeight: '1.6', fontFamily: 'var(--font-lato), sans-serif' }}>
-              Crafted on the Flame. Family built. Serving Chatham, Ontario since 1985.
+              Crafted on the Flame. Serving Chatham, Ontario since 1985.
               Real local farm meat, fresh-baked buns, fresh-cut fries, and recipes that haven&apos;t changed in 40 years.
             </p>
             <div className="flex gap-3 mt-6">

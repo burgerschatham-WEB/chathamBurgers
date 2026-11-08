@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     q: 'How long has Chatham Burgers been open?',
-    a: 'We\'ve been serving Chatham, Ontario since 1985 — over 40 years of the same flame-grilled recipes, same family.',
+    a: 'We\'ve been serving Chatham, Ontario since 1985 — over 40 years of flame-grilled burgers.',
   },
   {
     q: 'Does Chatham Burgers have a veggie burger?',

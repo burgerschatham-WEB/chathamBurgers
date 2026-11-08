@@ -4,6 +4,7 @@ import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 import { useRef } from 'react'
 import { MessageSquare, Star } from 'lucide-react'
+import SmsDisclosure from './SmsDisclosure'
 
 export default function SMSOfferSection() {
   const ref = useRef(null)
@@ -86,7 +87,7 @@ export default function SMSOfferSection() {
                 fontSize: '0.78rem',
                 textTransform: 'uppercase',
               }}>
-                Charcoal Grilled. Family Built.
+                Flame-Grilled. Since 1985.
               </p>
               <div style={{ display: 'flex', gap: '4px', marginTop: '12px' }}>
                 <div style={{ width: '32px', height: '2px', background: '#C8102E', borderRadius: '1px' }} />
@@ -251,6 +252,7 @@ export default function SMSOfferSection() {
               }}>
                 Tap to open your messages app
               </p>
+              <SmsDisclosure />
             </div>
 
             {/* Thank You footer */}

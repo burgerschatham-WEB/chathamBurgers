@@ -9,7 +9,7 @@ const stats = [
   { number: 40,   suffix: '+', label: 'Years of Flame',        separator: ',' },
   { number: 1985, suffix: '',  label: 'Est.',                   separator: '' },
   { number: 50,   suffix: '+', label: 'Burgers on the Menu',   separator: ',' },
-  { number: 40,   suffix: '+', label: 'Years of Same Recipes', separator: ',' },
+  { number: 40,   suffix: '+', label: 'Years Serving Chatham', separator: ',' },
 ]
 
 export default function StatsStrip() {

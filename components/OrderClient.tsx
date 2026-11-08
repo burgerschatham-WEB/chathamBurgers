@@ -347,7 +347,7 @@ export default function OrderClient() {
               {[
                 "Real local farm meat — every order",
                 "Fresh-cut fries, never frozen",
-                "Same recipes since 1985",
+                "Flame-grilled since 1985",
                 "Made with care, every single time",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-3">

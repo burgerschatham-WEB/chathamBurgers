@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { MessageSquare, X } from 'lucide-react'
+import Link from 'next/link'
 
 export default function SMSStickyBar() {
   const [visible, setVisible] = useState(false)
@@ -86,7 +87,8 @@ export default function SMSStickyBar() {
                   margin: '3px 0 0',
                 }}>
                   Text <strong style={{ color: '#fff' }}>BURGER</strong> to{' '}
-                  <strong style={{ color: '#F5C200' }}>262-242-3234</strong> for weekly deals
+                  <strong style={{ color: '#F5C200' }}>262-242-3234</strong> for deals · Msg &amp; data rates may apply · Reply STOP to opt out ·{' '}
+                  <Link href="/sms-terms" style={{ color: '#F5C200', textDecoration: 'underline' }}>Terms</Link>
                 </p>
               </div>
             </div>

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Best Burgers in Chatham Ontario (2026 Guide)",
   description:
-    "Looking for the best burgers in Chatham, Ontario? Fresh local farm meat, fresh-baked buns, crafted on the flame since 1985. Here's an honest local guide to where to go and what to order.",
+    "Looking for the best burgers in Chatham, Ontario? Fresh local farm beef, fresh-baked buns, flame-grilled. Serving Chatham since 1985. Here's our honest local guide to where to go and what to order.",
 };
 
 export default function BestBurgersChathamPage() {
@@ -62,9 +62,9 @@ export default function BestBurgersChathamPage() {
               marginBottom: "24px",
             }}
           >
-            We've been crafting burgers on the flame in Chatham since 1985. This is our honest
-            take on where to find a great burger in this city — including what we think makes one
-            worth driving for.
+            Chatham Burgers has been flame-grilling burgers in Chatham since 1985. This is our honest
+            take on where to find a great burger in town. Plus what we think makes one worth the
+            drive.
           </p>
           <div
             style={{
@@ -96,10 +96,9 @@ export default function BestBurgersChathamPage() {
             reason to visit.
           </p>
           <p style={bodyText}>
-            We're Chatham Burgers. We've been on King Street since 1985, crafting burgers on the flame
-            every single day. So yes — we have a dog in this race. But after four decades of watching
-            this city eat, we also have an honest perspective on what makes a burger worth your time.
-            This guide gives you both.
+            We're Chatham Burgers. We're on Grand Ave West, flame-grilling burgers every day, and this
+            place has been feeding Chatham since 1985. So yes — we have a dog in this race. We also
+            have an honest opinion on what makes a burger worth your time. This guide gives you both.
           </p>
         </section>
 
@@ -151,7 +150,7 @@ export default function BestBurgersChathamPage() {
           >
             Our Pick
           </p>
-          <H2>Chatham Burgers — Crafted on the Flame</H2>
+          <H2>Chatham Burgers — Flame-Grilled on Grand Ave West</H2>
 
           <p style={bodyText}>
             We'll be transparent: this is us. But we'd be doing you a disservice if we didn't explain
@@ -166,10 +165,8 @@ export default function BestBurgersChathamPage() {
           </p>
 
           <p style={bodyText}>
-            Our recipes are original. Same ones from 1985. We've had opportunities over the years to
-            modernize, streamline, reduce costs. We didn't. The Chatham Burger — a half-pound patty
-            with standard toppings — is the same burger we were making forty years ago. So is everything
-            else on the menu.
+            Then it goes on the open flame. No shortcuts, no frozen patties. The Chatham Burger is a
+            half-pound patty with all the classic toppings. Simple. Big. Honest. That's the whole idea.
           </p>
 
           {/* Testimonial — E-E-A-T */}
@@ -193,7 +190,7 @@ export default function BestBurgersChathamPage() {
               }}
             >
               "Best burgers in Chatham, hands down. I've been coming here since I was a kid. The
-              the flavour is unlike anything else."
+              flavour is unlike anything else."
             </p>
             <p
               style={{
@@ -209,8 +206,8 @@ export default function BestBurgersChathamPage() {
           </blockquote>
 
           <p style={bodyText}>
-            That's the part we can't manufacture: the people who grew up coming here and now bring
-            their own kids. After 40 years in business, that kind of loyalty is the real review.
+            That's the part we can't fake: regulars who grew up coming here and now bring their own
+            kids. Thanks, Chatham — for keeping this place going.
           </p>
 
           <H3>What to Order</H3>
@@ -222,12 +219,12 @@ export default function BestBurgersChathamPage() {
             </li>
             <li style={listItem}>
               <strong style={{ color: "#ffffff" }}>The Chatham Burger ($10.99)</strong> — Half a pound,
-              original recipe, all the right toppings. The one that started everything in 1985. Order
-              this on your first visit.
+              all the right toppings. It's got the town's name on it for a reason. Order this on your
+              first visit.
             </li>
             <li style={listItem}>
               <strong style={{ color: "#ffffff" }}>1 LB Burger ($17.50)</strong> — A full pound of
-              fresh local farm beef, crafted on the flame. Called "The Beast" for a reason. Not for the faint of heart.
+              fresh local farm beef, flame-grilled. Called "The Beast" for a reason. Bring an appetite.
             </li>
             <li style={listItem}>
               <strong style={{ color: "#ffffff" }}>Fresh-Cut Fries</strong> — Hand-cut in-house, every
@@ -246,7 +243,7 @@ export default function BestBurgersChathamPage() {
           >
             Online ordering available at{" "}
             <Link href="/order" style={{ color: "#F5C200", textDecoration: "none" }}>
-              chathamburgers.ca/order
+              chathamburger.com/order
             </Link>
             .
           </p>
@@ -292,7 +289,7 @@ export default function BestBurgersChathamPage() {
 
           <p style={{ ...bodyText, marginTop: "28px" }}>
             The honest take: if you specifically want a burger — not wings, not BBQ, not a gyro — the
-            fresh local farm beef at Chatham Burgers is the move. It's what we've been built for since day one.
+            fresh local farm beef at Chatham Burgers is the move. Burgers are what we do.
           </p>
         </section>
 
@@ -305,27 +302,27 @@ export default function BestBurgersChathamPage() {
           <div style={{ display: "flex", flexDirection: "column", gap: "24px", marginTop: "8px" }}>
             <FAQ
               q="What is the best burger restaurant in Chatham, Ontario?"
-              a="For fresh local farm beef burgers crafted on the flame, Chatham Burgers on King Street has been the local standard since 1985. For BBQ, Dog Days BBQ is worth a visit. For a sports-bar setting, Suite 46 is a solid option."
+              a="For fresh local farm beef burgers off the flame grill, we'd say Chatham Burgers on Grand Ave West. We've been serving Chatham since 1985. For BBQ, Dog Days BBQ is worth a visit. For a sports-bar setting, Suite 46 is a solid option."
             />
             <FAQ
               q="Does Chatham Burgers have online ordering?"
-              a="Yes — you can order online at chathamburgers.ca/order for pickup."
+              a="Yes — you can order online at chathamburger.com/order for pickup."
             />
             <FAQ
               q="What makes Chatham Burgers different from other restaurants?"
-              a="Fresh local farm beef, delivered daily. Fresh-baked buns from a local bakery every morning. Fries cut by hand, never frozen. We support local suppliers and it shows in every bite — that's been our approach since 1985."
+              a="Fresh local farm beef, delivered daily. Fresh-baked buns from a local bakery every morning. Fries cut by hand, never frozen. All of it cooked over an open flame. We back local suppliers, and you can taste it."
             />
             <FAQ
               q="What's the best burger to order at Chatham Burgers?"
-              a="First-timers should start with the Chatham Burger (½ lb, $10.99) — it's the original. If you're a smash burger fan, the Dbl Smash Burger ($12.99) is our fan favourite. Feeling ambitious? The 1 LB Burger is a full pound of fresh local farm beef."
+              a="First-timers should start with the Chatham Burger (½ lb, $10.99) — it's our namesake. If you're a smash burger fan, the Dbl Smash Burger ($12.99) is our fan favourite. Feeling ambitious? The 1 LB Burger is a full pound of fresh local farm beef."
             />
             <FAQ
               q="Is Chatham Burgers family-friendly?"
-              a="Yes. We've been serving Chatham families since 1985. We have a Kids Burger Combo ($12.99), and we regularly see regulars who grew up here bring their own kids in."
+              a="Yes. Bring the kids. We have a Kids Burger Combo ($12.99), and lots of our regulars who grew up coming here now bring their own kids in."
             />
             <FAQ
               q="Where is Chatham Burgers located?"
-              a="We're in Chatham, Ontario. You can find our full location info and order online at chathamburgers.ca."
+              a="We're in Chatham, Ontario. You can find our full location info and order online at chathamburger.com."
             />
           </div>
         </section>
@@ -337,11 +334,12 @@ export default function BestBurgersChathamPage() {
           <H2>The Bottom Line</H2>
           <p style={bodyText}>
             Chatham's food scene has grown, and there are genuinely good options across categories. But
-            if you came here asking specifically about burgers — real ones, cooked properly, by people
-            who've been doing it for forty years — you already know where we're pointing you.
+            if you came here asking about burgers — real ones, flame-grilled and done properly — you
+            already know where we're pointing you.
           </p>
           <p style={bodyText}>
-            Fresh meat in every morning, fresh buns from the bakery, fries cut by hand — and that's been the routine since 1985. Come see what four decades of doing it right actually tastes like.
+            Fresh local farm beef in every morning. Fresh-baked buns from the bakery. Fresh-cut fries.
+            Come hungry. We'll handle the rest.
           </p>
 
           {/* CTA */}
@@ -374,7 +372,7 @@ export default function BestBurgersChathamPage() {
                 marginBottom: "20px",
               }}
             >
-              Real local farm meat. Fresh-baked buns. Fresh-cut fries. Same recipes since 1985.
+              Fresh local farm beef. Fresh-baked buns. Fresh-cut fries. Serving Chatham since 1985.
             </p>
             <Link
               href="/order"

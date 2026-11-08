@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import type { Variants } from 'framer-motion'
 import { MessageSquare, Star, Clock, Tag, Phone, ChevronDown, CheckCircle2, Send } from 'lucide-react'
 import Link from 'next/link'
+import SmsDisclosure from './SmsDisclosure'
 
 // ─── Brand tokens ──────────────────────────────────────────────────────────
 const C = {
@@ -210,11 +211,11 @@ const deals: Deal[] = [
     badgeColor: C.gold,
   },
   {
-    tag: 'SPRING SPECIAL',
+    tag: 'EVERYDAY VALUE',
     tagColor: C.red,
     title: '$5 SHORT STACK',
     subtitle: '3 oz patty · combo $9 with fries',
-    description: 'A 3-ounce charcoal-grilled patty with ketchup, mustard, mayo. The little burger that hits the spot. Available all day, every day, while it lasts.',
+    description: 'A 3-ounce flame-grilled patty with ketchup, mustard, mayo. The little burger that hits the spot. Available all day, every day, while it lasts.',
     cta: 'Call to Order',
     href: 'tel:5193541414',
     highlight: false,
@@ -348,8 +349,9 @@ export default function OffersClient() {
                 262-242-3234
               </a>
               <p style={{ fontFamily: 'var(--font-oswald)', color: 'rgba(255,255,255,0.28)', fontSize: '0.66rem', letterSpacing: '0.12em', textTransform: 'uppercase', marginTop: '10px' }}>
-                Tap to open messages · Standard rates apply
+                Tap to open messages
               </p>
+              <SmsDisclosure />
             </div>
 
             {/* Right — red panel */}
@@ -360,7 +362,7 @@ export default function OffersClient() {
                 <span style={{ color: C.gold }}>CHATHAM</span><br />
                 <span style={{ color: '#ffffff' }}>BURGERS</span>
               </h2>
-              <p style={{ fontFamily: 'var(--font-oswald)', fontSize: '0.7rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase', marginBottom: '32px' }}>Charcoal Grilled · Family Built</p>
+              <p style={{ fontFamily: 'var(--font-oswald)', fontSize: '0.7rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase', marginBottom: '32px' }}>Flame-Grilled · Since 1985</p>
               {[
                 { num: '40+', label: 'Years Serving Chatham' },
                 { num: '1000s', label: 'of Happy Customers' },
@@ -500,6 +502,7 @@ export default function OffersClient() {
             TEXT BURGER → 262-242-3234
           </a>
         </motion.div>
+        <SmsDisclosure dark={false} />
 
         {/* Back to menu */}
         <div style={{ textAlign: 'center', marginTop: '44px' }}>

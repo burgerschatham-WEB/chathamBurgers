@@ -31,15 +31,15 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Chatham Burgers — Crafted on the Flame, family built since 1985. Real local farm meat, fresh-baked buns, fresh-cut fries. The best burgers in Chatham, Ontario.",
-  keywords: "burgers, fresh local meat, Chatham Ontario, family restaurant, crafted on the flame, since 1985",
-  metadataBase: new URL("https://chathamburgers.ca"),
+    "Chatham Burgers — Crafted on the Flame since 1985. Real local farm meat, fresh-baked buns, fresh-cut fries. The best burgers in Chatham, Ontario.",
+  keywords: "burgers, fresh local meat, Chatham Ontario, flame-grilled burgers, crafted on the flame, since 1985",
+  metadataBase: new URL("https://chathamburger.com"),
   openGraph: {
     type: "website",
     title: "Chatham Burgers — Crafted on the Flame",
-    description: "Crafted on the Flame. Family Built. Since 1985.",
+    description: "Crafted on the Flame. Serving Chatham since 1985.",
     siteName: "Chatham Burgers",
-    url: "https://chathamburgers.ca",
+    url: "https://chathamburger.com",
     images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "Flame-grilled smash burger at Chatham Burgers, Chatham Ontario" }],
   },
   twitter: {
@@ -52,9 +52,9 @@ const restaurantSchema = {
   "@context": "https://schema.org",
   "@type": "Restaurant",
   name: "Chatham Burgers",
-  image: "https://chathamburgers.ca/og-image.jpg",
-  description: "Family-owned flame-grilled burger restaurant in Chatham, Ontario since 1985.",
-  url: "https://chathamburgers.ca",
+  image: "https://chathamburger.com/og-image.jpg",
+  description: "Flame-grilled burger restaurant in Chatham, Ontario since 1985.",
+  url: "https://chathamburger.com",
   telephone: "+15193541414",
   address: {
     "@type": "PostalAddress",
@@ -73,10 +73,9 @@ const restaurantSchema = {
   servesCuisine: ["Burgers", "Canadian", "Fast Food"],
   priceRange: "$$",
   foundingDate: "1985",
-  hasMenu: "https://chathamburgers.ca/menu",
+  hasMenu: "https://chathamburger.com/menu",
   currenciesAccepted: "CAD",
   sameAs: ["https://www.facebook.com/profile.php?id=61575925564207", "https://instagram.com/chathamburgers"],
-  aggregateRating: { "@type": "AggregateRating", ratingValue: "4.8", reviewCount: "180", bestRating: "5" },
 };
 
 export default function RootLayout({

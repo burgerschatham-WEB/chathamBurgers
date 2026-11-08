@@ -171,7 +171,7 @@ export default function HeroSection() {
             marginBottom: '40px',
           }}
         >
-          Crafted on the Flame · Family Built
+          Crafted on the Flame · Since 1985
         </motion.p>
 
         {/* Buttons */}

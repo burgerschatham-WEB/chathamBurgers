@@ -63,7 +63,7 @@ export default function MenuClient() {
               marginBottom: "12px",
             }}
           >
-            flame grilled. Family Built.
+            Flame-Grilled. Since 1985.
           </p>
           <h1
             style={{

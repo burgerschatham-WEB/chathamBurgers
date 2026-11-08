@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Blog — Stories & Guides | Chatham Burgers",
-  description: "Local food guides, restaurant stories, and tips from Chatham Burgers. Family-owned and flame-grilled since 1985 in Chatham, Ontario.",
-  alternates: { canonical: "https://chathamburgers.ca/blog" },
-  openGraph: { url: "https://chathamburgers.ca/blog", images: [{ url: 'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=1200&q=80', width: 1200, height: 630 }] },
+  description: "Local food guides, restaurant stories, and tips from Chatham Burgers. Flame-grilled burgers, serving Chatham, Ontario since 1985.",
+  alternates: { canonical: "https://chathamburger.com/blog" },
+  openGraph: { url: "https://chathamburger.com/blog", images: [{ url: 'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=1200&q=80', width: 1200, height: 630 }] },
 };
 
 const posts = [
@@ -13,16 +13,16 @@ const posts = [
     slug: "history-of-burgers",
     title: "The History of Burgers: From Hamburg to Chatham",
     description:
-      "From 19th-century Hamburg steak to the 1904 World's Fair, fast food, and the charcoal grill — the full story of how the burger became the world's favourite sandwich.",
+      "From 19th-century Hamburg steak to the 1904 World's Fair, fast food, and the flame grill — the full story of how the burger became the world's favourite sandwich.",
     date: "June 6, 2026",
     category: "Food History",
     readTime: "9 min read",
   },
   {
     slug: "smash-burger-chatham-ontario",
-    title: "Smash Burgers in Chatham Ontario — The Charcoal Difference",
+    title: "Smash Burgers in Chatham Ontario — The Flame Grill Difference",
     description:
-      "What makes a smash burger worth the hype? Chatham Burgers has been doing it with live charcoal since 1985 — here's why that changes everything.",
+      "What makes a smash burger worth the hype? Crispy edges, fresh local farm beef and a flame grill. Here's how we do it at Chatham Burgers.",
     date: "May 3, 2026",
     category: "Technique & Taste",
     readTime: "6 min read",

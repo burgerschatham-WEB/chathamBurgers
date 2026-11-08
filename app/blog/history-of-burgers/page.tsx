@@ -4,10 +4,10 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "The History of Burgers: From Hamburg to Chatham",
   description:
-    "How did the burger become the world's favourite sandwich? From Hamburg steak to the 1904 World's Fair, fast food, and the charcoal grill — the full history of burgers.",
-  alternates: { canonical: "https://chathamburgers.ca/blog/history-of-burgers" },
+    "How did the burger become the world's favourite sandwich? From Hamburg steak to the 1904 World's Fair, fast food, and the flame grill — the full history of burgers.",
+  alternates: { canonical: "https://chathamburger.com/blog/history-of-burgers" },
   openGraph: {
-    url: "https://chathamburgers.ca/blog/history-of-burgers",
+    url: "https://chathamburger.com/blog/history-of-burgers",
     images: [{ url: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80", width: 1200, height: 630 }],
   },
 };
@@ -17,12 +17,12 @@ const schemaData = {
   "@type": "Article",
   headline: "The History of Burgers: From Hamburg to Chatham",
   description:
-    "A complete history of the hamburger — from 19th-century Hamburg steak and the contested American origins to fast food, the charcoal grill, and the modern smash burger.",
+    "A complete history of the hamburger — from 19th-century Hamburg steak and the contested American origins to fast food, the flame grill, and the modern smash burger.",
   datePublished: "2026-06-06",
   dateModified: "2026-06-06",
-  author: { "@type": "Organization", name: "Chatham Burgers", url: "https://chathamburgers.ca" },
-  publisher: { "@type": "Organization", name: "Chatham Burgers", url: "https://chathamburgers.ca" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://chathamburgers.ca/blog/history-of-burgers" },
+  author: { "@type": "Organization", name: "Chatham Burgers", url: "https://chathamburger.com" },
+  publisher: { "@type": "Organization", name: "Chatham Burgers", url: "https://chathamburger.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://chathamburger.com/blog/history-of-burgers" },
 };
 
 const faqSchema = {
@@ -55,10 +55,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What is the difference between a charcoal-grilled burger and a regular burger?",
+      name: "What is the difference between a flame-grilled burger and a griddle burger?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Charcoal burns hotter than gas or a flat-top and adds smoke as fat drips onto the coals. That gives a charcoal-grilled burger a deeper crust and a smokier flavour you can't get from a griddle. Chatham Burgers has cooked on a real charcoal grill since 1985 — we never switched to gas.",
+        text: "On a flat-top griddle, the patty sits in its own fat. Over an open flame, the fat drips into the fire, flares up, and sends smoke back into the meat. You get real sear marks, a better crust, and a smoky flavour a griddle can't give you. That's why Chatham Burgers cooks on the flame grill.",
       },
     },
     {
@@ -66,7 +66,7 @@ const faqSchema = {
       name: "How long has Chatham Burgers been making burgers?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Chatham Burgers has been family-owned and charcoal-grilling in Chatham, Ontario since 1985 — that's 40 years of the same grill, the same original recipes, and fresh local farm beef. You can see the menu and order online at chathamburgers.ca/order.",
+        text: "Chatham Burgers has been serving Chatham, Ontario since 1985. Fresh local farm beef, fresh-baked buns, fresh-cut fries, and the flame grill. Thanks, Chatham, for keeping this place going. You can see the menu and order online at chathamburger.com/order.",
       },
     },
   ],
@@ -110,7 +110,7 @@ export default function HistoryOfBurgersPage() {
                 marginBottom: "16px",
               }}
             >
-              Food History · Charcoal Grilled Since 1985
+              Food History · Flame-Grilled Since 1985
             </p>
             <h1
               style={{
@@ -138,7 +138,7 @@ export default function HistoryOfBurgersPage() {
             >
               How did a humble beef patty become the most famous sandwich on earth? It's a story
               that runs from 19th-century Germany to a World's Fair in St. Louis, through fast-food
-              empires — and lands, four decades ago, on a charcoal grill in Chatham, Ontario.
+              empires — and lands, four decades ago, on a flame grill in Chatham, Ontario.
             </p>
             <div
               style={{
@@ -171,10 +171,9 @@ export default function HistoryOfBurgersPage() {
               all claim they got there first.
             </p>
             <p style={bodyText}>
-              We're Chatham Burgers. We've been crafting burgers on the same charcoal grill since
-              1985, so we have a soft spot for where this food comes from. Here's the full story —
-              from Hamburg steak to the modern smash burger — and where four decades of doing it the
-              old way fits into it.
+              We're Chatham Burgers. We've been flame-grilling burgers in Chatham since 1985, so we
+              have a soft spot for where this food comes from. Here's the full story — from Hamburg
+              steak to the modern smash burger — and where our little corner of Ontario fits into it.
             </p>
           </section>
 
@@ -285,24 +284,23 @@ export default function HistoryOfBurgersPage() {
 
           <Divider />
 
-          {/* Charcoal */}
+          {/* The flame */}
           <section style={{ marginBottom: "48px" }}>
-            <H2>The Flame: Why Charcoal Changed the Burger</H2>
+            <H2>The Flame: Why Open Fire Changed the Burger</H2>
             <p style={bodyText}>
               While the chains chased speed, another tradition kept the burger close to the fire.
-              Cooking over live charcoal is one of the oldest ways humans have prepared meat, and it
-              does something a flat-top griddle simply can't.
+              Cooking over an open flame is one of the oldest ways people have cooked meat. Think of
+              the backyard grill of the 1950s. And it does something a flat-top griddle just can't.
             </p>
             <p style={bodyText}>
-              Charcoal burns hotter and radiates a different kind of heat. As the patty cooks, fat
-              renders and drips onto the coals, sending smoke back up into the meat. The result is a
-              deeper, crustier sear and a smoky flavour you can taste in the first bite. It's slower
-              and messier than a griddle — which is precisely why most high-volume operations gave it
-              up.
+              On a griddle, the patty sits in its own fat. Over a real open flame, that fat drips into
+              the fire. It flares up. Smoke rolls back into the meat. You get sear marks, a crusty
+              outside, and a smoky flavour you can taste in the first bite. It's slower and messier
+              than a griddle — which is exactly why most high-volume places gave it up.
             </p>
             <p style={bodyText}>
-              We didn't. Chatham Burgers has cooked on a real charcoal grill since day one, and we've
-              never switched to gas. Forty years later, the flame is still the whole point.
+              We didn't. At Chatham Burgers, every patty goes over the flame grill. The flame is still
+              the whole point.
             </p>
           </section>
 
@@ -318,11 +316,11 @@ export default function HistoryOfBurgersPage() {
             </p>
             <p style={bodyText}>
               The science behind it is the Maillard reaction: press fresh beef onto screaming-hot
-              metal — or, better, a charcoal flame — and you create hundreds of new flavour compounds
-              in that lacey, crispy edge. We dig into exactly why charcoal takes the smash burger to
+              metal — or, better, an open flame — and you create hundreds of new flavour compounds
+              in that lacey, crispy edge. We dig into exactly why the flame takes the smash burger to
               another level in{" "}
               <Link href="/blog/smash-burger-chatham-ontario" style={{ color: "#F5C200", textDecoration: "none" }}>
-                our guide to the charcoal smash burger
+                our guide to the flame-grilled smash burger
               </Link>
               .
             </p>
@@ -341,7 +339,7 @@ export default function HistoryOfBurgersPage() {
               <TimelineItem year="1921" event="White Castle opens in Wichita — the first hamburger fast-food chain." />
               <TimelineItem year="1920s–30s" event="The cheeseburger appears, popularly credited to Lionel Sternberger in Pasadena." />
               <TimelineItem year="1955" event="Ray Kroc franchises McDonald's, launching the burger as a global icon." />
-              <TimelineItem year="1985" event="Chatham Burgers opens in Chatham, Ontario — charcoal grill, fresh local beef, original recipes." />
+              <TimelineItem year="1985" event="Chatham Burgers opens in Chatham, Ontario — flame grill, fresh local beef, fresh-cut fries." />
               <TimelineItem year="2010s" event="The smash burger revival brings the focus back to crust, fresh beef, and craft." />
             </div>
           </section>
@@ -370,8 +368,8 @@ export default function HistoryOfBurgersPage() {
             </p>
             <p style={bodyText}>
               That meant fresh beef from local farms, delivered daily. Buns from a local bakery every
-              morning. Fries cut by hand. And always the charcoal grill — the same one, the same
-              recipes, for forty years. If you want to know where Chatham Burgers fits in the wider
+              morning. Fries cut by hand. And every burger over the flame grill. Thanks, Chatham — for
+              keeping this place going. If you want to know where Chatham Burgers fits in the wider
               local scene, we wrote an honest{" "}
               <Link href="/blog/best-burgers-chatham-ontario" style={{ color: "#F5C200", textDecoration: "none" }}>
                 guide to the best burgers in Chatham
@@ -389,7 +387,7 @@ export default function HistoryOfBurgersPage() {
             >
               See the full menu and order online at{" "}
               <Link href="/order" style={{ color: "#F5C200", textDecoration: "none" }}>
-                chathamburgers.ca/order
+                chathamburger.com/order
               </Link>
               .
             </p>
@@ -414,12 +412,12 @@ export default function HistoryOfBurgersPage() {
                 a="White Castle (Wichita, 1921) is widely considered the first hamburger fast-food chain. McDonald's introduced its Speedee Service System in 1948, and Ray Kroc began franchising it nationally in 1955."
               />
               <FAQ
-                q="What makes a charcoal-grilled burger different?"
-                a="Charcoal burns hotter than gas or a griddle, and dripping fat creates smoke that flavours the meat. That gives a deeper crust and a smokier taste. Chatham Burgers has cooked on a real charcoal grill since 1985 and never switched to gas."
+                q="What is the difference between a flame-grilled burger and a griddle burger?"
+                a="On a flat-top griddle, the patty sits in its own fat. Over an open flame, the fat drips into the fire, flares up, and sends smoke back into the meat. You get real sear marks, a better crust, and a smoky flavour a griddle can't give you. That's why Chatham Burgers cooks on the flame grill."
               />
               <FAQ
-                q="How long has Chatham Burgers been around?"
-                a="Since 1985 — family-owned and charcoal-grilling in Chatham, Ontario for 40 years, with the same grill, original recipes, and fresh local farm beef. You can order online at chathamburgers.ca/order."
+                q="How long has Chatham Burgers been making burgers?"
+                a="Chatham Burgers has been serving Chatham, Ontario since 1985. Fresh local farm beef, fresh-baked buns, fresh-cut fries, and the flame grill. Thanks, Chatham, for keeping this place going. You can see the menu and order online at chathamburger.com/order."
               />
             </div>
           </section>
@@ -436,7 +434,7 @@ export default function HistoryOfBurgersPage() {
             </p>
             <p style={bodyText}>
               That's the part we've held onto since 1985. Real local farm meat, fresh-baked buns,
-              fresh-cut fries, and a charcoal flame — the burger the way more than a century of
+              fresh-cut fries, and an open flame — the burger the way more than a century of
               history says it should be made.
             </p>
 
@@ -470,7 +468,7 @@ export default function HistoryOfBurgersPage() {
                   marginBottom: "20px",
                 }}
               >
-                Real local farm meat. Fresh-baked buns. Fresh-cut fries. Charcoal-grilled since 1985.
+                Real local farm meat. Fresh-baked buns. Fresh-cut fries. Flame-grilled since 1985.
               </p>
               <Link
                 href="/order"
