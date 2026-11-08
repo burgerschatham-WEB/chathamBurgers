@@ -4,7 +4,21 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Best Burgers in Chatham Ontario (2026 Guide)",
   description:
-    "Looking for the best burgers in Chatham, Ontario? Fresh local farm beef, fresh-baked buns, flame-grilled. Serving Chatham since 1985. Here's our honest local guide to where to go and what to order.",
+    "An honest local guide to burgers in Chatham, Ontario: what to order, where to go, and why we flame-grill. From Chatham Burgers on Grand Ave W.",
+  alternates: { canonical: "https://chathamburger.com/blog/best-burgers-chatham-ontario" },
+  openGraph: { url: "https://chathamburger.com/blog/best-burgers-chatham-ontario", images: ['/opengraph-image'] },
+};
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Best Burgers in Chatham Ontario (2026 Guide)",
+  description: "An honest local guide to burgers in Chatham, Ontario: what to order, where to go, and why we flame-grill.",
+  datePublished: "2026-05-03",
+  dateModified: "2026-11-07",
+  author: { "@type": "Organization", name: "Chatham Burgers", url: "https://chathamburger.com" },
+  publisher: { "@type": "Organization", name: "Chatham Burgers", url: "https://chathamburger.com" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://chathamburger.com/blog/best-burgers-chatham-ontario" },
 };
 
 export default function BestBurgersChathamPage() {
@@ -17,6 +31,10 @@ export default function BestBurgersChathamPage() {
         color: "#ffffff",
       }}
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       {/* Hero */}
       <header
         style={{
@@ -113,12 +131,11 @@ export default function BestBurgersChathamPage() {
           </p>
           <ul style={listStyle}>
             <li style={listItem}>
-              <strong style={{ color: "#F5C200" }}>The meat.</strong> Fresh local farm beef, delivered daily. You can taste the difference between fresh and frozen — the texture, the flavour, the way it holds together on the flame.
+              <strong style={{ color: "#F5C200" }}>The meat.</strong> Fresh local farm beef, delivered daily. You can taste it in the texture, the flavour, the way it holds together on the flame.
             </li>
             <li style={listItem}>
               <strong style={{ color: "#F5C200" }}>The patty quality.</strong> Fresh beef, properly
-              seasoned, at the right fat ratio. Pre-frozen patties are immediately obvious in the
-              texture and taste.
+              seasoned, at the right fat ratio.
             </li>
             <li style={listItem}>
               <strong style={{ color: "#F5C200" }}>The fries.</strong> A great burger is undermined by
@@ -159,13 +176,13 @@ export default function BestBurgersChathamPage() {
 
           <p style={bodyText}>
             The difference starts with the meat. We source fresh beef from local farms, delivered every
-            single day. Our buns come from a local bakery every morning. Our fries are cut by hand daily —
-            never frozen. We believe in supporting local, and that philosophy runs through every ingredient
+            single day. Our buns come from a local bakery every morning. Our fries are cut by hand daily.
+            We believe in supporting local, and that philosophy runs through every ingredient
             on the plate.
           </p>
 
           <p style={bodyText}>
-            Then it goes on the open flame. No shortcuts, no frozen patties. The Chatham Burger is a
+            Then it goes on the open flame. No shortcuts. The Chatham Burger is a
             half-pound patty with all the classic toppings. Simple. Big. Honest. That's the whole idea.
           </p>
 
@@ -228,7 +245,7 @@ export default function BestBurgersChathamPage() {
             </li>
             <li style={listItem}>
               <strong style={{ color: "#ffffff" }}>Fresh-Cut Fries</strong> — Hand-cut in-house, every
-              day. Not frozen. Get the large.
+              day. Get the large.
             </li>
           </ul>
 
@@ -310,7 +327,7 @@ export default function BestBurgersChathamPage() {
             />
             <FAQ
               q="What makes Chatham Burgers different from other restaurants?"
-              a="Fresh local farm beef, delivered daily. Fresh-baked buns from a local bakery every morning. Fries cut by hand, never frozen. All of it cooked over an open flame. We back local suppliers, and you can taste it."
+              a="Fresh local farm beef, delivered daily. Fresh-baked buns from a local bakery every morning. Fries cut by hand. All of it cooked over an open flame. We back local suppliers, and you can taste it."
             />
             <FAQ
               q="What's the best burger to order at Chatham Burgers?"

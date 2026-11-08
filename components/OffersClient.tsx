@@ -49,98 +49,14 @@ const deals: Deal[] = [
     cta: 'Text to Claim',
     href: 'sms:2262423234?body=BURGER',
     highlight: false,
-    badge: 'MOST POPULAR',
-    badgeColor: C.red,
-  },
-  {
-    tag: 'WEEKLY DEAL',
-    tagColor: C.goldDark,
-    title: 'TUESDAY DOUBLE',
-    subtitle: '2 Smash Combos for $32',
-    description: 'Every Tuesday — grab two smash combos (burger + fries + drink) for $32. In-store only. Call ahead for quick pickup.',
-    cta: 'Call to Order',
-    href: 'tel:5193541414',
-    highlight: false,
     badge: null,
-    badgeColor: null,
-  },
-  {
-    tag: 'COMBO DEAL',
-    tagColor: C.red,
-    title: 'FAMILY PACK',
-    subtitle: '4 Burgers + Family Fries + 4 Drinks — $40',
-    description: 'Feed the whole crew for $40. Our family pack is the best value in Chatham. In-store and call-ahead pickup available any day.',
-    cta: 'Call to Order',
-    href: 'tel:5193541414',
-    highlight: false,
-    badge: null,
-    badgeColor: null,
-  },
-  {
-    tag: 'LOYALTY REWARD',
-    tagColor: C.goldDark,
-    title: 'BIRTHDAY BURGER',
-    subtitle: 'Free burger on your birthday',
-    description: 'Signed up for SMS? We send a special birthday offer straight to your phone. Join the club to unlock it.',
-    cta: 'Join the Club',
-    href: 'sms:2262423234?body=BURGER',
-    highlight: false,
-    badge: 'SMS MEMBERS ONLY',
-    badgeColor: C.gold,
-  },
-  {
-    tag: 'EVERYDAY VALUE',
-    tagColor: C.red,
-    title: '$5 SHORT STACK',
-    subtitle: '3 oz patty · combo $9 with fries',
-    description: 'A 3-ounce flame-grilled patty with ketchup, mustard, mayo. The little burger that hits the spot. Available all day, every day, while it lasts.',
-    cta: 'Call to Order',
-    href: 'tel:5193541414',
-    highlight: false,
-    badge: 'NEW',
     badgeColor: C.red,
-  },
-  {
-    tag: 'WEEKDAY DEAL',
-    tagColor: C.goldDark,
-    title: 'EARLY BIRD COMBO',
-    subtitle: '$2 off any combo',
-    description: 'Beat the lunch rush. Mon–Fri before 11:30 AM, save $2 on any combo — fries and a drink included. Chatham Combo $16. Hamburger Combo $12.',
-    cta: 'Call to Order',
-    href: 'tel:5193541414',
-    highlight: false,
-    badge: 'MON–FRI 10:30–11:30 AM',
-    badgeColor: C.gold,
-  },
-  {
-    tag: 'WEEKDAY DEAL',
-    tagColor: C.goldDark,
-    title: 'AFTERNOON DEAL',
-    subtitle: '$2 off any combo',
-    description: 'Mid-day munchies? Save $2 on any combo, every weekday from 2 to 4 PM. Smash Combo $16. Gyro Combo $15. Burger Combo $12.',
-    cta: 'Call to Order',
-    href: 'tel:5193541414',
-    highlight: false,
-    badge: 'MON–FRI 2–4 PM',
-    badgeColor: C.gold,
-  },
-  {
-    tag: 'EVERY NIGHT',
-    tagColor: C.goldDark,
-    title: 'CLOSING TIME UPGRADE',
-    subtitle: 'Free fry upsize on any meal',
-    description: 'After 7 PM, every meal gets a free upgrade from small to large fries — every day, on us. Just ask your cashier.',
-    cta: 'Call to Order',
-    href: 'tel:5193541414',
-    highlight: false,
-    badge: '7 PM – CLOSE',
-    badgeColor: C.gold,
   },
 ]
 
 const steps = [
   { num: '01', label: 'Text BURGER', detail: 'Send the word BURGER to 226-242-3234 from your phone.' },
-  { num: '02', label: 'Get Confirmed', detail: "You'll receive a confirmation text with your offer code instantly." },
+  { num: '02', label: 'Get Confirmed', detail: "You'll get a welcome text with your free-fries offer right away." },
   { num: '03', label: 'Redeem In-Store', detail: "Show the text at the counter on your next visit. That's it." },
 ]
 
@@ -244,7 +160,7 @@ export default function OffersClient() {
               {[
                 { num: '40+', label: 'Years Serving Chatham' },
                 { num: '1000s', label: 'of Happy Customers' },
-                { num: 'Weekly', label: 'SMS Deals' },
+                { num: 'Up to 4', label: 'Club Texts a Month' },
               ].map((s, i) => (
                 <div key={i} style={{ marginBottom: '18px', borderBottom: i < 2 ? '1px solid rgba(255,255,255,0.15)' : 'none', paddingBottom: i < 2 ? '18px' : '0', width: '100%', maxWidth: '220px' }}>
                   <p style={{ fontFamily: 'var(--font-bebas)', fontSize: '2rem', color: C.gold, lineHeight: 1, margin: 0 }}>{s.num}</p>
@@ -285,13 +201,13 @@ export default function OffersClient() {
         {/* ── Deals Grid ──────────────────────────────────────────────── */}
         <div style={{ marginBottom: '56px' }}>
           <div style={{ textAlign: 'center', marginBottom: '32px' }}>
-            <p style={{ fontFamily: 'var(--font-oswald)', letterSpacing: '0.3em', color: C.red, fontSize: '0.76rem', textTransform: 'uppercase', marginBottom: '8px' }}>Updated Weekly</p>
+            <p style={{ fontFamily: 'var(--font-oswald)', letterSpacing: '0.3em', color: C.red, fontSize: '0.76rem', textTransform: 'uppercase', marginBottom: '8px' }}>Club Offer</p>
             <h2 style={{ fontFamily: 'var(--font-bebas)', fontSize: 'clamp(2rem, 5vw, 3rem)', letterSpacing: '0.05em', color: C.ink, lineHeight: 1 }}>
-              ALL <span style={{ color: C.red }}>ACTIVE DEALS</span>
+              THE CLUB <span style={{ color: C.red }}>DEAL</span>
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2" style={{ gap: '14px' }}>
+          <div className="grid grid-cols-1 max-w-xl mx-auto" style={{ gap: '14px' }}>
             {deals.map((deal, i) => (
               <motion.div
                 key={i} custom={i} initial="hidden" whileInView="show" viewport={{ once: true, margin: '-40px' }} variants={fadeUp}
@@ -367,7 +283,7 @@ export default function OffersClient() {
             <div>
               <p style={{ fontFamily: 'var(--font-bebas)', fontSize: '1.5rem', letterSpacing: '0.06em', color: '#ffffff', lineHeight: 1, margin: 0 }}>NEVER MISS A DEAL</p>
               <p style={{ fontFamily: 'var(--font-oswald)', fontSize: '0.76rem', letterSpacing: '0.15em', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', margin: '4px 0 0' }}>
-                New offers every week · SMS members get first access
+                Free fries to start · up to 4 texts a month
               </p>
             </div>
           </div>

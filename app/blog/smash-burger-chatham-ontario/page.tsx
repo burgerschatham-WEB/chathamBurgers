@@ -4,11 +4,10 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Smash Burger Chatham Ontario — Flame-Grilled Since 1985",
   description:
-    "A flame-grilled smash burger in Chatham, Ontario, made with fresh local farm beef. Serving Chatham since 1985. Here's what makes our Dbl Smash Burger different — and why it matters.",
+    "A flame-grilled smash burger in Chatham, Ontario, made with fresh local farm beef. What makes our Dbl Smash Burger different, and why it matters.",
   alternates: { canonical: "https://chathamburger.com/blog/smash-burger-chatham-ontario" },
   openGraph: {
-    url: "https://chathamburger.com/blog/smash-burger-chatham-ontario",
-    images: [{ url: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80", width: 1200, height: 630 }],
+    url: "https://chathamburger.com/blog/smash-burger-chatham-ontario", images: ['/opengraph-image'],
   },
 };
 
@@ -41,7 +40,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Does Chatham Burgers use fresh beef for their smash burgers?",
-      acceptedAnswer: { "@type": "Answer", text: "Yes. We use fresh beef from local Ontario farms, delivered daily. Our smash burgers are never made from frozen patties." },
+      acceptedAnswer: { "@type": "Answer", text: "Yes. We use fresh beef from local Ontario farms, delivered daily." },
     },
     {
       "@type": "Question",
@@ -146,7 +145,7 @@ export default function SmashBurgerChathamPage() {
           <section style={{ marginBottom: "48px" }}>
             <H2>What to Order With It</H2>
             <p style={bodyText}>
-              The smash burger deserves proper fries. We cut ours by hand in-house, every day, never frozen. They're the right thickness, fried properly, and genuinely worth getting the large.
+              The smash burger deserves proper fries. We cut ours by hand in-house, every day. They're the right thickness, fried properly, and genuinely worth getting the large.
             </p>
             <p style={bodyText}>
               If you want to lean into the Chatham Burgers experience fully:
@@ -177,7 +176,7 @@ export default function SmashBurgerChathamPage() {
               />
               <FAQ
                 q="Does Chatham Burgers use fresh beef for their smash burgers?"
-                a="Yes. We use fresh beef from local Ontario farms, delivered daily. Our smash burgers are never made from frozen patties."
+                a="Yes. We use fresh beef from local Ontario farms, delivered daily."
               />
               <FAQ
                 q="How much does the Dbl Smash Burger cost at Chatham Burgers?"

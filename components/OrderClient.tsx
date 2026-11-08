@@ -345,7 +345,7 @@ export default function OrderClient() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
                 "Real local farm meat — every order",
-                "Fresh-cut fries, never frozen",
+                "Fresh-cut fries, made daily",
                 "Flame-grilled since 1985",
                 "Made with care, every single time",
               ].map((item) => (

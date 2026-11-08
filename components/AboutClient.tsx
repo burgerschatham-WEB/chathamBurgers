@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Flame, Award, Users, Heart } from "lucide-react";
 import Link from "next/link";
@@ -62,6 +63,8 @@ const values = [
 ];
 
 export default function AboutClient() {
+  // The 3 MB video only starts downloading once it scrolls into view.
+  const [videoOn, setVideoOn] = useState(false);
   return (
     <div style={{ background: "#2A1408", minHeight: "100vh", paddingTop: "64px" }}>
       {/* Hero */}
@@ -355,19 +358,22 @@ export default function AboutClient() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
+            onViewportEnter={() => setVideoOn(true)}
             style={{
               borderRadius: "12px",
               overflow: "hidden",
               border: "1px solid #5A3820",
+              background: "#331A0A",
+              minHeight: "240px",
             }}
           >
             <video
-              src="/crowded-scene.mp4"
+              src={videoOn ? "/crowded-scene.mp4" : undefined}
               autoPlay
               loop
               muted
               playsInline
-              preload="auto"
+              preload="none"
               style={{ width: "100%", display: "block", maxHeight: "560px", objectFit: "cover" }}
             />
           </motion.div>

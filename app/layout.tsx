@@ -23,8 +23,6 @@ const lato = Lato({
   display: "swap",
 });
 
-const OG_IMAGE = 'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=1200&q=80'
-
 export const metadata: Metadata = {
   title: {
     default: "Chatham Burgers — Crafted on the Flame",
@@ -40,11 +38,9 @@ export const metadata: Metadata = {
     description: "Crafted on the Flame. Serving Chatham since 1985.",
     siteName: "Chatham Burgers",
     url: "https://chathamburger.com",
-    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "Flame-grilled smash burger at Chatham Burgers, Chatham Ontario" }],
   },
   twitter: {
     card: "summary_large_image",
-    images: [OG_IMAGE],
   },
 };
 
@@ -53,7 +49,8 @@ const restaurantSchema = {
   "@type": "Restaurant",
   name: "Chatham Burger",
   alternateName: "Chatham Burgers",
-  image: "https://chathamburger.com/og-image.jpg",
+  image: "https://chathamburger.com/opengraph-image",
+  logo: "https://chathamburger.com/CB-1.png",
   description: "Flame-grilled burger restaurant in Chatham, Ontario since 1985.",
   url: "https://chathamburger.com",
   telephone: "+15193541414",
@@ -70,11 +67,21 @@ const restaurantSchema = {
     { "@type": "OpeningHoursSpecification", dayOfWeek: ["Sunday","Monday","Tuesday","Wednesday","Thursday"], opens: "11:00", closes: "20:00" },
     { "@type": "OpeningHoursSpecification", dayOfWeek: ["Friday","Saturday"], opens: "11:00", closes: "21:00" },
   ],
-  servesCuisine: ["Burgers", "Canadian", "Fast Food"],
-  priceRange: "$$",
+  servesCuisine: ["Hamburgers", "Greek", "Gyros", "Poutine", "Fish and Chips", "Fast Food"],
+  priceRange: "$10–20",
+  acceptsReservations: false,
   foundingDate: "1985",
   hasMenu: "https://chathamburger.com/menu",
   currenciesAccepted: "CAD",
+  potentialAction: {
+    "@type": "OrderAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: "https://order.toasttab.com/online/chathamburgers",
+      actionPlatform: ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"],
+    },
+    deliveryMethod: ["http://purl.org/goodrelations/v1#DeliveryModePickUp"],
+  },
   sameAs: ["https://www.facebook.com/profile.php?id=61575925564207", "https://instagram.com/chathamburgers"],
 };
 
@@ -87,11 +94,11 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${bebasNeue.variable} ${oswald.variable} ${lato.variable} h-full`}
-      style={{ background: "#ffffff" }}
+      style={{ background: "#FFFAF2" }}
     >
       <body
         className="min-h-full flex flex-col antialiased"
-        style={{ background: "#ffffff", color: "#3D1F0A", fontFamily: "var(--font-lato), sans-serif" }}
+        style={{ background: "#FFFAF2", color: "#3D1F0A", fontFamily: "var(--font-lato), sans-serif" }}
       >
         <script
           type="application/ld+json"

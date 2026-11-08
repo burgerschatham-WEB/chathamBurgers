@@ -25,7 +25,7 @@ const features = [
   {
     icon: Star,
     title: "Fresh-Cut Fries Daily",
-    desc: "Cut fresh every morning. Never frozen. Never fake. Always perfect.",
+    desc: "Cut fresh by hand every morning, fried to order.",
     color: "#F5C200",
   },
 ];

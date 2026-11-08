@@ -18,8 +18,8 @@ const faqs = [
     a: 'Yes — you can order online for pickup through our ordering system. Fresh, hot, and ready when you arrive.',
   },
   {
-    q: 'Does Chatham Burgers use fresh or frozen beef?',
-    a: 'Always fresh. We source real local farm beef delivered daily. Never frozen — you can taste the difference.',
+    q: 'What beef does Chatham Burgers use?',
+    a: 'Real local farm beef, delivered daily and flame-grilled to order.',
   },
   {
     q: 'How long has Chatham Burgers been open?',

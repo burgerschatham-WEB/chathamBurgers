@@ -4,11 +4,10 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "The History of Burgers: From Hamburg to Chatham",
   description:
-    "How did the burger become the world's favourite sandwich? From Hamburg steak to the 1904 World's Fair, fast food, and the flame grill — the full history of burgers.",
+    "How the burger became the world's favourite sandwich: from Hamburg steak to the 1904 World's Fair, fast food and the flame grill.",
   alternates: { canonical: "https://chathamburger.com/blog/history-of-burgers" },
   openGraph: {
-    url: "https://chathamburger.com/blog/history-of-burgers",
-    images: [{ url: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80", width: 1200, height: 630 }],
+    url: "https://chathamburger.com/blog/history-of-burgers", images: ['/opengraph-image'],
   },
 };
 
