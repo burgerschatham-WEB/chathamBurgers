@@ -27,10 +27,13 @@ export const menuCategories: MenuCategory[] = [
       { name: "Veggie Burger", description: "Soy patty, standard toppings", price: "$11.00" },
       { name: "Chatham Burger", description: "½ lb patty, standard toppings", price: "$11.00", badge: "Local Legend" },
       { name: "Golden Burger", description: "½ lb patty topped with cheese, standard toppings", price: "$12.00" },
+      { name: "Banquet Burger ½ lb", description: "½ lb patty, bacon, cheese, standard toppings", price: "$14.00" },
       { name: "Chipotle Cheese", description: "½ lb patty, chipotle sauce, cheese, standard toppings", price: "$13.00" },
       { name: "Dbl Smash Burger", description: "2 beef patties smashed with onion & seasoning, cheese, standard toppings", price: "$13.00", badge: "Fan Favourite" },
       { name: "Chicken Burger", description: "Crispy chicken, standard toppings, sauce of your choice", price: "$10.00" },
       { name: "1 LB Burger", description: "1 lb patty, standard toppings", price: "$18.50", badge: "The Beast" },
+      { name: "1 LB Cheeseburger", description: "1 lb patty, cheese, standard toppings", price: "$20.00" },
+      { name: "1 LB Banquet", description: "1 lb patty, bacon, cheese, standard toppings", price: "$22.50" },
     ],
   },
   {
@@ -59,6 +62,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Veggie Combo", description: "Veggie burger + fries + drink", price: "$16.00" },
       { name: "Gyro Combo", description: "Gyro + fries + drink", price: "$17.00" },
       { name: "Smash Combo", description: "Smash patty + fries + drink", price: "$18.00" },
+      { name: "Family Feast", description: "4 burgers + 1 family fries + 4 drinks", price: "$48.00" },
     ],
   },
   {
@@ -81,6 +85,7 @@ export const menuCategories: MenuCategory[] = [
     items: [
       { name: "Small Poutine", price: "$9.00" },
       { name: "Large Poutine", price: "$11.00" },
+      { name: "Smash Poutine", price: "$14.00" },
     ],
   },
   {
