@@ -194,17 +194,17 @@ export default function BestBurgersChathamPage() {
           <H3>What to Order</H3>
           <ul style={listStyle}>
             <li style={listItem}>
-              <strong style={{ color: "#ffffff" }}>Dbl Smash Burger ($12.99)</strong> — Two beef
+              <strong style={{ color: "#ffffff" }}>Dbl Smash Burger ($13)</strong> — Two beef
               patties of fresh local farm beef, smashed with onion and seasoning on the flame. The lacey
               crispy edges are the whole point. Our fan favourite for good reason.
             </li>
             <li style={listItem}>
-              <strong style={{ color: "#ffffff" }}>The Chatham Burger ($10.99)</strong> — Half a pound,
+              <strong style={{ color: "#ffffff" }}>The Chatham Burger ($11)</strong> — Half a pound,
               all the right toppings. It's got the town's name on it for a reason. Order this on your
               first visit.
             </li>
             <li style={listItem}>
-              <strong style={{ color: "#ffffff" }}>1 LB Burger ($17.50)</strong> — A full pound of
+              <strong style={{ color: "#ffffff" }}>1 LB Burger ($18.50)</strong> — A full pound of
               fresh local farm beef, flame-grilled. Called "The Beast" for a reason. Bring an appetite.
             </li>
             <li style={listItem}>
@@ -212,9 +212,9 @@ export default function BestBurgersChathamPage() {
               day. Get the large.
             </li>
             <li style={listItem}>
-              <strong style={{ color: "#ffffff" }}>Gyro ($11.50)</strong> — Warm pita, cut gyro meat,
+              <strong style={{ color: "#ffffff" }}>Gyro ($12)</strong> — Warm pita, cut gyro meat,
               tomato, onion and tzatziki. Not a burger, but it&apos;s the item people mention most in our
-              Google reviews. Make it a combo with fries and a drink for $16.75.
+              Google reviews. Make it a combo with fries and a drink for $17.
             </li>
           </ul>
 
@@ -296,11 +296,11 @@ export default function BestBurgersChathamPage() {
             />
             <FAQ
               q="What's the best burger to order at Chatham Burgers?"
-              a="First-timers should start with the Chatham Burger (½ lb, $10.99) — it's our namesake. If you're a smash burger fan, the Dbl Smash Burger ($12.99) is our fan favourite. Feeling ambitious? The 1 LB Burger is a full pound of fresh local farm beef."
+              a="First-timers should start with the Chatham Burger (½ lb, $11) — it's our namesake. If you're a smash burger fan, the Dbl Smash Burger ($13) is our fan favourite. Feeling ambitious? The 1 LB Burger is a full pound of fresh local farm beef."
             />
             <FAQ
               q="Is Chatham Burgers family-friendly?"
-              a="Yes. Bring the kids. We have a Kids Burger Combo ($12.99), and lots of our regulars who grew up coming here now bring their own kids in."
+              a="Yes. Bring the kids. We have a Kids Burger Combo ($13), and lots of our regulars who grew up coming here now bring their own kids in."
             />
             <FAQ
               q="Where is Chatham Burgers located?"

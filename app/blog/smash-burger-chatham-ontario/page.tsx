@@ -45,7 +45,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "How much does the Dbl Smash Burger cost at Chatham Burgers?",
-      acceptedAnswer: { "@type": "Answer", text: "The Dbl Smash Burger is $12.99. Two fresh beef patties smashed thin with onion and seasoning, finished over the flame, with standard toppings on a fresh-baked local bun." },
+      acceptedAnswer: { "@type": "Answer", text: "The Dbl Smash Burger is $13. Two fresh beef patties smashed thin with onion and seasoning, finished over the flame, with standard toppings on a fresh-baked local bun." },
     },
     {
       "@type": "Question",
@@ -151,7 +151,7 @@ export default function SmashBurgerChathamPage() {
               If you want to lean into the Chatham Burgers experience fully:
             </p>
             <ul style={listStyle}>
-              <li style={listItem}><strong style={{ color: "#ffffff" }}>Dbl Smash Burger ($12.99)</strong> — The fan favourite. Two flame-grilled smash patties with onion and seasoning.</li>
+              <li style={listItem}><strong style={{ color: "#ffffff" }}>Dbl Smash Burger ($13)</strong> — The fan favourite. Two flame-grilled smash patties with onion and seasoning.</li>
               <li style={listItem}><strong style={{ color: "#ffffff" }}>Fresh-Cut Fries (Large)</strong> — Hand-cut daily. Get the large. You won't regret it.</li>
               <li style={listItem}><strong style={{ color: "#ffffff" }}>Poutine</strong> — If you're in the mood to go full Chatham about it.</li>
             </ul>
@@ -180,7 +180,7 @@ export default function SmashBurgerChathamPage() {
               />
               <FAQ
                 q="How much does the Dbl Smash Burger cost at Chatham Burgers?"
-                a="The Dbl Smash Burger is $12.99. Two fresh beef patties smashed thin with onion and seasoning, finished over the flame, with standard toppings on a fresh-baked local bun."
+                a="The Dbl Smash Burger is $13. Two fresh beef patties smashed thin with onion and seasoning, finished over the flame, with standard toppings on a fresh-baked local bun."
               />
               <FAQ
                 q="Can I order the smash burger online?"
