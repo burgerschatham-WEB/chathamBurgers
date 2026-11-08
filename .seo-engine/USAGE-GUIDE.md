@@ -4,6 +4,19 @@
 
 Type these into Claude Code. Or just describe what you want naturally.
 
+─── BRAND RULES (LOCKED) ────────────────────────
+
+Every blog must follow config.yaml → brand_rules and templates/tone-guide.md:
+   • Flame-grilled / flame grill / open flame only — never name the fuel
+   • "Since 1985" is fine — no family-ownership or family-recipe claims
+   • Story angle: "Thanks, Chatham — for keeping this place going."
+   • Real, attributable Google reviews quoted with permission, or none —
+     never invent quotes, names, ratings or review counts
+   • Hand-cut fries made daily — no fresh-vs-frozen claims
+   • Links: https://chathamburger.com and
+     https://order.toasttab.com/online/chathamburgers
+   • Warm, local, plain-spoken — no hype words
+
 ─── WRITING ─────────────────────────────────────
 
 "Write the next blog"
@@ -38,8 +51,8 @@ This ensures the blog is written against real competition.
 
 ─── COMPETITOR UPDATES ──────────────────────────
 
-"Update competitor: Simon's Prime Hamburger — they now have a charcoal grill"
-"Royale with Cheese updated their menu. Here's the new info: [paste]"
+"Update competitor: Greek Grill — here's their menu: [paste]"
+"Wing Boyz updated their hours. Here's the new info: [paste]"
 
 ─── CONTENT QUEUE ───────────────────────────────
 
@@ -66,23 +79,24 @@ This ensures the blog is written against real competition.
 ─── CONFIG ──────────────────────────────────────
 
 Edit .seo-engine/config.yaml anytime to change:
-- Trust signals and testimonials
+- Brand rules and avoid terms
+- Trust signals (real, permitted reviews only)
 - CTA text/URL
 - Add/remove competitors
 - Author info
 
-─── YOUR BLOG QUEUE (as of 2026-04-14) ─────────
+─── YOUR BLOG QUEUE (as of 2026-11-07) ─────────
 
 HIGH PRIORITY:
-  q_001 — Best Burgers in Chatham Ontario (pillar)
+  q_001 — Best Burgers in Chatham Ontario (pillar) — needs update to brand rules
   q_002 — Best Smash Burger in Chatham Ontario (pillar)
-  q_003 — Charcoal Grilled Burgers Guide (pillar)
-  q_004 — 40 Years of Charcoal-Grilled Tradition (cluster)
+  q_003 — Flame-Grilled Burgers Guide (pillar)
+  q_004 — Thanks, Chatham: 40 Years of Burgers on Grand Ave (cluster)
+  q_008 — Where to Get Gyros in Chatham Ontario (cluster)
 
 MEDIUM PRIORITY:
-  q_005 — Charcoal Grill vs Gas Grill
+  q_005 — Flame Grill vs Flat-Top
   q_006 — Smash Burger vs Regular Burger
   q_007 — Local Restaurant vs Chain (pillar)
-  q_008 — Fresh-Cut Fries vs Frozen
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

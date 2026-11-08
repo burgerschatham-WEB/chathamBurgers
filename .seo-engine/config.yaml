@@ -1,15 +1,29 @@
 # SEO Content Engine — Project Configuration
-# Auto-generated 2026-04-14. Edit anything here anytime — Claude Code reads this before every task.
+# Auto-generated 2026-04-14. Brand-rule audit applied 2026-11-07.
+# Edit anything here anytime — Claude Code reads this before every task.
 
 project:
   name: "Chatham Burgers"
-  tagline: "Charcoal Grilled. Family Built. Since 1985."
-  description: "Chatham Burgers is a family-owned charcoal grill restaurant in Chatham, Ontario, serving original recipes since 1985. Known for real charcoal-grilled burgers, fresh-cut fries, poutine, wings, and dinner plates."
-  website: "https://chathamburgers.ca"
+  tagline: "Flame-Grilled in Chatham Since 1985."
+  description: "Chatham Burgers is a flame-grill burger restaurant at 215 Grand Ave W in Chatham, Ontario, serving Chatham since 1985. Known for flame-grilled burgers, gyros, fish & chips, hand-cut fries, poutine, wings, and dinner plates."
+  address: "215 Grand Ave W, Chatham, Ontario"
+  established: 1985
+  website: "https://chathamburger.com"
   target_audience:
-    primary: "Chatham, Ontario locals and regional visitors looking for authentic charcoal-grilled burgers"
-    secondary: "Families, burger enthusiasts, and people searching for the best local restaurant alternative to chains"
+    primary: "Chatham, Ontario locals and regional visitors looking for a flame-grilled burger, gyro, or takeout meal"
+    secondary: "Burger fans, takeout and pickup customers, and people looking for a local alternative to chains"
     technical_level: "general public"
+
+# LOCKED BRAND RULES — every generated piece must follow these. They override
+# anything else in this engine (templates, queue angles, old drafts).
+brand_rules:
+  cooking_method: "Always say 'flame-grilled', 'flame grill' or 'open flame'. Never name or describe the fuel. No claims about never switching grills or being the only grill of its kind in the area. A flame grill vs flat-top angle is fine."
+  heritage: "Est. 1985 / since 1985 / serving Chatham for 40 years are plain facts and fine. Do NOT claim family ownership, multi-generational ownership, the same owners since 1985, or original/family recipes. The current owner is not the original family."
+  story_angle: "Thanks, Chatham — for keeping this place going. Credit the community, not a family lineage."
+  reviews: "Use only real, attributable Google reviews quoted with permission, or none. Never invent quotes, names, ratings or review counts. Prefer not to state a star rating or review count at all; if one is stated, it must be Google's current figure, checked on the day of writing."
+  fries: "'Hand-cut fries made daily' is fine. No fresh-vs-frozen claims or comparisons. Small / Large / Family are real fry sizes and may be named."
+  voice: "Warm, local, plain-spoken. No hype words (e.g. 'elevate', 'indulge', 'mouthwatering', 'culinary journey')."
+  domain: "Website is https://chathamburger.com. Online ordering is https://order.toasttab.com/online/chathamburgers (site order page: https://chathamburger.com/order)."
 
 author:
   name: "ankit.guhe"
@@ -20,27 +34,17 @@ author:
 
 trust_signals:
   review_links:
-    google_maps_kelseys: "https://maps.app.goo.gl/8VncjUp27dsSc1sS8"
-    google_maps_aw: "https://maps.app.goo.gl/3adxbiCGPE7Xv1CN7"
-    google_maps_simons_1: "https://maps.app.goo.gl/WdgamPaUYYdHpWah7"
-    google_maps_simons_2: "https://maps.app.goo.gl/zkVMzhecGsfzokN38"
-    google_maps_royale: "https://maps.app.goo.gl/nSimQZkCsFY7oyMFA"
+    # Add the Chatham Burgers Google Maps listing link here when available.
+    google_maps_chatham_burgers: ""
     other: []
-  testimonials:
-    - quote: "Best burgers in Chatham, hands down. I've been coming here since I was a kid. The charcoal flavour is unlike anything else."
-      author: "Sarah M."
-      stars: 5
-    - quote: "The Dbl Smash Burger is absolutely incredible. Juicy, perfectly seasoned, and those fresh-cut fries are something else."
-      author: "Mike T."
-      stars: 5
-    - quote: "Family-owned and it shows. They treat every customer like a regular. The food is consistently amazing, every single visit."
-      author: "Jennifer K."
-      stars: 5
+  # No testimonials on file. Use only real, attributable Google reviews quoted
+  # with permission, or none. Never invent quotes, names, ratings or review counts.
+  testimonials: []
   metrics:
-    - "40 years in business since 1985"
-    - "Same family, same grill, same recipes since 1985"
-    - "Original charcoal grill — never switched to gas"
-    - "Local legend in Chatham, Ontario"
+    - "Serving Chatham since 1985"
+    - "40 years on Grand Ave W in Chatham"
+    - "Burgers cooked on a flame grill"
+    - "Hand-cut fries made daily"
 
 cms:
   type: "nextjs"
@@ -71,24 +75,47 @@ competitors:
   - name: "A&W Canada"
     website: "https://maps.app.goo.gl/3adxbiCGPE7Xv1CN7"
     id: "comp_aw"
-  - name: "Simon's Prime Hamburger"
-    website: "https://maps.app.goo.gl/WdgamPaUYYdHpWah7"
-    id: "comp_simons"
-  - name: "Royale with Cheese"
-    website: "https://maps.app.goo.gl/nSimQZkCsFY7oyMFA"
-    id: "comp_royale"
+  - name: "Wendy's"
+    website: "unverified"
+    id: "comp_wendys"
+  - name: "Craves Poutinerie"
+    website: "unverified"
+    id: "comp_craves"
+  - name: "The Urban Grill"
+    website: "unverified"
+    id: "comp_urban_grill"
+  - name: "Wing Boyz"
+    website: "unverified"
+    id: "comp_wing_boyz"
+  - name: "Greek Grill"
+    website: "unverified"
+    id: "comp_greek_grill"
 
 seo:
   primary_topics:
     - "best burgers in Chatham Ontario"
     - "best smash burger"
-    - "authentic meat burgers"
-    - "smash burgers"
-    - "best burger"
+    - "flame-grilled burgers"
+    - "gyros Chatham Ontario"
+    - "fish and chips Chatham Ontario"
+    - "takeout Chatham-Kent"
   brand_terms:
     - "Chatham Burgers"
     - "chathamburgers"
-  avoid_terms: []
+  # Terms that must never appear in generated content (see brand_rules).
+  avoid_terms:
+    - "charcoal"
+    - "family-owned"
+    - "family owned"
+    - "family built"
+    - "same family"
+    - "family recipe"
+    - "family recipes"
+    - "never frozen"
+    - "not frozen"
+    - "never switched to gas"
+    - "elevate"
+    - "indulge"
   target_regions:
     - "Chatham, Ontario"
     - "Chatham-Kent"
@@ -99,11 +126,12 @@ content:
   min_word_count: 1200
   max_word_count: 3500
   default_author: "ankit.guhe"
-  tone: "warm-local-proud"
+  tone: "warm-local-plainspoken"
   include_faq: true
   include_toc: true
   cta_text: "Order from Chatham Burgers"
-  cta_url: "https://chathamburgers.ca/order"
+  cta_url: "https://order.toasttab.com/online/chathamburgers"
+  order_page_url: "https://chathamburger.com/order"
   max_posts_per_month: 4
   requires_human_review: true
 
@@ -111,7 +139,7 @@ technical_seo:
   meta_description_max_chars: 160
   title_tag_max_chars: 60
   image_alt_text_required: true
-  canonical_url_pattern: "https://chathamburgers.ca/blog/{slug}"
+  canonical_url_pattern: "https://chathamburger.com/blog/{slug}"
 
 integrations:
   seo_tool: "none"

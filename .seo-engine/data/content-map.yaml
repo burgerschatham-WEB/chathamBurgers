@@ -1,15 +1,14 @@
 # Chatham Burgers — Content Map
-# Auto-generated 2026-04-14
-# No existing blog posts found at time of initialization.
-# This file will be populated as blogs are written and approved.
+# Auto-generated 2026-04-14. Brand-rule audit 2026-11-07.
+# This file is populated as blogs are written and approved.
 
-last_updated: "2026-04-14"
+last_updated: "2026-11-07"
 
 blogs:
   - slug: "best-burgers-chatham-ontario"
     title: "Best Burgers in Chatham Ontario (2026 Guide)"
     file_path: "app/blog/best-burgers-chatham-ontario/page.tsx"
-    status: "human-review"
+    status: "needs-update"
     published_date: ""
     last_updated: "2026-04-14"
     blog_type: "listicle+local-guide"
@@ -24,15 +23,15 @@ blogs:
         is_primary: false
     features_mentioned:
       - feature_id: "feat_chatham_burger"
-        context: "Highlighted as must-order — the original since 1985"
-      - feature_id: "feat_charcoal_grill"
-        context: "Core differentiator — entire article built around charcoal vs other methods"
+        context: "Highlighted as must-order"
+      - feature_id: "feat_flame_grill"
+        context: "Core differentiator — flame-grilled burgers"
       - feature_id: "feat_smash_burger"
         context: "Fan favourite callout in what-to-order section"
-      - feature_id: "feat_family_owned"
-        context: "40-year heritage and regulars-as-family angle"
+      - feature_id: "feat_since_1985"
+        context: "Serving Chatham since 1985 — 'Thanks, Chatham' angle"
       - feature_id: "feat_fresh_cut_fries"
-        context: "Mentioned as part of what-to-order — fresh cut, not frozen"
+        context: "Hand-cut fries made daily, in what-to-order section"
       - feature_id: "feat_1lb_burger"
         context: "The Beast mentioned in what-to-order section"
     competitors_mentioned:
@@ -41,7 +40,7 @@ blogs:
     internal_links_from: []
     word_count: 2100
     has_eeat_signals: true
-    needs_update_reason: ""
+    needs_update_reason: "Brand-rule audit 2026-11-07: the April draft was written against the old rules. Rewrite any fuel-type grilling claims as flame-grilled, remove family-ownership/heritage claims and fresh-vs-frozen claims, remove the invented testimonial (use a real attributed Google review with permission or none), drop any star rating/review count, and point links at https://chathamburger.com / the Toast order URL."
 
 # Template for future entries:
 # - slug: "{from filename/frontmatter}"

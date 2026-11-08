@@ -186,42 +186,6 @@ export default function BestBurgersChathamPage() {
             half-pound patty with all the classic toppings. Simple. Big. Honest. That's the whole idea.
           </p>
 
-          {/* Testimonial — E-E-A-T */}
-          <blockquote
-            style={{
-              margin: "32px 0",
-              padding: "24px 28px",
-              background: "#331A0A",
-              borderLeft: "4px solid #F5C200",
-              borderRadius: "0 8px 8px 0",
-            }}
-          >
-            <p
-              style={{
-                fontFamily: "var(--font-lato), sans-serif",
-                color: "#dddddd",
-                fontSize: "1.05rem",
-                lineHeight: "1.7",
-                fontStyle: "italic",
-                marginBottom: "12px",
-              }}
-            >
-              "Best burgers in Chatham, hands down. I've been coming here since I was a kid. The
-              flavour is unlike anything else."
-            </p>
-            <p
-              style={{
-                fontFamily: "var(--font-oswald), sans-serif",
-                letterSpacing: "0.1em",
-                color: "#F5C200",
-                fontSize: "0.8rem",
-                textTransform: "uppercase",
-              }}
-            >
-              — Sarah M., Chatham local
-            </p>
-          </blockquote>
-
           <p style={bodyText}>
             That's the part we can't fake: regulars who grew up coming here and now bring their own
             kids. Thanks, Chatham — for keeping this place going.

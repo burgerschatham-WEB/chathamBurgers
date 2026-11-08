@@ -1,5 +1,6 @@
 # Blog Frontmatter Template — Next.js App Router (MDX)
 # All constraints enforced: title ≤ 60 chars, description ≤ 160 chars, slug ≤ 5 words
+# Brand rules (config.yaml brand_rules) apply to titles, descriptions, slugs and tags too.
 
 template: |
   ---
@@ -9,7 +10,7 @@ template: |
   slug: ""            # Max 5 words, kebab-case. Primary keyword optimized.
   author: "Chatham Burgers"
   tags: []            # 3-5 relevant tags
-  category: ""        # One of: local-guide | burger-guide | charcoal-grilling | restaurant-comparison | food-culture
+  category: ""        # One of: local-guide | burger-guide | flame-grilling | restaurant-comparison | food-culture
   image: ""           # /blog-images/{slug}-hero.jpg
   draft: true         # Set to false only after human review
   ---
@@ -27,22 +28,22 @@ rules:
     must_include: "primary keyword"
     format: "Complete sentence, action-oriented"
     examples:
-      - "Looking for the best burgers in Chatham Ontario? We've been grilling over real charcoal since 1985. Here's what makes Chatham Burgers different."
+      - "Looking for the best burgers in Chatham Ontario? We've been flame-grilling burgers on Grand Ave W since 1985. Here's what to order."
   slug:
     max_words: 5
     format: "kebab-case"
     examples:
       - "best-burgers-chatham-ontario"
       - "best-smash-burger-chatham"
-      - "charcoal-grilled-burgers-guide"
+      - "flame-grilled-burgers-guide"
   tags:
     count: "3-5"
     examples:
-      - ["chatham ontario", "burgers", "local restaurant", "charcoal grill"]
+      - ["chatham ontario", "burgers", "local restaurant", "flame grilled"]
   categories:
     allowed:
       - "local-guide"
       - "burger-guide"
-      - "charcoal-grilling"
+      - "flame-grilling"
       - "restaurant-comparison"
       - "food-culture"

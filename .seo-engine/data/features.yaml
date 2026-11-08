@@ -1,54 +1,45 @@
 # Chatham Burgers — Feature Registry
-# Auto-generated 2026-04-14 from app/menu page and site content
+# Auto-generated 2026-04-14 from app/menu page and site content. Brand-rule audit 2026-11-07.
 # "Features" for a restaurant = menu categories, cooking methods, unique differentiators
+# Brand rules (see config.yaml brand_rules): flame-grilled only; no family-ownership or
+# family-recipe claims; no fresh-vs-frozen claims; no invented reviews.
 
 project: "Chatham Burgers"
-last_updated: "2026-04-14"
+last_updated: "2026-11-07"
 generated_from: "lib/menuData.ts, app/about/page.tsx, app/page.tsx"
 
 categories:
 
   - id: "cat_cooking"
-    name: "Cooking Method & Heritage"
-    description: "What makes Chatham Burgers unique — real charcoal grilling and 40-year family recipes"
+    name: "Cooking Method"
+    description: "What makes Chatham Burgers different — burgers cooked on a flame grill, serving Chatham since 1985"
     subcategories:
-      - id: "sub_charcoal"
-        name: "Charcoal Grilling"
+      - id: "sub_flame_grill"
+        name: "Flame Grilling"
         features:
-          - id: "feat_charcoal_grill"
-            name: "Real Charcoal Grilling"
-            description: "Every burger and protein is grilled over real charcoal — not gas. This produces a distinct smoky flavour that cannot be replicated by gas or flat-top grills."
+          - id: "feat_flame_grill"
+            name: "Flame-Grilled Burgers"
+            description: "Burgers are cooked on a flame grill over open flame, which gives them grill marks and a grilled flavour that a flat-top griddle doesn't."
             status: "available"
             doc_refs:
               - path: "app/about/page.tsx"
-                section: "Built on Fire and Family"
+                section: "About"
               - path: "app/menu/page.tsx"
                 section: "Page header"
             blog_refs: []
-            tags: ["charcoal", "grilling", "cooking-method", "differentiator"]
-            notes: "Core brand differentiator. Use in every SEO piece."
+            tags: ["flame-grilled", "grilling", "cooking-method", "differentiator"]
+            notes: "Core brand differentiator. Always 'flame-grilled' / 'flame grill' / 'open flame'. Never name the fuel; never claim 'never switched' or 'only one in the area'. Flame grill vs flat-top is an OK angle."
 
-          - id: "feat_family_recipes"
-            name: "Original Family Recipes Since 1985"
-            description: "The same recipes used on opening day in 1985 are still in use today. No franchise modifications, no shortcuts."
+          - id: "feat_since_1985"
+            name: "Serving Chatham Since 1985"
+            description: "Chatham Burgers opened in 1985 and has been serving Chatham for 40 years at 215 Grand Ave W."
             status: "available"
             doc_refs:
               - path: "app/about/page.tsx"
                 section: "Story Section"
             blog_refs: []
-            tags: ["heritage", "family", "recipes", "1985", "authenticity"]
-            notes: "40-year trust signal. Strong E-E-A-T anchor."
-
-          - id: "feat_family_owned"
-            name: "Family-Owned & Operated"
-            description: "Chatham Burgers has been owned and operated by the same family since 1985. Not a chain, not a franchise."
-            status: "available"
-            doc_refs:
-              - path: "app/about/page.tsx"
-                section: "Values"
-            blog_refs: []
-            tags: ["family-owned", "local", "community", "independent"]
-            notes: ""
+            tags: ["since-1985", "local", "community", "independent"]
+            notes: "Plain fact only. Story angle: 'Thanks, Chatham — for keeping this place going.' Do NOT claim family ownership, the same owners since 1985, or original/family recipes."
 
   - id: "cat_burgers"
     name: "Burgers"
@@ -59,18 +50,18 @@ categories:
         features:
           - id: "feat_chatham_burger"
             name: "The Chatham Burger"
-            description: "½ lb charcoal-grilled beef patty with standard toppings. The original signature burger since 1985. Local legend."
+            description: "½ lb flame-grilled beef patty with standard toppings. The signature burger. Local legend."
             status: "available"
             doc_refs:
               - path: "lib/menuData.ts"
                 section: "Classic Burgers"
             blog_refs: []
-            tags: ["signature", "half-pound", "original", "local-legend"]
+            tags: ["signature", "half-pound", "local-legend"]
             notes: "Badge: Local Legend. $10.99."
 
           - id: "feat_smash_burger"
             name: "Dbl Smash Burger"
-            description: "Two beef patties smashed with onion & seasoning, charcoal grilled, topped with cheese and standard toppings."
+            description: "Two beef patties smashed with onion & seasoning, flame-grilled, topped with cheese and standard toppings."
             status: "available"
             doc_refs:
               - path: "lib/menuData.ts"
@@ -81,7 +72,7 @@ categories:
 
           - id: "feat_1lb_burger"
             name: "1 LB Burger (The Beast)"
-            description: "Full 1 pound charcoal-grilled beef patty with standard toppings. The biggest burger on the menu."
+            description: "Full 1 pound flame-grilled beef patty with standard toppings. The biggest burger on the menu."
             status: "available"
             doc_refs:
               - path: "lib/menuData.ts"
@@ -161,7 +152,7 @@ categories:
                 section: "Wraps & Hot Dogs"
             blog_refs: []
             tags: ["greek", "gyro", "pita", "tzatziki"]
-            notes: "$11.50."
+            notes: "$11.50. Gyros are the most-mentioned item in Google reviews — key SEO target ('gyros Chatham Ontario')."
 
           - id: "feat_chicken_souvlaki"
             name: "Chicken Souvlaki"
@@ -176,21 +167,21 @@ categories:
 
   - id: "cat_sides"
     name: "Sides & Extras"
-    description: "Fresh-cut fries, onion rings, poutine, and other sides"
+    description: "Hand-cut fries, onion rings, poutine, and other sides"
     subcategories:
       - id: "sub_fries"
-        name: "Fresh-Cut Fries"
+        name: "Hand-Cut Fries"
         features:
           - id: "feat_fresh_cut_fries"
-            name: "Fresh-Cut Fries"
-            description: "Hand-cut fries available in small, large, and family sizes. Not frozen — fresh cut in-house."
+            name: "Hand-Cut Fries"
+            description: "Hand-cut fries made daily, available in Small, Large, and Family sizes."
             status: "available"
             doc_refs:
               - path: "lib/menuData.ts"
                 section: "Sides & Extras"
             blog_refs: []
-            tags: ["fries", "fresh-cut", "sides", "hand-cut"]
-            notes: "Small $5.75, Large $6.50, Family $13.99. Key differentiator vs chains."
+            tags: ["fries", "hand-cut", "sides"]
+            notes: "Small $5.75, Large $6.50, Family $13.99 (Family is a real menu size). Say 'hand-cut fries made daily'; no fresh-vs-frozen claims. (ID kept as feat_fresh_cut_fries for cross-reference stability.)"
 
           - id: "feat_poutine"
             name: "Poutine"
@@ -216,7 +207,7 @@ categories:
 
   - id: "cat_wings"
     name: "Pub Wings"
-    description: "Charcoal-grilled pub wings with 9 sauce options"
+    description: "Pub wings with 9 sauce options"
     subcategories:
       - id: "sub_wings"
         name: "Wings"
@@ -241,14 +232,14 @@ categories:
         features:
           - id: "feat_fish_chips"
             name: "Fish & Chips"
-            description: "Crispy haddock served with fresh-cut chips. Fan favourite. Senior special available."
+            description: "Crispy haddock served with hand-cut chips. Fan favourite. Senior special available."
             status: "available"
             doc_refs:
               - path: "lib/menuData.ts"
                 section: "Dinner Plates"
             blog_refs: []
             tags: ["fish-chips", "haddock", "fan-favourite", "dinner"]
-            notes: "Regular $15.99, Senior Special $9.99."
+            notes: "Regular $15.99, Senior Special $9.99. Rising in Google review mentions — SEO target ('fish and chips Chatham Ontario')."
 
           - id: "feat_hot_hamburger"
             name: "Hot Hamburger"
@@ -270,13 +261,13 @@ categories:
         features:
           - id: "feat_combos"
             name: "Combo Meals"
-            description: "Full combo meals including burger/hotdog/chicken + fresh-cut fries + drink. Best value option."
+            description: "Full combo meals including burger/hotdog/chicken + hand-cut fries + drink. Best value option."
             status: "available"
             doc_refs:
               - path: "lib/menuData.ts"
                 section: "Combos"
             blog_refs: []
-            tags: ["combos", "value", "meal-deal", "family"]
+            tags: ["combos", "value", "meal-deal"]
             notes: "From $13.99. Kids Burger Combo $12.99."
 
   - id: "cat_salads"
@@ -299,18 +290,18 @@ categories:
 
   - id: "cat_online_ordering"
     name: "Online Ordering"
-    description: "Online ordering available through the website"
+    description: "Online ordering for pickup/takeout"
     subcategories:
       - id: "sub_order"
         name: "Online Order"
         features:
           - id: "feat_online_order"
             name: "Online Ordering"
-            description: "Customers can place orders online at chathamburgers.ca/order."
+            description: "Customers can order online at https://order.toasttab.com/online/chathamburgers (linked from https://chathamburger.com/order)."
             status: "available"
             doc_refs:
               - path: "app/order/page.tsx"
                 section: "Order page"
             blog_refs: []
-            tags: ["online-ordering", "delivery", "pickup"]
+            tags: ["online-ordering", "delivery", "pickup", "takeout"]
             notes: ""
