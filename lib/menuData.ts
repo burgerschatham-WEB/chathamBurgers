@@ -44,7 +44,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Gyro", description: "Pita bread, cut gyro, tomato, onion, tzatziki", price: "$12.00" },
       { name: "Chicken Souvlaki", description: "Pita bread, grilled chicken skewers, tomato, onion, lettuce & tzatziki", price: "$12.00" },
       { name: "Chicken Greek", description: "Pita bread, seasoned chicken, tomato, onion, lettuce & tzatziki", price: "$15.00" },
-      { name: "Chicken Cesar", description: "Pita bread, grilled chicken, tomato, onion, cesar sauce", price: "$15.00" },
+      { name: "Chicken Caesar", description: "Pita bread, grilled chicken, tomato, onion, Caesar sauce", price: "$15.00" },
       { name: "Hot Dog", description: "Classic beef frankfurter, mustard", price: "$8.00" },
       { name: "Foot Long Hot Dog", description: "Classic beef frankfurter, mustard", price: "$11.00" },
       { name: "Polish Sausage", price: "$10.00" },
@@ -138,7 +138,7 @@ export const menuCategories: MenuCategory[] = [
     title: "Submarines",
     items: [
       { name: "Gyro Sub", price: "$16.75" },
-      { name: "Chicken Souvalaki Sub", price: "$18.00" },
+      { name: "Chicken Souvlaki Sub", price: "$18.00" },
       { name: "Club Sub", price: "$16.75" },
       { name: "Cheese Sub", price: "$8.75" },
       { name: "Ham & Cheese Sub", price: "$10.75" },
