@@ -31,6 +31,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Chipotle Cheese", description: "½ lb patty, chipotle sauce, cheese, standard toppings", price: "$13.00" },
       { name: "Dbl Smash Burger", description: "2 beef patties smashed with onion & seasoning, cheese, standard toppings", price: "$13.00", badge: "Fan Favourite" },
       { name: "Chicken Burger", description: "Crispy chicken, standard toppings, sauce of your choice", price: "$10.00" },
+      { name: "Crispy Finger Burger", description: "2 chicken fingers, lettuce, onions, tomatoes, sweet & sour sauce", price: "$11.99" },
       { name: "1 LB Burger", description: "1 lb patty, standard toppings", price: "$18.50", badge: "The Beast" },
       { name: "1 LB Cheeseburger", description: "1 lb patty, cheese, standard toppings", price: "$20.00" },
       { name: "1 LB Banquet", description: "1 lb patty, bacon, cheese, standard toppings", price: "$22.50" },
@@ -75,10 +76,13 @@ export const menuCategories: MenuCategory[] = [
       { name: "Fresh Cut Fries — Large", price: "$7.00" },
       { name: "Fresh Cut Fries — Family", price: "$14.00" },
       { name: "Onion Rings", price: "$7.00" },
+      { name: "Family Onion Rings", price: "$14.50" },
       { name: "Cheese Sticks", price: "$8.00" },
       { name: "Pickle Spears", price: "$8.50" },
       { name: "Potato Wedges", price: "$6.75" },
       { name: "Gravy", price: "$2.00" },
+      { name: "Chicken Nuggets (side)", price: "$8.99" },
+      { name: "Tzatziki Sauce", price: "Ask" },
     ],
   },
   {
@@ -88,6 +92,9 @@ export const menuCategories: MenuCategory[] = [
       { name: "Small Poutine", price: "$9.00" },
       { name: "Large Poutine", price: "$11.00" },
       { name: "Smash Poutine", price: "$14.00" },
+      { name: "Hamburger Poutine", price: "$15.99" },
+      { name: "BBQ Chicken Poutine", price: "$15.99" },
+      { name: "Crispy Chicken Poutine", price: "$15.99" },
     ],
   },
   {
@@ -96,6 +103,8 @@ export const menuCategories: MenuCategory[] = [
     items: [
       { name: "5 Pcs Wings", price: "$8.00" },
       { name: "10 Pcs Wings", price: "$14.49" },
+      { name: "5 Pcs Wings + Can Pop", price: "$8.99" },
+      { name: "10 Pcs Wings + Can Pop", price: "$14.99" },
     ],
     note: "Sauces: Honey Garlic, Hot Sauce, Tequila Lime, Wild Wings Sauce, Sweet & Sour, Blue Cheese, BBQ, Chipotle, Ranch",
   },
@@ -106,6 +115,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Greek Salad", description: "Feta, tomato, cucumber, olives, green pepper, onions, lettuce & dressing", price: "$14.00" },
       { name: "Caesar Salad", description: "Romaine, bacon beets, croutons, dressing", price: "$12.50" },
       { name: "Garden Salad", description: "Mixed greens, fresh veggies, dressing", price: "$10.00" },
+      { name: "Small Greek Salad", price: "$9.99" },
     ],
   },
   {
@@ -114,6 +124,8 @@ export const menuCategories: MenuCategory[] = [
     items: [
       { name: "Fish & Chips", description: "Crispy haddock served with fresh-cut chips", price: "$16.00", badge: "Fan Favourite" },
       { name: "Sr. Sp Fish & Chips", description: "Crispy haddock served with fresh-cut chips", price: "$10.00" },
+      { name: "Sr. Sp Chicken Fingers", price: "$9.99" },
+      { name: "Sr. Sp Chicken Nuggets", price: "$9.99" },
       { name: "Chicken Fingers", description: "4 crispy, golden chicken tenders served with fresh-cut chips & Sweet & Sour sauce", price: "$16.00" },
       { name: "Chicken Nuggets", description: "Crispy, golden chicken nuggets served with fresh-cut chips & Sweet & Sour sauce", price: "$16.00" },
       { name: "Breaded Shrimps", description: "Golden, crispy panko-breaded shrimp served with a side of seafood sauce", price: "$11.00" },
@@ -142,7 +154,30 @@ export const menuCategories: MenuCategory[] = [
       { name: "Ham & Cheese", price: "$7.00" },
       { name: "Grilled Cheese", price: "$6.00" },
       { name: "Toasted Western", price: "$7.00" },
+      { name: "Bacon & Tomato", price: "$6.99" },
+      { name: "Grilled Chicken", price: "$8.99" },
     ],
+  },
+  {
+    id: "drinks",
+    title: "Drinks",
+    items: [
+      { name: "Pepsi", description: "Can", price: "$2.99" },
+      { name: "Pepsi", description: "Bottle", price: "$3.99" },
+      { name: "Diet Pepsi", description: "Mini can", price: "$1.50" },
+      { name: "Diet Pepsi", description: "Bottle", price: "$3.99" },
+      { name: "Pepsi Zero Sugar", description: "Bottle", price: "$3.99" },
+    ],
+  },
+  {
+    id: "beer",
+    title: "Beer",
+    items: [
+      { name: "Domestic", description: "Coors Light, Bud Light, Molson", price: "$4.00" },
+      { name: "Premium", description: "Corona, Stella Artois", price: "$5.00" },
+      { name: "Local Craft", description: "Sons of Kent, Bayside", price: "$6.00" },
+    ],
+    note: "Dine-in only. 19+ with valid ID. Please drink responsibly.",
   },
 ];
 
