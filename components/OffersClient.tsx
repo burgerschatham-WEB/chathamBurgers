@@ -45,9 +45,9 @@ const deals: Deal[] = [
     tagColor: C.red,
     title: 'FREE FRIES',
     subtitle: 'With any burger purchase',
-    description: 'Join the Chatham Burgers Club. Text BURGER to 262-242-3234 and claim your free fries on your next visit.',
+    description: 'Join the Chatham Burgers Club. Text BURGER to 226-242-3234 and claim your free fries on your next visit.',
     cta: 'Text to Claim',
-    href: 'sms:2622423234?body=BURGER',
+    href: 'sms:2262423234?body=BURGER',
     highlight: false,
     badge: 'MOST POPULAR',
     badgeColor: C.red,
@@ -83,7 +83,7 @@ const deals: Deal[] = [
     subtitle: 'Free burger on your birthday',
     description: 'Signed up for SMS? We send a special birthday offer straight to your phone. Join the club to unlock it.',
     cta: 'Join the Club',
-    href: 'sms:2622423234?body=BURGER',
+    href: 'sms:2262423234?body=BURGER',
     highlight: false,
     badge: 'SMS MEMBERS ONLY',
     badgeColor: C.gold,
@@ -139,7 +139,7 @@ const deals: Deal[] = [
 ]
 
 const steps = [
-  { num: '01', label: 'Text BURGER', detail: 'Send the word BURGER to 262-242-3234 from your phone.' },
+  { num: '01', label: 'Text BURGER', detail: 'Send the word BURGER to 226-242-3234 from your phone.' },
   { num: '02', label: 'Get Confirmed', detail: "You'll receive a confirmation text with your offer code instantly." },
   { num: '03', label: 'Redeem In-Store', detail: "Show the text at the counter on your next visit. That's it." },
 ]
@@ -219,12 +219,12 @@ export default function OffersClient() {
               </div>
 
               <a
-                href="sms:2622423234?body=BURGER"
+                href="sms:2262423234?body=BURGER"
                 style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', background: `linear-gradient(135deg, ${C.red}, ${C.redDark})`, color: '#ffffff', fontFamily: 'var(--font-bebas)', letterSpacing: '0.15em', fontSize: '1.5rem', padding: '16px 0', borderRadius: '10px', textDecoration: 'none', boxShadow: `0 8px 28px rgba(220,38,38,0.4)`, transition: 'transform 0.15s, box-shadow 0.15s', width: '100%', maxWidth: '380px' }}
                 onMouseEnter={e => { e.currentTarget.style.transform = 'scale(1.02)'; e.currentTarget.style.boxShadow = '0 12px 36px rgba(220,38,38,0.55)' }}
                 onMouseLeave={e => { e.currentTarget.style.transform = 'scale(1)'; e.currentTarget.style.boxShadow = '0 8px 28px rgba(220,38,38,0.4)' }}
               >
-                262-242-3234
+                226-242-3234
               </a>
               <p style={{ fontFamily: 'var(--font-oswald)', color: 'rgba(255,255,255,0.28)', fontSize: '0.66rem', letterSpacing: '0.12em', textTransform: 'uppercase', marginTop: '10px' }}>
                 Tap to open messages
@@ -372,13 +372,13 @@ export default function OffersClient() {
             </div>
           </div>
           <a
-            href="sms:2622423234?body=BURGER"
+            href="sms:2262423234?body=BURGER"
             style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', background: `linear-gradient(135deg, ${C.red}, ${C.redDark})`, color: '#ffffff', fontFamily: 'var(--font-bebas)', letterSpacing: '0.15em', fontSize: '1.2rem', padding: '14px 32px', borderRadius: '8px', textDecoration: 'none', boxShadow: `0 6px 20px rgba(220,38,38,0.35)`, whiteSpace: 'nowrap', transition: 'transform 0.15s' }}
             onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.04)'}
             onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
           >
             <MessageSquare size={18} />
-            TEXT BURGER → 262-242-3234
+            TEXT BURGER → 226-242-3234
           </a>
         </motion.div>
         <SmsDisclosure dark={false} />

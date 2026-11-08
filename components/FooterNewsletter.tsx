@@ -29,11 +29,11 @@ export default function FooterNewsletter() {
           </p>
           <p style={{ fontFamily: 'var(--font-lato), sans-serif', color: '#cccccc', fontSize: '0.95rem', margin: '6px 0 0' }}>
             Text <strong style={{ color: '#ffffff' }}>BURGER</strong> to{' '}
-            <strong style={{ color: '#ffffff' }}>262-242-3234</strong> for free fries and club deals.
+            <strong style={{ color: '#ffffff' }}>226-242-3234</strong> for free fries and club deals.
           </p>
         </div>
         <a
-          href="sms:2622423234?body=BURGER"
+          href="sms:2262423234?body=BURGER"
           style={{
             display: 'inline-flex',
             alignItems: 'center',

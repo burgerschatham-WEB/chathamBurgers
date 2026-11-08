@@ -33,7 +33,7 @@ export default function SmsTermsPage() {
 
         <h2 style={h2}>How you join</h2>
         <p style={p}>
-          Text BURGER to 262-242-3234. Joining means you agree to get recurring marketing texts from us: deals, new menu items and
+          Text BURGER to 226-242-3234. Joining means you agree to get recurring marketing texts from us: deals, new menu items and
           club offers. Consent is not a condition of purchase.
         </p>
 

@@ -87,7 +87,7 @@ export default function SMSStickyBar() {
                   margin: '3px 0 0',
                 }}>
                   Text <strong style={{ color: '#fff' }}>BURGER</strong> to{' '}
-                  <strong style={{ color: '#F5C200' }}>262-242-3234</strong> for deals · Msg &amp; data rates may apply · Reply STOP to opt out ·{' '}
+                  <strong style={{ color: '#F5C200' }}>226-242-3234</strong> for deals · Msg &amp; data rates may apply · Reply STOP to opt out ·{' '}
                   <Link href="/sms-terms" style={{ color: '#F5C200', textDecoration: 'underline' }}>Terms</Link>
                 </p>
               </div>
@@ -95,7 +95,7 @@ export default function SMSStickyBar() {
 
             {/* CTA button */}
             <a
-              href="sms:2622423234?body=BURGER"
+              href="sms:2262423234?body=BURGER"
               style={{
                 flexShrink: 0,
                 background: 'linear-gradient(135deg, #C8102E, #A00E27)',

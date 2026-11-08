@@ -214,7 +214,7 @@ export default function SMSOfferSection() {
 
               {/* Full-width phone number button */}
               <a
-                href="sms:2622423234?body=BURGER"
+                href="sms:2262423234?body=BURGER"
                 style={{
                   display: 'block',
                   background: 'linear-gradient(135deg, #C8102E 0%, #A00E27 100%)',
@@ -238,7 +238,7 @@ export default function SMSOfferSection() {
                   e.currentTarget.style.boxShadow = '0 6px 20px rgba(200,16,46,0.45)'
                 }}
               >
-                262-242-3234
+                226-242-3234
               </a>
 
               <p style={{
