@@ -1,16 +1,8 @@
-'use client'
+import { MessageSquare } from 'lucide-react'
+import SmsDisclosure from './SmsDisclosure'
 
-import { useState } from 'react'
-
+/** Footer sign-up: joins the SMS club (the only list we actually keep). */
 export default function FooterNewsletter() {
-  const [email, setEmail] = useState('')
-  const [submitted, setSubmitted] = useState(false)
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    if (email.trim()) setSubmitted(true)
-  }
-
   return (
     <div
       style={{
@@ -21,75 +13,48 @@ export default function FooterNewsletter() {
         marginBottom: '32px',
       }}
     >
-      {submitted ? (
-        <p
-          style={{
-            fontFamily: 'var(--font-oswald), sans-serif',
-            letterSpacing: '0.1em',
-            color: '#F5C200',
-            fontSize: '1rem',
-            textAlign: 'center',
-          }}
-        >
-          You&apos;re on the list! 🔥
-        </p>
-      ) : (
-        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 items-stretch sm:items-end">
-          <div className="flex flex-col gap-2 flex-1">
-            <label
-              htmlFor="footer-email"
-              style={{
-                fontFamily: 'var(--font-oswald), sans-serif',
-                letterSpacing: '0.15em',
-                color: '#888',
-                fontSize: '0.75rem',
-                textTransform: 'uppercase',
-              }}
-            >
-              Stay in the loop — deals, specials & new menu items
-            </label>
-            <input
-              id="footer-email"
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="your@email.com"
-              required
-              suppressHydrationWarning
-              style={{
-                background: '#1a1a1a',
-                border: '1px solid #3a3a3a',
-                borderRadius: '4px',
-                padding: '12px 16px',
-                color: '#ffffff',
-                fontFamily: 'var(--font-lato), sans-serif',
-                fontSize: '0.9rem',
-                outline: 'none',
-                width: '100%',
-              }}
-            />
-          </div>
-          <button
-            type="submit"
-            suppressHydrationWarning
+      <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
+        <div>
+          <p
             style={{
-              background: '#C8102E',
-              color: '#ffffff',
-              border: 'none',
-              borderRadius: '4px',
-              padding: '12px 28px',
-              fontFamily: 'var(--font-bebas), sans-serif',
-              letterSpacing: '0.12em',
-              fontSize: '1rem',
-              cursor: 'pointer',
-              whiteSpace: 'nowrap',
-              flexShrink: 0,
+              fontFamily: 'var(--font-oswald), sans-serif',
+              letterSpacing: '0.15em',
+              color: '#F5C200',
+              fontSize: '0.8rem',
+              textTransform: 'uppercase',
+              margin: 0,
             }}
           >
-            Sign Up
-          </button>
-        </form>
-      )}
+            Join the Chatham Burgers Club
+          </p>
+          <p style={{ fontFamily: 'var(--font-lato), sans-serif', color: '#cccccc', fontSize: '0.95rem', margin: '6px 0 0' }}>
+            Text <strong style={{ color: '#ffffff' }}>BURGER</strong> to{' '}
+            <strong style={{ color: '#ffffff' }}>262-242-3234</strong> for free fries and club deals.
+          </p>
+        </div>
+        <a
+          href="sms:2622423234?body=BURGER"
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '8px',
+            background: '#C8102E',
+            color: '#ffffff',
+            borderRadius: '4px',
+            padding: '12px 28px',
+            fontFamily: 'var(--font-bebas), sans-serif',
+            letterSpacing: '0.12em',
+            fontSize: '1rem',
+            textDecoration: 'none',
+            whiteSpace: 'nowrap',
+            flexShrink: 0,
+          }}
+        >
+          <MessageSquare size={16} />
+          Text BURGER
+        </a>
+      </div>
+      <SmsDisclosure align="left" />
     </div>
   )
 }

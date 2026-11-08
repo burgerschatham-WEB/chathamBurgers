@@ -51,7 +51,8 @@ export const metadata: Metadata = {
 const restaurantSchema = {
   "@context": "https://schema.org",
   "@type": "Restaurant",
-  name: "Chatham Burgers",
+  name: "Chatham Burger",
+  alternateName: "Chatham Burgers",
   image: "https://chathamburger.com/og-image.jpg",
   description: "Flame-grilled burger restaurant in Chatham, Ontario since 1985.",
   url: "https://chathamburger.com",
