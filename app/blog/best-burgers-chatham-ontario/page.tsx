@@ -211,6 +211,11 @@ export default function BestBurgersChathamPage() {
               <strong style={{ color: "#ffffff" }}>Fresh-Cut Fries</strong> — Hand-cut in-house, every
               day. Get the large.
             </li>
+            <li style={listItem}>
+              <strong style={{ color: "#ffffff" }}>Gyro ($11.50)</strong> — Warm pita, cut gyro meat,
+              tomato, onion and tzatziki. Not a burger, but it&apos;s the item people mention most in our
+              Google reviews. Make it a combo with fries and a drink for $16.75.
+            </li>
           </ul>
 
           <p
@@ -257,11 +262,6 @@ export default function BestBurgersChathamPage() {
               note="If wings are the goal rather than burgers, Wing Boyz has a following in Chatham. Worth checking if that's what you're after."
             />
             <SpotCard
-              name="Chatham Kebab & Gyro"
-              type="Mediterranean"
-              note="A different category entirely — great if you want a gyro or souvlaki. Not a burger destination, but a good local option for Mediterranean."
-            />
-            <SpotCard
               name="Craves Poutinerie"
               type="Poutine Specialist"
               note="Chatham's poutine spot. If that's what you're craving, they focus on it. We also do poutine if you want to pair it with a fresh flame-grilled burger."
@@ -269,8 +269,9 @@ export default function BestBurgersChathamPage() {
           </div>
 
           <p style={{ ...bodyText, marginTop: "28px" }}>
-            The honest take: if you specifically want a burger — not wings, not BBQ, not a gyro — the
-            fresh local farm beef at Chatham Burgers is the move. Burgers are what we do.
+            The honest take: if you want a burger, the fresh local farm beef at Chatham Burgers is the
+            move. And if half your table wants a gyro instead, you don&apos;t need a second stop — we make
+            those too, right on Grand Ave.
           </p>
         </section>
 
