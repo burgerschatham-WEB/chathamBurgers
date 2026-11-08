@@ -61,6 +61,8 @@ export const menuCategories: MenuCategory[] = [
       { name: "Chicken Combo", description: "Crispy chicken + fries + drink", price: "$15.00" },
       { name: "Veggie Combo", description: "Veggie burger + fries + drink", price: "$16.00" },
       { name: "Gyro Combo", description: "Gyro + fries + drink", price: "$17.00" },
+      { name: "Golden Combo", description: "½ lb cheeseburger + fries + drink", price: "$17.00" },
+      { name: "Souvlaki Combo", description: "Chicken souvlaki pita + fries + drink", price: "$17.00" },
       { name: "Smash Combo", description: "Smash patty + fries + drink", price: "$18.00" },
       { name: "Family Feast", description: "4 burgers + 1 family fries + 4 drinks", price: "$48.00" },
     ],
