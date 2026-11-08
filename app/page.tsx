@@ -11,7 +11,7 @@ import SMSStickyBar from '@/components/SMSStickyBar'
 
 export const metadata: Metadata = {
   title: 'Chatham Burgers — Best Burgers in Chatham, Ontario Since 1985',
-  description: 'Flame-grilled burgers, gyros and poutine on Grand Ave West in Chatham, Ontario. Serving Chatham since 1985. Order online for pickup.',
+  description: 'Flame-grilled burgers made with local farm beef, plus gyros and poutine, on Grand Ave West in Chatham, Ontario. Since 1985. Order online for pickup.',
   alternates: { canonical: 'https://chathamburger.com' },
   openGraph: { url: 'https://chathamburger.com' },
 }

@@ -65,7 +65,7 @@ const faqSchema = {
       name: "How long has Chatham Burgers been making burgers?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Chatham Burgers has been serving Chatham, Ontario since 1985. Fresh local farm beef, fresh-baked buns, fresh-cut fries, and the flame grill. Thanks, Chatham, for keeping this place going. You can see the menu and order online at chathamburger.com/order.",
+        text: "Chatham Burgers has been serving Chatham, Ontario since 1985. Local farm beef from a local butcher, buns fresh every day, fresh-cut fries, and the flame grill. Thanks, Chatham, for keeping this place going. You can see the menu and order online at chathamburger.com/order.",
       },
     },
   ],
@@ -366,8 +366,8 @@ export default function HistoryOfBurgersPage() {
               choose a burger made the real way over one made the fast way.
             </p>
             <p style={bodyText}>
-              That meant fresh beef from local farms, delivered daily. Buns from a local bakery every
-              morning. Fries cut by hand. And every burger over the flame grill. Thanks, Chatham — for
+              That meant beef from local farms, through a local butcher. Buns fresh every
+              day. Fries cut by hand. And every burger over the flame grill. Thanks, Chatham — for
               keeping this place going. If you want to know where Chatham Burgers fits in the wider
               local scene, we wrote an honest{" "}
               <Link href="/blog/best-burgers-chatham-ontario" style={{ color: "#F5C200", textDecoration: "none" }}>
@@ -416,7 +416,7 @@ export default function HistoryOfBurgersPage() {
               />
               <FAQ
                 q="How long has Chatham Burgers been making burgers?"
-                a="Chatham Burgers has been serving Chatham, Ontario since 1985. Fresh local farm beef, fresh-baked buns, fresh-cut fries, and the flame grill. Thanks, Chatham, for keeping this place going. You can see the menu and order online at chathamburger.com/order."
+                a="Chatham Burgers has been serving Chatham, Ontario since 1985. Local farm beef from a local butcher, buns fresh every day, fresh-cut fries, and the flame grill. Thanks, Chatham, for keeping this place going. You can see the menu and order online at chathamburger.com/order."
               />
             </div>
           </section>
@@ -432,7 +432,7 @@ export default function HistoryOfBurgersPage() {
               because the idea at the centre is so good: great beef, cooked with care, ready to eat.
             </p>
             <p style={bodyText}>
-              That's the part we've held onto since 1985. Real local farm meat, fresh-baked buns,
+              That's the part we've held onto since 1985. Real local farm meat, fresh buns every day,
               fresh-cut fries, and an open flame — the burger the way more than a century of
               history says it should be made.
             </p>
@@ -467,7 +467,7 @@ export default function HistoryOfBurgersPage() {
                   marginBottom: "20px",
                 }}
               >
-                Real local farm meat. Fresh-baked buns. Fresh-cut fries. Flame-grilled since 1985.
+                Real local farm meat. Fresh buns daily. Fresh-cut fries. Flame-grilled since 1985.
               </p>
               <Link
                 href="/order"

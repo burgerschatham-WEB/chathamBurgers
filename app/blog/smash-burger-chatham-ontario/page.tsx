@@ -40,12 +40,12 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Does Chatham Burgers use fresh beef for their smash burgers?",
-      acceptedAnswer: { "@type": "Answer", text: "Yes. We use fresh beef from local Ontario farms, delivered daily." },
+      acceptedAnswer: { "@type": "Answer", text: "Yes. Our beef comes from local farms, through a local butcher." },
     },
     {
       "@type": "Question",
       name: "How much does the Dbl Smash Burger cost at Chatham Burgers?",
-      acceptedAnswer: { "@type": "Answer", text: "The Dbl Smash Burger is $13. Two fresh beef patties smashed thin with onion and seasoning, finished over the flame, with standard toppings on a fresh-baked local bun." },
+      acceptedAnswer: { "@type": "Answer", text: "The Dbl Smash Burger is $13. Two fresh beef patties smashed thin with onion and seasoning, finished over the flame, with standard toppings on a bun that's fresh every day." },
     },
     {
       "@type": "Question",
@@ -176,11 +176,11 @@ export default function SmashBurgerChathamPage() {
               />
               <FAQ
                 q="Does Chatham Burgers use fresh beef for their smash burgers?"
-                a="Yes. We use fresh beef from local Ontario farms, delivered daily."
+                a="Yes. Our beef comes from local farms, through a local butcher."
               />
               <FAQ
                 q="How much does the Dbl Smash Burger cost at Chatham Burgers?"
-                a="The Dbl Smash Burger is $13. Two fresh beef patties smashed thin with onion and seasoning, finished over the flame, with standard toppings on a fresh-baked local bun."
+                a="The Dbl Smash Burger is $13. Two fresh beef patties smashed thin with onion and seasoning, finished over the flame, with standard toppings on a bun that's fresh every day."
               />
               <FAQ
                 q="Can I order the smash burger online?"

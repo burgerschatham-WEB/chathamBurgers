@@ -131,7 +131,7 @@ export default function BestBurgersChathamPage() {
           </p>
           <ul style={listStyle}>
             <li style={listItem}>
-              <strong style={{ color: "#F5C200" }}>The meat.</strong> Fresh local farm beef, delivered daily. You can taste it in the texture, the flavour, the way it holds together on the flame.
+              <strong style={{ color: "#F5C200" }}>The meat.</strong> Local farm beef from a local butcher. You can taste it in the texture, the flavour, the way it holds together on the flame.
             </li>
             <li style={listItem}>
               <strong style={{ color: "#F5C200" }}>The patty quality.</strong> Fresh beef, properly
@@ -175,8 +175,8 @@ export default function BestBurgersChathamPage() {
           </p>
 
           <p style={bodyText}>
-            The difference starts with the meat. We source fresh beef from local farms, delivered every
-            single day. Our buns come from a local bakery every morning. Our fries are cut by hand daily.
+            The difference starts with the meat. Our beef comes from local farms, through a local
+            butcher. Our buns are fresh every day. Our fries are cut by hand daily.
             We believe in supporting local, and that philosophy runs through every ingredient
             on the plate.
           </p>
@@ -292,7 +292,7 @@ export default function BestBurgersChathamPage() {
             />
             <FAQ
               q="What makes Chatham Burgers different from other restaurants?"
-              a="Fresh local farm beef, delivered daily. Fresh-baked buns from a local bakery every morning. Fries cut by hand. All of it cooked over an open flame. We back local suppliers, and you can taste it."
+              a="Local farm beef from a local butcher. Buns fresh every day. Fries cut by hand. All of it cooked over an open flame. We back local suppliers, and you can taste it."
             />
             <FAQ
               q="What's the best burger to order at Chatham Burgers?"
@@ -320,7 +320,7 @@ export default function BestBurgersChathamPage() {
             already know where we're pointing you.
           </p>
           <p style={bodyText}>
-            Fresh local farm beef in every morning. Fresh-baked buns from the bakery. Fresh-cut fries.
+            Local farm beef from a local butcher. Buns fresh every day. Fresh-cut fries.
             Come hungry. We'll handle the rest.
           </p>
 
@@ -354,7 +354,7 @@ export default function BestBurgersChathamPage() {
                 marginBottom: "20px",
               }}
             >
-              Fresh local farm beef. Fresh-baked buns. Fresh-cut fries. Serving Chatham since 1985.
+              Local farm beef. Fresh buns daily. Fresh-cut fries. Serving Chatham since 1985.
             </p>
             <Link
               href="/order"
