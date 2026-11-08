@@ -18,6 +18,7 @@ export const menuCategories: MenuCategory[] = [
     title: "Classic Burgers",
     items: [
       { name: "Ham Burger", description: "¼ lb patty, standard toppings", price: "$8.00" },
+      { name: "Kids Burger", description: "Mini burger, standard toppings", price: "$6.50" },
       { name: "Cheese Burger", description: "¼ lb patty, cheese, standard toppings", price: "$9.00" },
       { name: "Banquet Burger", description: "¼ lb patty, bacon, cheese, standard toppings", price: "$11.00" },
       { name: "Pizza Burger", description: "Beef patty, mozzarella, marinara sauce", price: "$11.50" },
