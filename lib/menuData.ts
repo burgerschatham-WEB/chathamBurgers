@@ -53,7 +53,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Chatham Combo", description: "½ lb burger + fries + drink", price: "$16.00" },
       { name: "Banquet Combo", description: "Bacon, cheese + fries + drink", price: "$16.00" },
       { name: "Hot Dog Combo", description: "Hot dog + fries + drink", price: "$13.00" },
-      { name: "Kids Burger Combo", description: "Mini burger + fries + drink", price: "$13.00" },
+      { name: "Kids Burger Combo", description: "Mini burger + fries + drink", price: "$11.50" },
       { name: "Chicken Combo", description: "Crispy chicken + fries + drink", price: "$15.00" },
       { name: "Veggie Combo", description: "Veggie burger + fries + drink", price: "$16.00" },
       { name: "Gyro Combo", description: "Gyro + fries + drink", price: "$17.00" },

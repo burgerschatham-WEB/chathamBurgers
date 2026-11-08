@@ -300,7 +300,7 @@ export default function BestBurgersChathamPage() {
             />
             <FAQ
               q="Is Chatham Burgers family-friendly?"
-              a="Yes. Bring the kids. We have a Kids Burger Combo ($13), and lots of our regulars who grew up coming here now bring their own kids in."
+              a="Yes. Bring the kids. We have a Kids Burger Combo ($11.50), and lots of our regulars who grew up coming here now bring their own kids in."
             />
             <FAQ
               q="Where is Chatham Burgers located?"
