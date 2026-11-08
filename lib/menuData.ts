@@ -113,7 +113,7 @@ export const menuCategories: MenuCategory[] = [
     title: "Salads",
     items: [
       { name: "Greek Salad", description: "Feta, tomato, cucumber, olives, green pepper, onions, lettuce & dressing", price: "$14.00" },
-      { name: "Caesar Salad", description: "Romaine, bacon beets, croutons, dressing", price: "$12.50" },
+      { name: "Caesar Salad", description: "Romaine, bacon bits, croutons, dressing", price: "$12.50" },
       { name: "Garden Salad", description: "Mixed greens, fresh veggies, dressing", price: "$10.00" },
       { name: "Small Greek Salad", price: "$9.99" },
     ],
@@ -123,9 +123,9 @@ export const menuCategories: MenuCategory[] = [
     title: "Dinner Plates",
     items: [
       { name: "Fish & Chips", description: "Crispy haddock served with fresh-cut chips", price: "$16.00", badge: "Fan Favourite" },
-      { name: "Sr. Sp Fish & Chips", description: "Crispy haddock served with fresh-cut chips", price: "$10.00" },
-      { name: "Sr. Sp Chicken Fingers", price: "$9.99" },
-      { name: "Sr. Sp Chicken Nuggets", price: "$9.99" },
+      { name: "Senior Fish & Chips", description: "Crispy haddock served with fresh-cut chips", price: "$10.00" },
+      { name: "Senior Chicken Fingers", price: "$9.99" },
+      { name: "Senior Chicken Nuggets", price: "$9.99" },
       { name: "Chicken Fingers", description: "4 crispy, golden chicken tenders served with fresh-cut chips & Sweet & Sour sauce", price: "$16.00" },
       { name: "Chicken Nuggets", description: "Crispy, golden chicken nuggets served with fresh-cut chips & Sweet & Sour sauce", price: "$16.00" },
       { name: "Breaded Shrimps", description: "Golden, crispy panko-breaded shrimp served with a side of seafood sauce", price: "$11.00" },
