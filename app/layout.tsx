@@ -32,6 +32,7 @@ export const metadata: Metadata = {
     "Chatham Burgers — flame-grilled burgers, gyros and poutine in Chatham, Ontario. Serving Chatham since 1985.",
   keywords: "burgers, gyros, poutine, smash burger, Chatham Ontario, flame-grilled burgers, since 1985",
   metadataBase: new URL("https://chathamburger.com"),
+  verification: { google: "HgIV8eOZ6aq8K3s9gHdrgXQkas6f6-WR4J8uMbUZ8Pg" },
   openGraph: {
     type: "website",
     title: "Chatham Burgers — Crafted on the Flame",
