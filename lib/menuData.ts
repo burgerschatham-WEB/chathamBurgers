@@ -69,7 +69,7 @@ export const menuCategories: MenuCategory[] = [
       { name: "Fresh Cut Fries — Large", price: "$7.00" },
       { name: "Fresh Cut Fries — Family", price: "$14.00" },
       { name: "Onion Rings", price: "$7.00" },
-      { name: "Cheese Sticks", price: "$7.00" },
+      { name: "Cheese Sticks", price: "$8.00" },
       { name: "Pickle Spears", price: "$8.50" },
       { name: "Potato Wedges", price: "$6.75" },
       { name: "Gravy", price: "$2.00" },
@@ -107,7 +107,7 @@ export const menuCategories: MenuCategory[] = [
     items: [
       { name: "Fish & Chips", description: "Crispy haddock served with fresh-cut chips", price: "$16.00", badge: "Fan Favourite" },
       { name: "Sr. Sp Fish & Chips", description: "Crispy haddock served with fresh-cut chips", price: "$10.00" },
-      { name: "Chicken Fingers", description: "Crispy, golden chicken tenders served with fresh-cut chips & Sweet & Sour sauce", price: "$16.00" },
+      { name: "Chicken Fingers", description: "4 crispy, golden chicken tenders served with fresh-cut chips & Sweet & Sour sauce", price: "$16.00" },
       { name: "Chicken Nuggets", description: "Crispy, golden chicken nuggets served with fresh-cut chips & Sweet & Sour sauce", price: "$16.00" },
       { name: "Breaded Shrimps", description: "Golden, crispy panko-breaded shrimp served with a side of seafood sauce", price: "$11.00" },
       { name: "Hot Hamburger", description: "Open-faced burger patty on bread, smothered in gravy, hot corn on side with fries", price: "$13.50" },
