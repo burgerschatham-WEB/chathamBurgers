@@ -97,7 +97,7 @@ export default function SMSOfferSection() {
 
             {/* Join the Club card */}
             <div style={{
-              background: '#1C1C1C',
+              background: '#43230F',
               border: '2px dashed rgba(255,255,255,0.25)',
               borderRadius: '14px',
               padding: '22px 24px 18px',
@@ -109,7 +109,7 @@ export default function SMSOfferSection() {
                 top: '-14px',
                 left: '20px',
                 background: '#F5C200',
-                color: '#1C1C1C',
+                color: '#43230F',
                 fontFamily: 'var(--font-bebas), sans-serif',
                 letterSpacing: '0.1em',
                 fontSize: '1rem',
@@ -180,7 +180,7 @@ export default function SMSOfferSection() {
 
             {/* Text BURGER CTA */}
             <div style={{
-              background: '#1C1C1C',
+              background: '#43230F',
               borderRadius: '12px',
               padding: '20px 24px',
               display: 'flex',
@@ -257,7 +257,7 @@ export default function SMSOfferSection() {
 
             {/* Thank You footer */}
             <div style={{
-              background: '#1C1C1C',
+              background: '#43230F',
               borderRadius: '8px',
               padding: '13px 20px',
               display: 'flex',
@@ -326,7 +326,7 @@ export default function SMSOfferSection() {
                 zIndex: 2,
               }}
             >
-              <span style={{ fontFamily: 'var(--font-bebas), sans-serif', fontSize: '0.7rem', color: '#1C1C1C', letterSpacing: '0.12em', lineHeight: 1 }}>SINCE</span>
+              <span style={{ fontFamily: 'var(--font-bebas), sans-serif', fontSize: '0.7rem', color: '#43230F', letterSpacing: '0.12em', lineHeight: 1 }}>SINCE</span>
               <span style={{ fontFamily: 'var(--font-bebas), sans-serif', fontSize: '1.6rem', color: '#C8102E', letterSpacing: '0.04em', lineHeight: 1 }}>1985</span>
               <span style={{ fontFamily: 'var(--font-oswald), sans-serif', fontSize: '0.55rem', color: '#3D1F0A', letterSpacing: '0.1em', textTransform: 'uppercase', lineHeight: 1.2, textAlign: 'center' }}>Chatham,{'\n'}Ontario</span>
             </motion.div>

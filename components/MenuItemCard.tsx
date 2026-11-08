@@ -65,7 +65,7 @@ export default function MenuItemCard({ item, index }: MenuItemCardProps) {
           <p
             style={{
               fontFamily: "var(--font-lato), sans-serif",
-              color: "#666",
+              color: "#6B5A4A",
               fontSize: "0.8rem",
               lineHeight: "1.5",
               marginTop: "4px",

@@ -67,10 +67,10 @@ export default function SmashBurgerChathamPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <article style={{ background: "#0a0a0a", minHeight: "100vh", paddingTop: "80px", color: "#ffffff" }}>
+      <article style={{ background: "#2A1408", minHeight: "100vh", paddingTop: "80px", color: "#ffffff" }}>
 
         {/* Hero */}
-        <header style={{ background: "linear-gradient(135deg, #0a0a0a 0%, #1a0a00 50%, #0a0a0a 100%)", padding: "64px 0 48px", borderBottom: "1px solid #2a2a2a" }}>
+        <header style={{ background: "linear-gradient(135deg, #2A1408 0%, #1a0a00 50%, #2A1408 100%)", padding: "64px 0 48px", borderBottom: "1px solid #5A3820" }}>
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <p style={{ fontFamily: "var(--font-oswald)", letterSpacing: "0.3em", color: "#DC2626", fontSize: "0.78rem", textTransform: "uppercase", marginBottom: "16px" }}>
               Chatham, Ontario · Flame-Grilled · 2026
@@ -85,7 +85,7 @@ export default function SmashBurgerChathamPage() {
             <p style={bodyText}>
               Smash burgers are everywhere right now. Most of them never go near an open flame. Ours do. Here's why that matters — and why Chatham Burgers was serving burgers here long before the trend showed up.
             </p>
-            <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", fontFamily: "var(--font-lato)", fontSize: "0.8rem", color: "#666" }}>
+            <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", fontFamily: "var(--font-lato)", fontSize: "0.8rem", color: "#6B5A4A" }}>
               <span>By Chatham Burgers</span>
               <span>·</span>
               <span>May 3, 2026</span>
@@ -210,11 +210,11 @@ export default function SmashBurgerChathamPage() {
               <p style={{ fontFamily: "var(--font-bebas)", letterSpacing: "0.06em", fontSize: "1.6rem", color: "#ffffff", marginBottom: "8px" }}>
                 ORDER THE DBL SMASH BURGER
               </p>
-              <p style={{ fontFamily: "var(--font-lato)", color: "#aaa", fontSize: "0.9rem", marginBottom: "20px" }}>
+              <p style={{ fontFamily: "var(--font-lato)", color: "#D2BFA5", fontSize: "0.9rem", marginBottom: "20px" }}>
                 Fresh local farm beef · Flame-grilled · Est. 1985 · 215 Grand Ave W, Chatham ON
               </p>
               <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
-                <Link href="/order" style={{ fontFamily: "var(--font-bebas)", letterSpacing: "0.12em", fontSize: "1.1rem", background: "#F4BA2E", color: "#0a0a0a", padding: "13px 32px", borderRadius: "4px", textDecoration: "none" }}>
+                <Link href="/order" style={{ fontFamily: "var(--font-bebas)", letterSpacing: "0.12em", fontSize: "1.1rem", background: "#F4BA2E", color: "#2A1408", padding: "13px 32px", borderRadius: "4px", textDecoration: "none" }}>
                   Order Online →
                 </Link>
                 <a href="tel:5193541414" style={{ fontFamily: "var(--font-bebas)", letterSpacing: "0.12em", fontSize: "1.1rem", background: "transparent", color: "#ffffff", border: "1px solid rgba(255,255,255,0.25)", padding: "13px 32px", borderRadius: "4px", textDecoration: "none" }}>
@@ -224,7 +224,7 @@ export default function SmashBurgerChathamPage() {
             </div>
 
             <div style={{ marginTop: "32px", textAlign: "center" }}>
-              <Link href="/blog/best-burgers-chatham-ontario" style={{ fontFamily: "var(--font-oswald)", letterSpacing: "0.15em", fontSize: "0.8rem", textTransform: "uppercase", color: "#555", textDecoration: "none" }}>
+              <Link href="/blog/best-burgers-chatham-ontario" style={{ fontFamily: "var(--font-oswald)", letterSpacing: "0.15em", fontSize: "0.8rem", textTransform: "uppercase", color: "#5A4A3A", textDecoration: "none" }}>
                 ← Read our full Chatham burger guide
               </Link>
             </div>
@@ -240,7 +240,7 @@ export default function SmashBurgerChathamPage() {
 
 const bodyText: React.CSSProperties = {
   fontFamily: "var(--font-lato), sans-serif",
-  color: "#cccccc",
+  color: "#EADCC6",
   fontSize: "1rem",
   lineHeight: "1.85",
   marginBottom: "20px",
@@ -250,7 +250,7 @@ const listStyle: React.CSSProperties = { paddingLeft: "20px", marginBottom: "20p
 
 const listItem: React.CSSProperties = {
   fontFamily: "var(--font-lato), sans-serif",
-  color: "#cccccc",
+  color: "#EADCC6",
   fontSize: "1rem",
   lineHeight: "1.8",
   marginBottom: "12px",
@@ -265,14 +265,14 @@ function H2({ children }: { children: React.ReactNode }) {
 }
 
 function Divider() {
-  return <hr style={{ border: "none", borderTop: "1px solid #2a2a2a", margin: "40px 0" }} />;
+  return <hr style={{ border: "none", borderTop: "1px solid #5A3820", margin: "40px 0" }} />;
 }
 
 function FAQ({ q, a }: { q: string; a: string }) {
   return (
-    <div style={{ padding: "20px 24px", background: "#111", border: "1px solid #2a2a2a", borderRadius: "8px" }}>
+    <div style={{ padding: "20px 24px", background: "#331A0A", border: "1px solid #5A3820", borderRadius: "8px" }}>
       <p style={{ fontFamily: "var(--font-oswald)", letterSpacing: "0.03em", color: "#ffffff", fontSize: "1rem", marginBottom: "10px" }}>{q}</p>
-      <p style={{ fontFamily: "var(--font-lato)", color: "#999", fontSize: "0.9rem", lineHeight: "1.65", margin: 0 }}>{a}</p>
+      <p style={{ fontFamily: "var(--font-lato)", color: "#9A8A7A", fontSize: "0.9rem", lineHeight: "1.65", margin: 0 }}>{a}</p>
     </div>
   );
 }

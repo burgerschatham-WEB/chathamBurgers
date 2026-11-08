@@ -29,7 +29,7 @@ export default function SMSStickyBar() {
             left: 0,
             right: 0,
             zIndex: 999,
-            background: '#1C1C1C',
+            background: '#43230F',
             borderTop: '3px solid #C8102E',
             boxShadow: '0 -4px 24px rgba(0,0,0,0.35)',
           }}

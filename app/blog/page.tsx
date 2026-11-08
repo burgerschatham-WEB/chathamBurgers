@@ -40,13 +40,13 @@ const posts = [
 
 export default function BlogIndexPage() {
   return (
-    <div style={{ background: "#0a0a0a", minHeight: "100vh", paddingTop: "64px" }}>
+    <div style={{ background: "#2A1408", minHeight: "100vh", paddingTop: "64px" }}>
       {/* Header */}
       <section
         style={{
-          background: "linear-gradient(135deg, #0a0a0a 0%, #1a0a00 50%, #0a0a0a 100%)",
+          background: "linear-gradient(135deg, #2A1408 0%, #1a0a00 50%, #2A1408 100%)",
           padding: "64px 0 48px",
-          borderBottom: "1px solid #2a2a2a",
+          borderBottom: "1px solid #5A3820",
         }}
       >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -87,8 +87,8 @@ export default function BlogIndexPage() {
             >
               <article
                 style={{
-                  background: "#141414",
-                  border: "1px solid #2a2a2a",
+                  background: "#331A0A",
+                  border: "1px solid #5A3820",
                   borderRadius: "8px",
                   padding: "28px 32px",
                   transition: "border-color 0.2s",
@@ -116,7 +116,7 @@ export default function BlogIndexPage() {
                     style={{
                       fontFamily: "var(--font-lato), sans-serif",
                       fontSize: "0.8rem",
-                      color: "#555",
+                      color: "#5A4A3A",
                     }}
                   >
                     {post.date} · {post.readTime}
@@ -137,7 +137,7 @@ export default function BlogIndexPage() {
                 <p
                   style={{
                     fontFamily: "var(--font-lato), sans-serif",
-                    color: "#888",
+                    color: "#8A7A6A",
                     fontSize: "0.9rem",
                     lineHeight: "1.65",
                     margin: 0,

@@ -43,12 +43,12 @@ export default function MenuClient() {
   };
 
   return (
-    <div style={{ background: "#0a0a0a", minHeight: "100vh", paddingTop: "64px" }}>
+    <div style={{ background: "#FFFAF2", minHeight: "100vh", paddingTop: "64px" }}>
       {/* Page Header */}
       <div
         style={{
-          background: "linear-gradient(135deg, #0a0a0a 0%, #1a0a00 50%, #0a0a0a 100%)",
-          borderBottom: "1px solid #2a2a2a",
+          background: "linear-gradient(135deg, #2A1408 0%, #1a0a00 50%, #2A1408 100%)",
+          borderBottom: "1px solid #5A3820",
           padding: "48px 0 32px",
         }}
       >
@@ -84,7 +84,7 @@ export default function MenuClient() {
       <div
         ref={navRef}
         className="sticky top-16 z-30"
-        style={{ background: "rgba(10,10,10,0.97)", backdropFilter: "blur(12px)", borderBottom: "1px solid #2a2a2a" }}
+        style={{ background: "rgba(255,250,242,0.96)", backdropFilter: "blur(12px)", borderBottom: "1px solid #E0D8CC" }}
       >
         {/* Desktop: horizontal scroll nav */}
         <div className="hidden md:flex max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-x-auto gap-1 py-2 scrollbar-none">
@@ -97,10 +97,10 @@ export default function MenuClient() {
                 letterSpacing: "0.06em",
                 fontSize: "0.8rem",
                 textTransform: "uppercase",
-                color: activeCategory === cat.id ? "#0a0a0a" : "#aaa",
+                color: activeCategory === cat.id ? "#2A1408" : "#5A3820",
                 background: activeCategory === cat.id ? "#F5C200" : "transparent",
                 border: "1px solid",
-                borderColor: activeCategory === cat.id ? "#F5C200" : "#2a2a2a",
+                borderColor: activeCategory === cat.id ? "#F5C200" : "#E0D8CC",
                 padding: "6px 14px",
                 borderRadius: "3px",
                 cursor: "pointer",
@@ -123,9 +123,9 @@ export default function MenuClient() {
               letterSpacing: "0.06em",
               fontSize: "0.85rem",
               textTransform: "uppercase",
-              color: "#F5C200",
-              background: "#141414",
-              border: "1px solid #F5C200",
+              color: "#3D1F0A",
+              background: "#F5F0E8",
+              border: "1px solid #E8A020",
               padding: "10px 16px",
               borderRadius: "4px",
               cursor: "pointer",
@@ -145,8 +145,8 @@ export default function MenuClient() {
                 exit={{ opacity: 0, height: 0 }}
                 style={{
                   overflow: "hidden",
-                  background: "#141414",
-                  border: "1px solid #2a2a2a",
+                  background: "#FFFDF8",
+                  border: "1px solid #E0D8CC",
                   borderTop: "none",
                   borderRadius: "0 0 4px 4px",
                 }}
@@ -163,10 +163,10 @@ export default function MenuClient() {
                       letterSpacing: "0.06em",
                       fontSize: "0.85rem",
                       textTransform: "uppercase",
-                      color: activeCategory === cat.id ? "#F5C200" : "#cccccc",
+                      color: activeCategory === cat.id ? "#C8102E" : "#3D1F0A",
                       background: "transparent",
                       border: "none",
-                      borderBottom: "1px solid #2a2a2a",
+                      borderBottom: "1px solid #E0D8CC",
                       padding: "12px 16px",
                       cursor: "pointer",
                     }}
@@ -189,12 +189,12 @@ export default function MenuClient() {
         </div>
 
         {/* Bottom CTA */}
-        <div className="text-center mt-20 py-16" style={{ borderTop: "1px solid #2a2a2a" }}>
+        <div className="text-center mt-20 py-16" style={{ borderTop: "1px solid #E0D8CC" }}>
           <p
             style={{
               fontFamily: "var(--font-oswald), sans-serif",
               letterSpacing: "0.1em",
-              color: "#cccccc",
+              color: "#5A3820",
               fontSize: "1rem",
               marginBottom: "24px",
               textTransform: "uppercase",
@@ -209,7 +209,7 @@ export default function MenuClient() {
               letterSpacing: "0.12em",
               fontSize: "1.2rem",
               background: "#F5C200",
-              color: "#0a0a0a",
+              color: "#2A1408",
               padding: "16px 48px",
               borderRadius: "4px",
               textDecoration: "none",

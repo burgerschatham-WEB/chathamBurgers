@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer
       className="relative overflow-hidden"
-      style={{ background: '#0a0a0a', borderTop: '4px solid #C8102E' }}
+      style={{ background: '#2A1408', borderTop: '4px solid #C8102E' }}
     >
       {/* Ghost watermark text */}
       <div
@@ -49,14 +49,14 @@ export default function Footer() {
               style={{
                 fontFamily: 'var(--font-oswald), sans-serif',
                 letterSpacing: '0.05em',
-                color: '#cccccc',
+                color: '#EADCC6',
                 fontSize: '1rem',
                 marginBottom: '8px',
               }}
             >
               Crafted on the Flame
             </p>
-            <p style={{ color: '#888', fontSize: '0.875rem', lineHeight: '1.6', fontFamily: 'var(--font-lato), sans-serif' }}>
+            <p style={{ color: '#8A7A6A', fontSize: '0.875rem', lineHeight: '1.6', fontFamily: 'var(--font-lato), sans-serif' }}>
               Crafted on the Flame. Serving Chatham, Ontario since 1985.
               Real local farm meat, fresh-baked buns, fresh-cut fries, and recipes that haven&apos;t changed in 40 years.
             </p>
@@ -69,7 +69,7 @@ export default function Footer() {
                 className="flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 hover:bg-red-700 hover:text-white"
                 style={{
                   border: '1px solid rgba(200,16,46,0.4)',
-                  color: '#cccccc',
+                  color: '#EADCC6',
                 }}
                 aria-label="Facebook"
               >
@@ -84,7 +84,7 @@ export default function Footer() {
                 className="flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 hover:bg-red-700 hover:text-white"
                 style={{
                   border: '1px solid rgba(200,16,46,0.4)',
-                  color: '#cccccc',
+                  color: '#EADCC6',
                 }}
                 aria-label="Instagram"
               >
@@ -120,7 +120,7 @@ export default function Footer() {
                   key={link.href}
                   href={link.href}
                   style={{
-                    color: '#cccccc',
+                    color: '#EADCC6',
                     textDecoration: 'none',
                     fontSize: '0.875rem',
                     fontFamily: 'var(--font-lato), sans-serif',
@@ -150,7 +150,7 @@ export default function Footer() {
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
                 <MapPin size={18} style={{ color: '#C8102E', flexShrink: 0, marginTop: '2px' }} />
-                <span style={{ color: '#cccccc', fontSize: '0.875rem', fontFamily: 'var(--font-lato)', lineHeight: '1.5' }}>
+                <span style={{ color: '#EADCC6', fontSize: '0.875rem', fontFamily: 'var(--font-lato)', lineHeight: '1.5' }}>
                   215 Grand Ave W<br />Chatham, ON N7L 1C3
                 </span>
               </div>
@@ -158,7 +158,7 @@ export default function Footer() {
                 <Phone size={18} style={{ color: '#C8102E', flexShrink: 0, marginTop: '2px' }} />
                 <a
                   href="tel:+15193541414"
-                  style={{ color: '#cccccc', fontSize: '0.875rem', fontFamily: 'var(--font-lato)', textDecoration: 'none' }}
+                  style={{ color: '#EADCC6', fontSize: '0.875rem', fontFamily: 'var(--font-lato)', textDecoration: 'none' }}
                   className="hover:text-red-600 transition-colors"
                 >
                   (519) 354-1414
@@ -166,7 +166,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-3">
                 <Clock size={18} style={{ color: '#C8102E', flexShrink: 0, marginTop: '2px' }} />
-                <span style={{ color: '#cccccc', fontSize: '0.875rem', fontFamily: 'var(--font-lato)', lineHeight: '1.5' }}>
+                <span style={{ color: '#EADCC6', fontSize: '0.875rem', fontFamily: 'var(--font-lato)', lineHeight: '1.5' }}>
                   Sun–Thu: 11 a.m.–8 p.m.<br />
                   Fri–Sat: 11 a.m.–9 p.m.
                 </span>
@@ -181,7 +181,7 @@ export default function Footer() {
         <div
           className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8"
         >
-          <p style={{ color: '#555', fontSize: '0.8rem', fontFamily: 'var(--font-lato)' }}>
+          <p style={{ color: '#5A4A3A', fontSize: '0.8rem', fontFamily: 'var(--font-lato)' }}>
             © 2026 Chatham Burgers. All rights reserved.
           </p>
           <p

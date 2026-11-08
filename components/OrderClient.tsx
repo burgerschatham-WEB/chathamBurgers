@@ -5,11 +5,11 @@ import { ExternalLink, Clock, Phone, MapPin, CheckCircle } from "lucide-react";
 
 export default function OrderClient() {
   return (
-    <div style={{ background: "#0a0a0a", minHeight: "100vh", paddingTop: "64px" }}>
+    <div style={{ background: "#FFFAF2", minHeight: "100vh", paddingTop: "64px" }}>
       {/* Hero */}
       <section
         style={{
-          background: "linear-gradient(135deg, #0a0a0a 0%, #1a0a00 50%, #0a0a0a 100%)",
+          background: "linear-gradient(135deg, #2A1408 0%, #1a0a00 50%, #2A1408 100%)",
           padding: "80px 0",
           position: "relative",
           overflow: "hidden",
@@ -56,7 +56,7 @@ export default function OrderClient() {
             transition={{ delay: 0.2, duration: 0.5 }}
             style={{
               fontFamily: "var(--font-lato), sans-serif",
-              color: "#cccccc",
+              color: "#EADCC6",
               fontSize: "clamp(1rem, 2.5vw, 1.15rem)",
               lineHeight: "1.7",
               marginBottom: "40px",
@@ -104,7 +104,7 @@ export default function OrderClient() {
             transition={{ delay: 0.5, duration: 0.5 }}
             style={{
               fontFamily: "var(--font-lato), sans-serif",
-              color: "#555",
+              color: "#B8A48A",
               fontSize: "0.825rem",
               marginTop: "16px",
             }}
@@ -115,7 +115,7 @@ export default function OrderClient() {
       </section>
 
       {/* How it works */}
-      <section className="py-20" style={{ background: "#0d0d0d" }}>
+      <section className="py-20" style={{ background: "#FFFAF2" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -129,10 +129,10 @@ export default function OrderClient() {
                 fontFamily: "var(--font-bebas), sans-serif",
                 letterSpacing: "0.06em",
                 fontSize: "clamp(2rem, 5vw, 3rem)",
-                color: "#ffffff",
+                color: "#3D1F0A",
               }}
             >
-              HOW IT <span style={{ color: "#F5C200" }}>WORKS</span>
+              HOW IT <span style={{ color: "#C8102E" }}>WORKS</span>
             </h2>
           </motion.div>
 
@@ -149,9 +149,9 @@ export default function OrderClient() {
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.12, duration: 0.5 }}
                 style={{
-                  background: "#141414",
+                  background: "#FFFFFF",
                   borderRadius: "8px",
-                  border: "1px solid #2a2a2a",
+                  border: "1px solid #E0D8CC",
                   padding: "32px 24px",
                   textAlign: "center",
                 }}
@@ -161,8 +161,8 @@ export default function OrderClient() {
                     fontFamily: "var(--font-bebas), sans-serif",
                     letterSpacing: "0.1em",
                     fontSize: "3rem",
-                    color: "#F5C200",
-                    opacity: 0.3,
+                    color: "#E8A020",
+                    opacity: 0.6,
                     lineHeight: 1,
                     marginBottom: "12px",
                   }}
@@ -173,7 +173,7 @@ export default function OrderClient() {
                   style={{
                     fontFamily: "var(--font-oswald), sans-serif",
                     letterSpacing: "0.05em",
-                    color: "#ffffff",
+                    color: "#3D1F0A",
                     fontSize: "1rem",
                     textTransform: "uppercase",
                     marginBottom: "10px",
@@ -184,7 +184,7 @@ export default function OrderClient() {
                 <p
                   style={{
                     fontFamily: "var(--font-lato), sans-serif",
-                    color: "#777",
+                    color: "#6B5A4A",
                     fontSize: "0.875rem",
                     lineHeight: "1.6",
                   }}
@@ -207,9 +207,9 @@ export default function OrderClient() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
               style={{
-                background: "#141414",
+                background: "#FFFFFF",
                 borderRadius: "8px",
-                border: "1px solid #2a2a2a",
+                border: "1px solid #E0D8CC",
                 padding: "24px",
               }}
             >
@@ -218,7 +218,7 @@ export default function OrderClient() {
                 style={{
                   fontFamily: "var(--font-oswald), sans-serif",
                   letterSpacing: "0.05em",
-                  color: "#ffffff",
+                  color: "#3D1F0A",
                   fontSize: "0.95rem",
                   textTransform: "uppercase",
                   marginBottom: "10px",
@@ -235,8 +235,8 @@ export default function OrderClient() {
                   { day: "Fri – Sat", hours: "11am – 9pm" },
                 ].map(({ day, hours }) => (
                   <div key={day} className="flex justify-between">
-                    <span style={{ color: "#888" }}>{day}</span>
-                    <span style={{ color: "#cccccc" }}>{hours}</span>
+                    <span style={{ color: "#8A7A6A" }}>{day}</span>
+                    <span style={{ color: "#5A3820" }}>{hours}</span>
                   </div>
                 ))}
               </div>
@@ -248,9 +248,9 @@ export default function OrderClient() {
               viewport={{ once: true }}
               transition={{ delay: 0.1, duration: 0.5 }}
               style={{
-                background: "#141414",
+                background: "#FFFFFF",
                 borderRadius: "8px",
-                border: "1px solid #2a2a2a",
+                border: "1px solid #E0D8CC",
                 padding: "24px",
               }}
             >
@@ -259,7 +259,7 @@ export default function OrderClient() {
                 style={{
                   fontFamily: "var(--font-oswald), sans-serif",
                   letterSpacing: "0.05em",
-                  color: "#ffffff",
+                  color: "#3D1F0A",
                   fontSize: "0.95rem",
                   textTransform: "uppercase",
                   marginBottom: "10px",
@@ -271,7 +271,7 @@ export default function OrderClient() {
                 href="tel:5193541414"
                 style={{
                   fontFamily: "var(--font-lato), sans-serif",
-                  color: "#F5C200",
+                  color: "#C8102E",
                   fontSize: "1.1rem",
                   fontWeight: "700",
                   textDecoration: "none",
@@ -281,7 +281,7 @@ export default function OrderClient() {
               >
                 (519) 354-1414
               </a>
-              <p style={{ fontFamily: "var(--font-lato), sans-serif", color: "#666", fontSize: "0.8rem" }}>
+              <p style={{ fontFamily: "var(--font-lato), sans-serif", color: "#6B5A4A", fontSize: "0.8rem" }}>
                 Tap to call
               </p>
             </motion.div>
@@ -292,9 +292,9 @@ export default function OrderClient() {
               viewport={{ once: true }}
               transition={{ delay: 0.2, duration: 0.5 }}
               style={{
-                background: "#141414",
+                background: "#FFFFFF",
                 borderRadius: "8px",
-                border: "1px solid #2a2a2a",
+                border: "1px solid #E0D8CC",
                 padding: "24px",
               }}
             >
@@ -303,7 +303,7 @@ export default function OrderClient() {
                 style={{
                   fontFamily: "var(--font-oswald), sans-serif",
                   letterSpacing: "0.05em",
-                  color: "#ffffff",
+                  color: "#3D1F0A",
                   fontSize: "0.95rem",
                   textTransform: "uppercase",
                   marginBottom: "10px",
@@ -311,7 +311,7 @@ export default function OrderClient() {
               >
                 Pickup Location
               </h4>
-              <p style={{ fontFamily: "var(--font-lato), sans-serif", color: "#cccccc", fontSize: "0.875rem", lineHeight: "1.6" }}>
+              <p style={{ fontFamily: "var(--font-lato), sans-serif", color: "#5A3820", fontSize: "0.875rem", lineHeight: "1.6" }}>
                 215 Grand Ave W<br />Chatham, ON N7L 1C3
               </p>
             </motion.div>
@@ -325,16 +325,16 @@ export default function OrderClient() {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="mt-8 p-6"
             style={{
-              background: "#141414",
+              background: "#FFFFFF",
               borderRadius: "8px",
-              border: "1px solid #2a2a2a",
+              border: "1px solid #E0D8CC",
             }}
           >
             <h4
               style={{
                 fontFamily: "var(--font-oswald), sans-serif",
                 letterSpacing: "0.05em",
-                color: "#F5C200",
+                color: "#C8102E",
                 fontSize: "0.95rem",
                 textTransform: "uppercase",
                 marginBottom: "16px",
@@ -350,11 +350,11 @@ export default function OrderClient() {
                 "Made with care, every single time",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-3">
-                  <CheckCircle size={16} style={{ color: "#F5C200", flexShrink: 0 }} />
+                  <CheckCircle size={16} style={{ color: "#C8102E", flexShrink: 0 }} />
                   <span
                     style={{
                       fontFamily: "var(--font-lato), sans-serif",
-                      color: "#cccccc",
+                      color: "#5A3820",
                       fontSize: "0.875rem",
                     }}
                   >

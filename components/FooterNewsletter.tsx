@@ -6,8 +6,8 @@ export default function FooterNewsletter() {
   return (
     <div
       style={{
-        borderTop: '1px solid #2a2a2a',
-        borderBottom: '1px solid #2a2a2a',
+        borderTop: '1px solid #5A3820',
+        borderBottom: '1px solid #5A3820',
         padding: '32px 0',
         marginTop: '40px',
         marginBottom: '32px',
@@ -27,7 +27,7 @@ export default function FooterNewsletter() {
           >
             Join the Chatham Burgers Club
           </p>
-          <p style={{ fontFamily: 'var(--font-lato), sans-serif', color: '#cccccc', fontSize: '0.95rem', margin: '6px 0 0' }}>
+          <p style={{ fontFamily: 'var(--font-lato), sans-serif', color: '#EADCC6', fontSize: '0.95rem', margin: '6px 0 0' }}>
             Text <strong style={{ color: '#ffffff' }}>BURGER</strong> to{' '}
             <strong style={{ color: '#ffffff' }}>226-242-3234</strong> for free fries and club deals.
           </p>

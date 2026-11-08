@@ -63,11 +63,11 @@ const values = [
 
 export default function AboutClient() {
   return (
-    <div style={{ background: "#0a0a0a", minHeight: "100vh", paddingTop: "64px" }}>
+    <div style={{ background: "#2A1408", minHeight: "100vh", paddingTop: "64px" }}>
       {/* Hero */}
       <section
         style={{
-          background: "linear-gradient(135deg, #0a0a0a 0%, #1a0a00 50%, #0a0a0a 100%)",
+          background: "linear-gradient(135deg, #2A1408 0%, #1a0a00 50%, #2A1408 100%)",
           padding: "80px 0",
           position: "relative",
           overflow: "hidden",
@@ -114,7 +114,7 @@ export default function AboutClient() {
             transition={{ delay: 0.2, duration: 0.5 }}
             style={{
               fontFamily: "var(--font-lato), sans-serif",
-              color: "#cccccc",
+              color: "#EADCC6",
               fontSize: "clamp(1rem, 2.5vw, 1.2rem)",
               maxWidth: "700px",
               margin: "0 auto",
@@ -128,7 +128,7 @@ export default function AboutClient() {
       </section>
 
       {/* Story Section */}
-      <section className="py-20" style={{ borderBottom: "1px solid #2a2a2a" }}>
+      <section className="py-20" style={{ borderBottom: "1px solid #5A3820" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -153,7 +153,7 @@ export default function AboutClient() {
               </h2>
               <div
                 className="flex flex-col gap-5"
-                style={{ fontFamily: "var(--font-lato), sans-serif", color: "#cccccc", fontSize: "0.975rem", lineHeight: "1.8" }}
+                style={{ fontFamily: "var(--font-lato), sans-serif", color: "#EADCC6", fontSize: "0.975rem", lineHeight: "1.8" }}
               >
                 <p>
                   In 1985, Chatham Burgers opened with a simple idea: make burgers the right way.
@@ -180,7 +180,7 @@ export default function AboutClient() {
               style={{
                 height: 420,
                 borderRadius: "12px",
-                border: "1px solid #2a2a2a",
+                border: "1px solid #5A3820",
               }}
             >
               <Image
@@ -213,7 +213,7 @@ export default function AboutClient() {
       </section>
 
       {/* What Makes Us Different */}
-      <section className="py-20" style={{ background: "#0d0d0d" }}>
+      <section className="py-20" style={{ background: "#2A1408" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -244,9 +244,9 @@ export default function AboutClient() {
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.1, duration: 0.5 }}
                   style={{
-                    background: "#141414",
+                    background: "#331A0A",
                     borderRadius: "8px",
-                    border: "1px solid #2a2a2a",
+                    border: "1px solid #5A3820",
                     padding: "28px 24px",
                   }}
                 >
@@ -330,7 +330,7 @@ export default function AboutClient() {
       </section>
 
       {/* Video Section */}
-      <section className="py-20" style={{ background: "#0a0a0a", borderBottom: "1px solid #2a2a2a" }}>
+      <section className="py-20" style={{ background: "#2A1408", borderBottom: "1px solid #5A3820" }}>
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -358,7 +358,7 @@ export default function AboutClient() {
             style={{
               borderRadius: "12px",
               overflow: "hidden",
-              border: "1px solid #2a2a2a",
+              border: "1px solid #5A3820",
             }}
           >
             <video
@@ -418,7 +418,7 @@ export default function AboutClient() {
                         height: 16,
                         borderRadius: "50%",
                         background: "#F5C200",
-                        border: "3px solid #0a0a0a",
+                        border: "3px solid #2A1408",
                         boxShadow: "0 0 0 2px #F5C200",
                         flexShrink: 0,
                         marginTop: 4,
@@ -451,7 +451,7 @@ export default function AboutClient() {
                     <p
                       style={{
                         fontFamily: "var(--font-lato), sans-serif",
-                        color: "#888",
+                        color: "#8A7A6A",
                         fontSize: "0.9rem",
                         lineHeight: "1.6",
                       }}
@@ -489,7 +489,7 @@ export default function AboutClient() {
           <p
             style={{
               fontFamily: "var(--font-lato), sans-serif",
-              color: "#aaa",
+              color: "#D2BFA5",
               fontSize: "1rem",
               marginBottom: "32px",
             }}
@@ -504,7 +504,7 @@ export default function AboutClient() {
                 letterSpacing: "0.12em",
                 fontSize: "1.1rem",
                 background: "#F5C200",
-                color: "#0a0a0a",
+                color: "#2A1408",
                 padding: "14px 36px",
                 borderRadius: "4px",
                 textDecoration: "none",

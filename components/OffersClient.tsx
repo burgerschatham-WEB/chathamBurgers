@@ -14,8 +14,8 @@ const C = {
   goldDark:  '#D99E1F',
   brown:     '#4A2C1A',
   cream:     '#FAF3E0',
-  ink:       '#0A0A0A',
-  card:      '#1A1A1A',
+  ink:       '#2A1408',
+  card:      '#43230F',
 }
 
 const fadeUp: Variants = {

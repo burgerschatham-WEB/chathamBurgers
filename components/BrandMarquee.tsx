@@ -30,7 +30,7 @@ export default function BrandMarquee() {
             style={{
               fontFamily: 'var(--font-oswald), sans-serif',
               letterSpacing: '0.12em',
-              color: '#0a0a0a',
+              color: '#2A1408',
               fontSize: '0.9rem',
               textTransform: 'uppercase',
               fontWeight: '600',

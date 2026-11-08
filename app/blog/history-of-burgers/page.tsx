@@ -85,7 +85,7 @@ export default function HistoryOfBurgersPage() {
       />
       <article
         style={{
-          background: "#0a0a0a",
+          background: "#2A1408",
           minHeight: "100vh",
           paddingTop: "64px",
           color: "#ffffff",
@@ -94,9 +94,9 @@ export default function HistoryOfBurgersPage() {
         {/* Hero */}
         <header
           style={{
-            background: "linear-gradient(135deg, #0a0a0a 0%, #1a0a00 50%, #0a0a0a 100%)",
+            background: "linear-gradient(135deg, #2A1408 0%, #1a0a00 50%, #2A1408 100%)",
             padding: "64px 0 48px",
-            borderBottom: "1px solid #2a2a2a",
+            borderBottom: "1px solid #5A3820",
           }}
         >
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -130,7 +130,7 @@ export default function HistoryOfBurgersPage() {
             <p
               style={{
                 fontFamily: "var(--font-lato), sans-serif",
-                color: "#aaaaaa",
+                color: "#D2BFA5",
                 fontSize: "1.05rem",
                 lineHeight: "1.7",
                 marginBottom: "24px",
@@ -147,7 +147,7 @@ export default function HistoryOfBurgersPage() {
                 flexWrap: "wrap",
                 fontFamily: "var(--font-lato), sans-serif",
                 fontSize: "0.8rem",
-                color: "#666",
+                color: "#6B5A4A",
               }}
             >
               <span>By Chatham Burgers</span>
@@ -380,7 +380,7 @@ export default function HistoryOfBurgersPage() {
               style={{
                 fontFamily: "var(--font-lato), sans-serif",
                 fontSize: "0.875rem",
-                color: "#888",
+                color: "#8A7A6A",
                 fontStyle: "italic",
                 marginTop: "8px",
               }}
@@ -463,7 +463,7 @@ export default function HistoryOfBurgersPage() {
               <p
                 style={{
                   fontFamily: "var(--font-lato), sans-serif",
-                  color: "#aaa",
+                  color: "#D2BFA5",
                   fontSize: "0.9rem",
                   marginBottom: "20px",
                 }}
@@ -477,7 +477,7 @@ export default function HistoryOfBurgersPage() {
                   letterSpacing: "0.12em",
                   fontSize: "1.1rem",
                   background: "#F5C200",
-                  color: "#0a0a0a",
+                  color: "#2A1408",
                   padding: "14px 36px",
                   borderRadius: "4px",
                   textDecoration: "none",
@@ -498,7 +498,7 @@ export default function HistoryOfBurgersPage() {
 
 const bodyText: React.CSSProperties = {
   fontFamily: "var(--font-lato), sans-serif",
-  color: "#cccccc",
+  color: "#EADCC6",
   fontSize: "1rem",
   lineHeight: "1.8",
   marginBottom: "20px",
@@ -511,7 +511,7 @@ const listStyle: React.CSSProperties = {
 
 const listItem: React.CSSProperties = {
   fontFamily: "var(--font-lato), sans-serif",
-  color: "#cccccc",
+  color: "#EADCC6",
   fontSize: "1rem",
   lineHeight: "1.8",
   marginBottom: "12px",
@@ -541,7 +541,7 @@ function Divider() {
     <hr
       style={{
         border: "none",
-        borderTop: "1px solid #2a2a2a",
+        borderTop: "1px solid #5A3820",
         margin: "40px 0",
       }}
     />
@@ -556,8 +556,8 @@ function TimelineItem({ year, event }: { year: string; event: string }) {
         gap: "16px",
         alignItems: "baseline",
         padding: "16px 20px",
-        background: "#141414",
-        border: "1px solid #2a2a2a",
+        background: "#331A0A",
+        border: "1px solid #5A3820",
         borderRadius: "8px",
       }}
     >
@@ -576,7 +576,7 @@ function TimelineItem({ year, event }: { year: string; event: string }) {
       <span
         style={{
           fontFamily: "var(--font-lato), sans-serif",
-          color: "#cccccc",
+          color: "#EADCC6",
           fontSize: "0.95rem",
           lineHeight: "1.6",
         }}
@@ -592,8 +592,8 @@ function FAQ({ q, a }: { q: string; a: string }) {
     <div
       style={{
         padding: "20px 24px",
-        background: "#111",
-        border: "1px solid #2a2a2a",
+        background: "#331A0A",
+        border: "1px solid #5A3820",
         borderRadius: "8px",
       }}
     >
@@ -611,7 +611,7 @@ function FAQ({ q, a }: { q: string; a: string }) {
       <p
         style={{
           fontFamily: "var(--font-lato), sans-serif",
-          color: "#999",
+          color: "#9A8A7A",
           fontSize: "0.9rem",
           lineHeight: "1.65",
           margin: 0,

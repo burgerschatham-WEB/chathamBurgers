@@ -54,12 +54,12 @@ export default function MenuCategory({ category }: MenuCategoryProps) {
           transition={{ delay: 0.2, duration: 0.4 }}
           style={{
             fontFamily: "var(--font-lato), sans-serif",
-            color: "#666",
+            color: "#6B5A4A",
             fontSize: "0.825rem",
             fontStyle: "italic",
             marginTop: "12px",
             paddingLeft: "16px",
-            borderLeft: "2px solid #2a2a2a",
+            borderLeft: "2px solid #5A3820",
           }}
         >
           {category.note}

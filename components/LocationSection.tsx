@@ -161,7 +161,7 @@ export default function LocationSection() {
                 </p>
                 {hours.map((row) => (
                   <div key={row.label} className="flex justify-between gap-4 mb-2">
-                    <span style={{ color: '#888', fontSize: '0.85rem', fontFamily: 'var(--font-lato)' }}>
+                    <span style={{ color: '#8A7A6A', fontSize: '0.85rem', fontFamily: 'var(--font-lato)' }}>
                       {row.label}
                     </span>
                     <span style={{ color: '#5a4a3a', fontSize: '0.85rem', fontFamily: 'var(--font-lato)' }}>

@@ -51,15 +51,21 @@ export default function HeroSection() {
         }}
       />
 
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/65" />
+      {/* Warm overlay: keeps headline readable without hiding the food */}
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            'linear-gradient(to bottom, rgba(42,20,8,0.62) 0%, rgba(42,20,8,0.42) 45%, rgba(42,20,8,0.6) 100%)',
+        }}
+      />
 
-      {/* Bottom radial glow */}
+      {/* Bottom radial glow (amber, like a grill flame) */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            'radial-gradient(ellipse 80% 50% at 50% 100%, rgba(200,16,46,0.25) 0%, transparent 70%)',
+            'radial-gradient(ellipse 80% 50% at 50% 100%, rgba(232,160,32,0.28) 0%, transparent 70%)',
         }}
       />
 

@@ -28,7 +28,7 @@ export default function CTABanner() {
       <div
         className="absolute inset-0"
         style={{
-          background: 'linear-gradient(135deg, rgba(90,50,0,0.85) 0%, rgba(10,10,10,0.80) 100%)',
+          background: 'linear-gradient(135deg, rgba(90,50,0,0.85) 0%, rgba(42, 20, 8,0.80) 100%)',
         }}
       />
 

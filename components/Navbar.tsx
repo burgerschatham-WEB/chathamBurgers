@@ -51,7 +51,7 @@ export default function Navbar() {
           left: 0,
           right: 0,
           zIndex: 50,
-          background: "#111111",
+          background: "#331A0A",
           borderBottom: scrolled ? "1px solid rgba(255,255,255,0.08)" : "1px solid transparent",
           boxShadow: scrolled ? "0 2px 20px rgba(0,0,0,0.5)" : "none",
           transition: "box-shadow 0.3s, border-color 0.3s",
@@ -214,7 +214,7 @@ export default function Navbar() {
               exit={{ x: "100%" }}
               transition={{ type: "tween", duration: 0.22 }}
               className="fixed top-0 right-0 bottom-0 z-50 w-72 flex flex-col"
-              style={{ background: "#111111", borderLeft: "1px solid rgba(255,255,255,0.08)" }}
+              style={{ background: "#331A0A", borderLeft: "1px solid rgba(255,255,255,0.08)" }}
             >
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "20px 20px", borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
                 <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
