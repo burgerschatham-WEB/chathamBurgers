@@ -10,7 +10,7 @@ best burger Chatham Ontario,0,0,0,informational+local,consideration,,listicle,fe
 Kelseys alternative Chatham,0,0,0,commercial,consideration,,comparison,feat_flame_grill|feat_since_1985,,tc_competitors,cluster,medium,planned,2026-04-14,auto_detected,Competitor alternative keyword
 A&W alternative Chatham,0,0,0,commercial,consideration,,comparison,feat_flame_grill|feat_fresh_cut_fries,,tc_competitors,cluster,medium,planned,2026-04-14,auto_detected,
 best poutine Chatham Ontario,0,0,0,informational+local,awareness,,local guide,feat_poutine,,tc_chatham_local,cluster,medium,planned,2026-04-14,auto_detected,
-fresh cut fries Chatham,0,0,0,informational+local,awareness,,local guide,feat_fresh_cut_fries,,tc_chatham_local,cluster,low,planned,2026-04-14,auto_detected,Say 'hand-cut fries made daily'; no fresh-vs-frozen claims
+fresh cut fries Chatham,0,0,0,informational+local,awareness,,local guide,feat_fresh_cut_fries,fresh-cut-fries-chatham,tc_chatham_local,cluster,low,published,2026-11-15,auto_detected,"Owner confirmed 2026-11-15: fries are fresh-cut every day. No fresh-vs-frozen comparisons"
 flame grilled burger restaurant Ontario,0,0,0,informational+local,awareness,,local guide,feat_flame_grill,,tc_flame_grilled,cluster,medium,planned,2026-11-07,auto_detected,
 smash burger Chatham Ontario,0,0,0,informational+local,consideration,,local guide,feat_smash_burger,,tc_smash_burger,cluster,high,planned,2026-04-14,auto_detected,Local smash burger term
 how to make smash burgers,0,0,0,informational,awareness,,tutorial/how-to,feat_smash_burger|feat_flame_grill,,tc_smash_burger,cluster,low,planned,2026-04-14,auto_detected,Educational content angle

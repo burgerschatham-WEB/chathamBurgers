@@ -26,7 +26,7 @@ The voice is: **warm, local, and plain-spoken.**
 3. **Reviews:** Use only real, attributable Google reviews quoted with permission, or none.
    Never invent quotes, names, ratings or review counts. Prefer not to state a star rating or
    review count at all; if you must, it has to be Google's current figure checked that day.
-4. **Fries:** "Hand-cut fries made daily" is fine. No fresh-vs-frozen claims or comparisons.
+4. **Fries:** "Hand-cut fries made daily" and "fresh-cut fries, cut every day" (owner confirmed 2026-11-15) are fine. No fresh-vs-frozen claims or comparisons.
    Small / Large / Family are real fry sizes and can be named.
 5. **Links:** website is https://chathamburger.com. Online ordering is
    https://order.toasttab.com/online/chathamburgers (site order page: https://chathamburger.com/order).

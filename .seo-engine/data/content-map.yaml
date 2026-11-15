@@ -2,7 +2,7 @@
 # Auto-generated 2026-04-14. Brand-rule audit 2026-11-07.
 # This file is populated as blogs are written and approved.
 
-last_updated: "2026-11-07"
+last_updated: "2026-11-15"
 
 blogs:
   - slug: "best-burgers-chatham-ontario"
@@ -36,11 +36,51 @@ blogs:
         context: "The Beast mentioned in what-to-order section"
     competitors_mentioned:
       - competitor_id: "comp_kelseys"
-    internal_links_to: []
+    internal_links_to: ["fresh-cut-fries-chatham"]
     internal_links_from: []
     word_count: 2100
     has_eeat_signals: true
     needs_update_reason: "Brand-rule audit 2026-11-07: the April draft was written against the old rules. Rewrite any fuel-type grilling claims as flame-grilled, remove family-ownership/heritage claims and fresh-vs-frozen claims, remove the invented testimonial (use a real attributed Google review with permission or none), drop any star rating/review count, and point links at https://chathamburger.com / the Toast order URL."
+
+  - slug: "fresh-cut-fries-chatham"
+    title: "Fresh-Cut Fries in Chatham, Ontario, Cut Every Day"
+    file_path: "app/blog/fresh-cut-fries-chatham/page.tsx"
+    status: "published"
+    published_date: "2026-11-15"
+    last_updated: "2026-11-15"
+    blog_type: "local-guide"
+    content_type: "cluster"
+    cluster_id: "tc_chatham_local"
+    target_keywords:
+      - keyword: "fresh cut fries Chatham"
+        search_volume: 0
+        is_primary: true
+      - keyword: "fries Chatham Ontario"
+        search_volume: 0
+        is_primary: false
+      - keyword: "poutine Chatham Ontario"
+        search_volume: 0
+        is_primary: false
+    features_mentioned:
+      - feature_id: "feat_fresh_cut_fries"
+        context: "Hero topic: cut every day, Small/Large/Family sizes and prices"
+      - feature_id: "feat_poutine"
+        context: "Every-way-to-get-them section, all poutine variants"
+      - feature_id: "feat_combos"
+        context: "Combos come with the same fries; Family Feast"
+      - feature_id: "feat_flame_grill"
+        context: "Burger pairings section"
+      - feature_id: "feat_since_1985"
+        context: "Intro and 'Thanks, Chatham' close"
+    competitors_mentioned: []
+    internal_links_to: ["best-burgers-chatham-ontario", "smash-burger-chatham-ontario", "/menu", "/order"]
+    internal_links_from: ["best-burgers-chatham-ontario"]
+    external_links: ["https://en.wikipedia.org/wiki/French_fries", "https://en.wikipedia.org/wiki/Poutine"]
+    word_count: 1209
+    has_eeat_signals: true
+    serp_analyzed: false
+    needs_update_reason: ""
+    notes: "Published on owner approval 2026-11-15. FAQ written from common counter questions, not PAA data; refresh the FAQ when real SERP/PAA data for 'fresh cut fries Chatham' is provided. Prices taken from lib/menuData.ts."
 
 # Template for future entries:
 # - slug: "{from filename/frontmatter}"

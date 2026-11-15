@@ -3,6 +3,7 @@ import { Bebas_Neue, Oswald, Lato } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SiteChrome from "@/components/SiteChrome";
 const bebasNeue = Bebas_Neue({
   weight: "400",
   variable: "--font-bebas",
@@ -105,9 +106,9 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(restaurantSchema) }}
         />
-        <Navbar />
+        <SiteChrome><Navbar /></SiteChrome>
         <main className="flex-1">{children}</main>
-        <Footer />
+        <SiteChrome><Footer /></SiteChrome>
       </body>
     </html>
   );

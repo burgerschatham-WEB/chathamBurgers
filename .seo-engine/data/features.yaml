@@ -179,9 +179,9 @@ categories:
             doc_refs:
               - path: "lib/menuData.ts"
                 section: "Sides & Extras"
-            blog_refs: []
+            blog_refs: ["fresh-cut-fries-chatham"]
             tags: ["fries", "hand-cut", "sides"]
-            notes: "Small $5.75, Large $6.50, Family $13.99 (Family is a real menu size). Say 'hand-cut fries made daily'; no fresh-vs-frozen claims. (ID kept as feat_fresh_cut_fries for cross-reference stability.)"
+            notes: "Small $5.50, Large $7.00, Family $14.00 per lib/menuData.ts (2026-11-15). Approved wording: 'hand-cut fries made daily' or 'fresh-cut fries, cut every day' (owner confirmed 2026-11-15). No fresh-vs-frozen claims. (ID kept as feat_fresh_cut_fries for cross-reference stability.)"
 
           - id: "feat_poutine"
             name: "Poutine"

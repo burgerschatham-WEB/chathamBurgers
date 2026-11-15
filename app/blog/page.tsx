@@ -10,6 +10,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "fresh-cut-fries-chatham",
+    title: "Fresh-Cut Fries in Chatham, Ontario, Cut Every Day",
+    description:
+      "We cut our fries every day at 215 Grand Ave W. Small, Large and Family sizes, poutine, combos and tips for getting them home hot.",
+    date: "November 15, 2026",
+    category: "Local Guide",
+    readTime: "6 min read",
+  },
+  {
     slug: "history-of-burgers",
     title: "The History of Burgers: From Hamburg to Chatham",
     description:

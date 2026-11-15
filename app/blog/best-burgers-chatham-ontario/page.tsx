@@ -209,7 +209,8 @@ export default function BestBurgersChathamPage() {
             </li>
             <li style={listItem}>
               <strong style={{ color: "#ffffff" }}>Fresh-Cut Fries</strong> — Hand-cut in-house, every
-              day. Get the large.
+              day. Get the large. (More on sizes and poutine in our{" "}
+              <Link href="/blog/fresh-cut-fries-chatham" style={{ color: "#F5C200" }}>fresh-cut fries guide</Link>.)
             </li>
             <li style={listItem}>
               <strong style={{ color: "#ffffff" }}>Gyro ($12)</strong> — Warm pita, cut gyro meat,

@@ -4,7 +4,7 @@
 # Every item must follow config.yaml brand_rules (flame-grilled only, no family-ownership
 # claims, no fresh-vs-frozen claims, no invented reviews, no hype words).
 
-last_updated: "2026-11-07"
+last_updated: "2026-11-15"
 
 queue:
 
@@ -195,3 +195,27 @@ queue:
     notes: "SERP data required before writing. Greek Grill (comp_greek_grill) likely competes for this term — be respectful."
     depends_on: []
     internal_link_targets: ["best-burgers-chatham-ontario"]
+
+  - id: "q_009"
+    title: "Fresh-Cut Fries in Chatham, Ontario, Cut Every Day"
+    blog_type: "local-guide"
+    content_type: "cluster"
+    cluster_id: "tc_chatham_local"
+    target_keywords:
+      - "fresh cut fries Chatham"
+      - "fries Chatham Ontario"
+    target_features:
+      - "feat_fresh_cut_fries"
+      - "feat_poutine"
+      - "feat_combos"
+    unique_angle: "A plain counter-side guide: what cut-every-day means, which of the three sizes to pick, and every menu item the same fries go into."
+    priority: "low"
+    priority_reason: "Owner request 2026-11-15; supports local fries/poutine searches."
+    status: "published"
+    estimated_word_count: 1200
+    eeat_plan: "Since-1985 fact, flame grill, fries cut every day (owner confirmed 2026-11-15). No reviews used."
+    serp_analyzed: false
+    cannibalization_check: "passed"
+    notes: "Published 2026-11-15 at /blog/fresh-cut-fries-chatham. No other blog targets fries keywords. Planned 'Best Poutine in Chatham Ontario' should link here."
+    depends_on: []
+    internal_link_targets: ["best-burgers-chatham-ontario", "smash-burger-chatham-ontario"]

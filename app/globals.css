@@ -26,6 +26,63 @@
   --color-muted: var(--muted);
 }
 
+/* ── v2 design system (franchise redesign, see /preview) ──────────────
+   Neutrals carry the page; the logo's red and mustard are accents only.
+   Red is reserved for ordering actions. */
+@theme {
+  --color-paper: #F7F2EA;
+  --color-paper-deep: #EDE4D6;
+  --color-ink: #1E1915;
+  --color-ink-soft: #5E554C;
+  --color-line: rgb(30 25 21 / 0.12);
+  --color-ketchup: #C21F26;
+  --color-ketchup-deep: #A3171D;
+  --color-mustard: #F6B731;
+  --color-open: #2F8A4C;
+
+  --ease-snappy: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-move: cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/* inline: the font variables are defined by next/font on the /preview wrapper, not :root */
+@theme inline {
+  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-text: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Press feedback for anything tappable */
+.v2-press {
+  transition: transform 160ms var(--ease-snappy), background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+.v2-press:active {
+  transform: scale(0.97);
+}
+
+/* Hover lift only on real pointers, never on touch */
+@media (hover: hover) and (pointer: fine) {
+  .v2-card .v2-card-img {
+    transition: transform 240ms var(--ease-snappy);
+  }
+  .v2-card:hover .v2-card-img {
+    transform: scale(1.03);
+  }
+}
+
+/* One short entrance for the hero; nothing loops */
+@keyframes v2-rise {
+  from { opacity: 0; transform: translateY(10px); }
+}
+@keyframes v2-fade {
+  from { opacity: 0; }
+}
+.v2-rise {
+  animation: v2-rise 420ms var(--ease-snappy) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .v2-rise { animation: v2-fade 200ms ease both; }
+  .v2-press:active { transform: none; }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

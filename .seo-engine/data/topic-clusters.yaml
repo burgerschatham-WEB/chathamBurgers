@@ -3,7 +3,7 @@
 # Each cluster = one pillar page + 4-8 supporting cluster pages
 # All angles must follow config.yaml brand_rules.
 
-last_updated: "2026-11-07"
+last_updated: "2026-11-15"
 
 clusters:
 
@@ -38,6 +38,12 @@ clusters:
         angle: "Local food guide angle — poutine made with hand-cut fries"
         status: "planned"
         blog_slug: ""
+      - title: "Fresh-Cut Fries in Chatham, Ontario, Cut Every Day"
+        target_keyword: "fresh cut fries Chatham"
+        slug: "fresh-cut-fries-chatham"
+        angle: "Counter-side guide to fries cut every day: sizes, poutine, combos, takeout tips"
+        status: "published"
+        blog_slug: "fresh-cut-fries-chatham"
       - title: "Best Wings in Chatham Ontario"
         target_keyword: "best wings Chatham Ontario"
         slug: "best-wings-chatham"
