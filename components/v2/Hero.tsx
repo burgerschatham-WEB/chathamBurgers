@@ -61,7 +61,7 @@ export default function Hero() {
         <div className="relative aspect-[4/5] overflow-hidden rounded-[28px] bg-paper-deep sm:aspect-[5/4] lg:aspect-[4/5]">
           <Image
             src={images.hero}
-            alt="A flame-grilled cheeseburger on a board"
+            alt="A beef patty searing on the flame grill"
             fill
             priority
             sizes="(max-width: 1024px) 100vw, 50vw"

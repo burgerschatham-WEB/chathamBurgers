@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { useRef } from 'react'
 import { MessageSquare, Star } from 'lucide-react'
 import SmsDisclosure from './SmsDisclosure'
+import { images } from '@/lib/images'
 
 export default function SMSOfferSection() {
   const ref = useRef(null)
@@ -292,8 +293,8 @@ export default function SMSOfferSection() {
               position: 'relative',
             }}>
               <Image
-                src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&q=80"
-                alt="Fresh-cut fries"
+                src={images.freshCutFries}
+                alt="Fresh-cut fries spilling out of a fry box at Chatham Burgers"
                 fill
                 style={{ objectFit: 'cover' }}
                 sizes="(max-width: 1024px) 90vw, 45vw"

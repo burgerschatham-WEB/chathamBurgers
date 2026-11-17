@@ -6,10 +6,10 @@ import { images } from '@/lib/images'
 import { flagship } from '@/lib/locations'
 
 const photos: Record<string, { src: string; alt: string }> = {
-  'Dbl Smash Burger': { src: images.smashBurger, alt: 'Double smash burger with melted cheese' },
-  '1 LB Burger': { src: images.bigBurger, alt: 'One-pound flame-grilled burger' },
-  'Chatham Burger': { src: images.chathamBurger, alt: 'The Chatham Burger, a half-pound patty' },
-  'Fish & Chips': { src: images.fishChips, alt: 'Fish and chips with fresh-cut fries' },
+  'Dbl Smash Burger': { src: images.smashBurger, alt: 'Dbl Smash Burger: two smashed beef patties with cheese and pickle' },
+  '1 LB Burger': { src: images.bigBurger, alt: 'Illustrative photo: a tall cheeseburger with bacon on a plain bun' },
+  'Chatham Burger': { src: images.chathamBurger, alt: 'Illustrative photo: a single-patty burger with lettuce, tomato and red onion' },
+  'Fish & Chips': { src: images.fishChips, alt: 'Battered fish on fresh-cut fries in a takeout container' },
 }
 
 const blurbs: Record<string, string> = {

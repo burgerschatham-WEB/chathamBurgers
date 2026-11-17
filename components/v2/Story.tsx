@@ -13,7 +13,7 @@ export default function Story() {
       <div className="relative aspect-[5/4] overflow-hidden rounded-[28px] bg-paper-deep lg:order-2">
         <Image
           src={images.ctaBg}
-          alt="A flame-grilled burger beside a cup of fresh-cut fries"
+          alt="A double smash burger with bacon beside a milkshake"
           fill
           sizes="(max-width: 1024px) 100vw, 50vw"
           className="object-cover"

@@ -187,8 +187,8 @@ export default function AboutClient() {
               }}
             >
               <Image
-                src="/about-family-grill.jpg"
-                alt="Serving customers at Chatham Burgers, flame-grilling in Chatham, Ontario since 1985"
+                src={images.aboutGrill}
+                alt="Tongs turning a beef patty on the flame grill at Chatham Burgers in Chatham, Ontario"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -301,7 +301,7 @@ export default function AboutClient() {
       <section className="relative overflow-hidden" style={{ height: 320 }}>
         <Image
           src={images.aboutAtmosphere}
-          alt="Warm restaurant atmosphere with guests"
+          alt="Patties being flipped on the flame grill at Chatham Burgers"
           fill
           className="object-cover"
           sizes="100vw"

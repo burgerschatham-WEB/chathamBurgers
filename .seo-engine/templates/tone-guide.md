@@ -28,6 +28,7 @@ The voice is: **warm, local, and plain-spoken.**
    review count at all; if you must, it has to be Google's current figure checked that day.
 4. **Fries:** "Hand-cut fries made daily" and "fresh-cut fries, cut every day" (owner confirmed 2026-11-15) are fine. No fresh-vs-frozen claims or comparisons.
    Small / Large / Family are real fry sizes and can be named.
+   **Beef:** "Beef from a local farm butcher" is true (owner confirmed 2026-11-15) and may be used. No fresh-vs-frozen spin.
 5. **Links:** website is https://chathamburger.com. Online ordering is
    https://order.toasttab.com/online/chathamburgers (site order page: https://chathamburger.com/order).
 6. **Words to avoid:** see `seo.avoid_terms` in config.yaml, plus hype words like "elevate",

@@ -14,10 +14,10 @@ const itemImages: Record<string, string> = {
 }
 
 const itemAlts: Record<string, string> = {
-  'Dbl Smash Burger': 'Double smash burger with two fresh beef patties, melted cheese, and onions at Chatham Burgers',
-  '1 LB Burger':      'One pound flame-grilled beef burger — The Beast — at Chatham Burgers in Chatham Ontario',
-  'Chatham Burger':   'The original Chatham Burger, a half-pound beef patty with classic toppings, since 1985',
-  'Fish & Chips':     'Golden crispy haddock fish and chips, a staff favourite at Chatham Burgers',
+  'Dbl Smash Burger': 'Dbl Smash Burger at Chatham Burgers: two smashed beef patties with cheese, pickle, tomato and lettuce on a plain bun',
+  '1 LB Burger':      'Illustrative photo: a tall cheeseburger with bacon, lettuce and tomato on a plain bun',
+  'Chatham Burger':   'Illustrative photo: a single-patty burger with lettuce, tomato and red onion on a plain bun',
+  'Fish & Chips':     'Battered fish on fresh-cut fries in a takeout container at Chatham Burgers',
 }
 
 export default function FeaturedItems() {
