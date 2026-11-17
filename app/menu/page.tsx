@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
-import MenuClient from '@/components/MenuClient'
+import V2Shell from '@/components/v2/V2Shell'
+import V2Menu from '@/components/v2/V2Menu'
 import StructuredData from '@/components/StructuredData'
 
 export const metadata: Metadata = {
@@ -32,7 +33,9 @@ export default function MenuPage() {
   return (
     <>
       <StructuredData data={menuSchema} />
-      <MenuClient />
+      <V2Shell>
+        <V2Menu />
+      </V2Shell>
     </>
   )
 }

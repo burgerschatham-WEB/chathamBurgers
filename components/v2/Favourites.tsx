@@ -28,7 +28,7 @@ export default function Favourites() {
             The ones people drive in for
           </h2>
           <Link
-            href="/preview/menu"
+            href="/menu"
             className="v2-press hidden shrink-0 items-center gap-1.5 rounded-full px-4 py-2 font-semibold text-ink hover:bg-ink/5 sm:inline-flex"
           >
             Full menu <ArrowRight size={18} aria-hidden="true" />
@@ -77,7 +77,7 @@ export default function Favourites() {
           })}
         </ul>
 
-        <Link href="/preview/menu" className="v2-press mt-8 inline-flex items-center gap-1.5 font-semibold sm:hidden">
+        <Link href="/menu" className="v2-press mt-8 inline-flex items-center gap-1.5 font-semibold sm:hidden">
           Full menu <ArrowRight size={18} aria-hidden="true" />
         </Link>
       </div>

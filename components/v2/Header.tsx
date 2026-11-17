@@ -9,10 +9,10 @@ import { flagship } from '@/lib/locations'
 import { v2FontVars } from '@/lib/v2Fonts'
 
 const links = [
-  { href: '/preview/menu', label: 'Menu' },
-  { href: '/preview#locations', label: 'Locations' },
+  { href: '/menu', label: 'Menu' },
+  { href: '/#locations', label: 'Locations' },
   { href: '/about', label: 'Our story' },
-  { href: '/preview#franchise', label: 'Franchise' },
+  { href: '/#franchise', label: 'Franchise' },
 ]
 
 export default function Header() {
@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-paper/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
-        <Link href="/preview" className="v2-press -ml-1 flex items-center rounded-lg p-1" aria-label="Chatham Burgers home">
+        <Link href="/" className="v2-press -ml-1 flex items-center rounded-lg p-1" aria-label="Chatham Burgers home">
           <Image src="/logo-horizontal.png" alt="" width={138} height={48} priority className="h-10 w-auto" />
         </Link>
 

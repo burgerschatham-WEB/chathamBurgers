@@ -38,7 +38,7 @@ export default function Hero() {
             Order pickup
           </a>
           <Link
-            href="/preview/menu"
+            href="/menu"
             className="v2-press rounded-full bg-white px-7 py-4 text-base font-semibold text-ink ring-1 ring-line hover:ring-ink/30"
           >
             See the menu

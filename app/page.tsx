@@ -1,13 +1,10 @@
 import type { Metadata } from 'next'
-import HeroSection from '@/components/HeroSection'
-import BrandMarquee from '@/components/BrandMarquee'
-import SMSOfferSection from '@/components/SMSOfferSection'
-import FeaturedItems from '@/components/FeaturedItems'
-import StatsStrip from '@/components/StatsStrip'
-import TestimonialsSection from '@/components/TestimonialsSection'
-import LocationSection from '@/components/LocationSection'
-import FAQSection from '@/components/FAQSection'
-import SMSStickyBar from '@/components/SMSStickyBar'
+import V2Shell from '@/components/v2/V2Shell'
+import Hero from '@/components/v2/Hero'
+import Favourites from '@/components/v2/Favourites'
+import Story from '@/components/v2/Story'
+import Locations from '@/components/v2/Locations'
+import Franchise from '@/components/v2/Franchise'
 
 export const metadata: Metadata = {
   title: 'Chatham Burgers — Best Burgers in Chatham, Ontario Since 1985',
@@ -18,16 +15,12 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <>
-      <HeroSection />
-      <BrandMarquee />
-      <SMSOfferSection />
-      <FeaturedItems />
-      <StatsStrip />
-      <TestimonialsSection />
-      <LocationSection />
-      <FAQSection />
-      <SMSStickyBar />
-    </>
+    <V2Shell>
+      <Hero />
+      <Favourites />
+      <Story />
+      <Locations />
+      <Franchise />
+    </V2Shell>
   )
 }

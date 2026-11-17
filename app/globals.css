@@ -26,7 +26,7 @@
   --color-muted: var(--muted);
 }
 
-/* ── v2 design system (franchise redesign, see /preview) ──────────────
+/* ── v2 design system (franchise redesign: home + menu) ──────────────
    Neutrals carry the page; the logo's red and mustard are accents only.
    Red is reserved for ordering actions. */
 @theme {
@@ -44,7 +44,7 @@
   --ease-move: cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-/* inline: the font variables are defined by next/font on the /preview wrapper, not :root */
+/* inline: the font variables are defined by next/font on the V2Shell wrapper, not :root */
 @theme inline {
   --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
   --font-text: var(--font-inter), ui-sans-serif, system-ui, sans-serif;

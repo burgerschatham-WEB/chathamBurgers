@@ -1,15 +1,9 @@
-import type { Metadata } from 'next'
 import { menuCategories } from '@/lib/menuData'
 import { flagship } from '@/lib/locations'
 import MenuNav from '@/components/v2/MenuNav'
 import OpenStatus from '@/components/v2/OpenStatus'
 
-export const metadata: Metadata = {
-  title: 'Menu — Chatham Burgers v2 preview',
-  robots: { index: false, follow: false },
-}
-
-export default function PreviewMenu() {
+export default function V2Menu() {
   return (
     <>
       <section className="mx-auto max-w-6xl px-5 pt-12 pb-10 sm:px-8 md:pt-16">

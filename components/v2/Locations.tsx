@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { ArrowRight, MapPinPlus, Navigation, Phone } from 'lucide-react'
 import { dayName, formatTime, locations, type Weekday } from '@/lib/locations'
 import OpenStatus from './OpenStatus'
@@ -64,8 +65,8 @@ export default function Locations() {
             </article>
           ))}
 
-          <a
-            href="/preview#franchise"
+          <Link
+            href="/#franchise"
             className="v2-press flex min-h-56 flex-col items-center justify-center rounded-[24px] border-2 border-dashed border-ink/20 p-6 text-center hover:border-ink/40 sm:p-8"
           >
             <span className="grid size-14 place-items-center rounded-full bg-mustard text-ink">
@@ -77,7 +78,7 @@ export default function Locations() {
             <span className="mt-6 inline-flex items-center gap-1.5 font-semibold">
               Learn about franchising <ArrowRight size={18} aria-hidden="true" />
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

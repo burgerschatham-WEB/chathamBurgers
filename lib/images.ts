@@ -2,7 +2,7 @@
 // Own photos: Chatham Burgers shoot, 2026-11-15 (camera file in each comment).
 // Owner rules: our own food only where we have it, no sesame-seed buns, no beer/alcohol, no AI food.
 export const images = {
-  // Patty on the flame grill (DSCF1765). Also the v2 /preview hero card.
+  // Patty on the flame grill (DSCF1765). Also the v2 home hero card.
   hero: '/images/hero-flame-grill.webp',
   // Dbl Smash Burger (DSCF1735)
   smashBurger: '/images/menu-dbl-smash-burger.webp',
